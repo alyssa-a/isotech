@@ -99,6 +99,20 @@ header > .container {
     font-size: 30px;
 }
 
+header .nav > .nav-item .nav-link {
+    color: var(--sr-steel);
+    font-weight: 600;
+}
+
+header .nav-item {
+    margin-bottom: 0;
+}
+
+header .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 /* Footer styles */
 footer {
     color: #FFFFFF;
@@ -236,20 +250,6 @@ a.button {
     color: #FFFFFF;
 }
 
-.nav > .nav-item .nav-link {
-    color: var(--sr-steel);
-    font-weight: 600;
-}
-
-.nav-item {
-    margin-bottom: 0;
-}
-
-.nav-link {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
 .dropdown-menu {
     border: none;
     border-radius: 0;
@@ -262,7 +262,6 @@ a.button {
     color: var(--sr-steel);
     text-decoration: none;
 }
-
 
 .dropdown-item:hover,
 .dropdown-item:focus {
@@ -312,6 +311,24 @@ a.button {
 .accordion-button:focus {
     box-shadow: none;
     outline: 3px solid var(--sr-orange);
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: 0;
+}
+
+.nav-tabs .nav-link {
+    color: var(--body-color);
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: var(--light-grey);
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: 600;
+    background-color: var(--sr-steel);
+    color: #FFFFFF;
 }
 
 /* Responsive styles */
