@@ -54,6 +54,11 @@ a {
     color: var(--link-color);
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 li {
     margin-bottom: 0.5rem;
 }
@@ -217,6 +222,22 @@ a.button {
     order: 2;
 }
 
+/* Custom classes */
+.col-list-3 {
+    column-count: 3;
+}
+
+.chemical-formula {
+    text-align: center;
+    font-size: 2.25rem;
+    color: var(--sr-green);
+    font-weight: 700;
+}
+
+.card:has(a:hover) .chemical-formula {
+    color: #FFFFFF;
+}
+
 /* Bootstrap overrides */
 .container {
     padding-left: 1.5rem;
@@ -363,6 +384,10 @@ a.button {
         inset: unset !important;
         transform: none !important;
     }
+
+    .col-list-3 {
+        column-count: 2;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -372,5 +397,9 @@ a.button {
     
     #sidebar {
         order: 1;
+    }
+
+    .col-list-3 {
+        column-count: 1;
     }
 }

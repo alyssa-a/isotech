@@ -1,5 +1,13 @@
 import Link from 'next/link';
-import Subpage from "@/components/Subpage";
+import Image from 'next/image';
+import Subpage from '@/components/Subpage';
+import dissolvedGasImg from '@/public/images/water-dissolved-gas.jpg';
+import stableIsotopesImg from '@/public/images/water-stable-isotopes.jpg';
+import dicImg from '@/public/images/water-dic.jpg';
+import tritiumImg from '@/public/images/water-tritium.jpg';
+import sulfatesImg from '@/public/images/water-sulfates.jpg';
+import nitratesImg from '@/public/images/water-nitrates.jpg';
+import hydrogenSulfideImg from '@/public/images/water-hydrogen-sulfide.jpg';
 
 export const metadata = {
     title: "Water Analyses | Services | Isotech",
@@ -49,6 +57,16 @@ export default function Water() {
             <div class="tab-content" id="waterTabsContent">
                 <div class="tab-pane fade show active" id="water-1-tab-pane" role="tabpanel" aria-labelledby="water-1-tab" tabindex="0">
                     <h2>Dissolved Gas Analysis</h2>
+
+                    <Image 
+                        priority
+                        src={dissolvedGasImg}
+                        alt="Bubbles in water"
+                        width="450"
+                        height="338"
+                        className="float-md-end ms-md-3 mb-3"
+                    />
+
                     <p>Dissolved gases can be extracted from water for analysis. Water samples can be collected by different methods; we recommend the use of the IsoFlask in most situations. Reports will include a <Link href="#">full compositional analysis</Link> of the headspace and dissolved gas concentrations in the water for methane, ethane and propane. Additional dissolved gas calculations are available for some components upon request.</p>
 
                     <h3>Questions Answered by This Analysis</h3>
@@ -89,6 +107,15 @@ export default function Water() {
                 {/* δD18O */}
                 <div class="tab-pane fade" id="water-2-tab-pane" role="tabpanel" aria-labelledby="water-2-tab" tabindex="0">
                     <h2>Stable Isotopes of Water δD and δ<sup>18</sup>O</h2>
+
+                    <Image 
+                        priority
+                        src={stableIsotopesImg}
+                        alt="River between trees"
+                        width="450"
+                        height="338"
+                        className="float-md-end ms-md-3 mb-3"
+                    />
 
                     <h3>Questions Answered by This Analysis</h3>
                     <ul>
@@ -151,6 +178,15 @@ export default function Water() {
                 <div class="tab-pane fade" id="water-3-tab-pane" role="tabpanel" aria-labelledby="water-3-tab" tabindex="0">
                     <h2>δ<sup>13</sup>C and <sup>14</sup>C of Dissolved Inorganic Carbon</h2>
 
+                    <Image 
+                        priority
+                        src={dicImg}
+                        alt="Stalactite formations in a cave"
+                        width="450"
+                        height="338"
+                        className="float-md-end ms-md-3 mb-3"
+                    />
+
                     <h3>Questions Answered by This Analysis</h3>
                     <ul>
                         <li>Has groundwater infiltrated through carbonate reservoirs?</li>
@@ -211,6 +247,15 @@ export default function Water() {
                 <div class="tab-pane fade" id="water-4-tab-pane" role="tabpanel" aria-labelledby="water-4-tab" tabindex="0">
                     <h2>Tritium Analysis via Scintillation Counter</h2>
 
+                    <Image 
+                        priority
+                        src={tritiumImg}
+                        alt="Oil barrels"
+                        width="450"
+                        height="338"
+                        className="float-md-end ms-md-3 mb-3"
+                    />
+
                     <h3>Questions Answered by This Analysis</h3>
                     <ul>
                         <li>Did landfill gas migrate outside of a landfill into an aquifer?</li>
@@ -258,6 +303,15 @@ export default function Water() {
                 {/* Sulfates */}
                 <div class="tab-pane fade" id="water-5-tab-pane" role="tabpanel" aria-labelledby="water-5-tab" tabindex="0">
                     <h2>Isotopic Analysis of Sulfate</h2>
+
+                    <Image 
+                        priority
+                        src={sulfatesImg}
+                        alt="Grand Prismatic Spring in Yellowstone National Park"
+                        width="450"
+                        height="338"
+                        className="float-md-end ms-md-3 mb-3"
+                    />
                     
                     <h3>Questions Answered by This Analysis</h3>
                     <ul>
@@ -289,6 +343,15 @@ export default function Water() {
                 {/* Nitrates */}
                 <div class="tab-pane fade" id="water-6-tab-pane" role="tabpanel" aria-labelledby="water-6-tab" tabindex="0">
                     <h2>Isotopic Analysis of Nitrate</h2>
+
+                    <Image 
+                        priority
+                        src={nitratesImg}
+                        alt="Sprinkler system in a farm field"
+                        width="450"
+                        height="338"
+                        className="float-md-end ms-md-3 mb-3"
+                    />
 
                     <h3>Questions Answered by This Analysis</h3>
                     <ul>
@@ -322,6 +385,15 @@ export default function Water() {
                 {/* Dissolved H2S */}
                 <div class="tab-pane fade" id="water-7-tab-pane" role="tabpanel" aria-labelledby="water-7-tab" tabindex="0">
                     <h2>Dissolved Hydrogen Sulfide Isotopic Analysis</h2>
+
+                    <Image 
+                        priority
+                        src={hydrogenSulfideImg}
+                        alt="Waves in water"
+                        width="450"
+                        height="338"
+                        className="float-md-end ms-md-3 mb-3"
+                    />
 
                     <h3>Questions Answered by This Analysis</h3>
                     <ul>
