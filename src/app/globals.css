@@ -67,6 +67,11 @@ li > ul {
     margin-top: 0.5rem;
 }
 
+summary {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
 /* Header styles */
 header {
     border-top: 10px solid var(--sr-steel);
@@ -334,21 +339,35 @@ a.button {
     outline: 3px solid var(--sr-orange);
 }
 
+.nav-tabs {
+    gap: 5px;
+    border-color: var(--light-grey);
+}
+
 .nav-tabs .nav-item {
     margin-bottom: 0;
 }
 
 .nav-tabs .nav-link {
     color: var(--body-color);
+    border: 1px solid var(--light-grey);
+    border-bottom: 0;
 }
 
 .nav-tabs .nav-link:hover {
     background-color: var(--light-grey);
+    border: 1px solid var(--light-grey);
+    border-bottom: 0;
 }
 
 .nav-tabs .nav-link.active {
     font-weight: 600;
-    background-color: var(--sr-steel);
+    background-color: var(--sr-green);
+    color: #FFFFFF;
+}
+
+.table th {
+    background-color: var(--sr-green);
     color: #FFFFFF;
 }
 

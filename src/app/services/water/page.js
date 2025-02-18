@@ -29,32 +29,29 @@ export default function Water() {
                 </li>
 
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="water-2-tab" data-bs-toggle="tab" data-bs-target="#water-2-tab-pane" type="button" role="tab" aria-controls="water-2-tab-pane" aria-selected="false">δD &amp; <sup>18</sup>O</button>
+                    <button class="nav-link" id="water-2-tab" data-bs-toggle="tab" data-bs-target="#water-2-tab-pane" type="button" role="tab" aria-controls="water-2-tab-pane" aria-selected="false">Stable Isotopes</button>
                 </li>
 
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="water-3-tab" data-bs-toggle="tab" data-bs-target="#water-3-tab-pane" type="button" role="tab" aria-controls="water-3-tab-pane" aria-selected="false">DIC</button>
+                    <button class="nav-link" id="water-3-tab" data-bs-toggle="tab" data-bs-target="#water-3-tab-pane" type="button" role="tab" aria-controls="water-3-tab-pane" aria-selected="false">Radioisotopes</button>
                 </li>
 
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="water-4-tab" data-bs-toggle="tab" data-bs-target="#water-4-tab-pane" type="button" role="tab" aria-controls="water-4-tab-pane" aria-selected="false"><sup>3</sup>H</button>
+                    <button class="nav-link" id="water-4-tab" data-bs-toggle="tab" data-bs-target="#water-4-tab-pane" type="button" role="tab" aria-controls="water-4-tab-pane" aria-selected="false">Sulfur</button>
                 </li>
 
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="water-5-tab" data-bs-toggle="tab" data-bs-target="#water-5-tab-pane" type="button" role="tab" aria-controls="water-5-tab-pane" aria-selected="false">Sulfates</button>
+                    <button class="nav-link" id="water-5-tab" data-bs-toggle="tab" data-bs-target="#water-5-tab-pane" type="button" role="tab" aria-controls="water-5-tab-pane" aria-selected="false">Nitrate</button>
                 </li>
 
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="water-6-tab" data-bs-toggle="tab" data-bs-target="#water-6-tab-pane" type="button" role="tab" aria-controls="water-6-tab-pane" aria-selected="false">Nitrates</button>
-                </li>
-
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="water-7-tab" data-bs-toggle="tab" data-bs-target="#water-7-tab-pane" type="button" role="tab" aria-controls="water-7-tab-pane" aria-selected="false">Dissolved H<sub>2</sub>S</button>
+                    <button class="nav-link" id="water-6-tab" data-bs-toggle="tab" data-bs-target="#water-6-tab-pane" type="button" role="tab" aria-controls="water-6-tab-pane" aria-selected="false">Water Chemistry</button>
                 </li>
             </ul>
 
-            {/* Dissolved Gas */}
-            <div class="tab-content" id="waterTabsContent">
+            <div class="tab-content px-3" id="waterTabsContent">
+
+                {/* Dissolved Gas */}
                 <div class="tab-pane fade show active" id="water-1-tab-pane" role="tabpanel" aria-labelledby="water-1-tab" tabindex="0">
                     <h2>Dissolved Gas Analysis</h2>
 
@@ -67,33 +64,47 @@ export default function Water() {
                         className="float-md-end ms-md-3 mb-3"
                     />
 
-                    <p>Dissolved gases can be extracted from water for analysis. Water samples can be collected by different methods; we recommend the use of the IsoFlask in most situations. Reports will include a <Link href="#">full compositional analysis</Link> of the headspace and dissolved gas concentrations in the water for methane, ethane and propane. Additional dissolved gas calculations are available for some components upon request.</p>
+                    <p>Our team determines the dissolved gas composition of water samples collected in IsoFlasks. Analytical reports include a <Link href="#">full compositional and isotopic analysis</Link> of the headspace and dissolved gas concentrations in the water for methane, ethane and propane. Dissolved gas concentrations are available for additional components upon request.</p>
 
-                    <h3>Questions Answered by This Analysis</h3>
+                    <h3>Questions answered by this analysis</h3>
                     <ul>
-                        <li>Are there explosive concentrations of hydrocarbons in a domestic well?</li>
+                        <li>Are there explosive concentrations of methane in a groundwater well?</li>
                         <li>What processes are responsible for methane in my water source? Is this microbial methane?</li>
-                        <li>Did natural gas from an underground gas storage facility migrate into my water well?</li>
-                        <li>Did natural gas from a producing gas well migrate into my water well?</li>
+                        <li>Did natural gas from a producing gas well, a gas storage facility or a landfill migrate into a water source?</li>
                         <li>Did a remediation project reduce or eliminate hydrocarbon contamination in an aquifer?</li>
-                        <li>Has hydrocarbon gas migrated through a drinking water aquifer and is no longer present?</li>
+                        <li>Is a groundwater well contaminated with brine or hydrocarbon gas and what was the source of that contamination?</li>
                         <li>If multiple sources of methane are present in a water sample, what proportion is from microbial processes? What proportion is from gas migration from a producing gas well? If multiple producing wells cause gas migration into a water well, what proportion of gas is from each well?</li>
                     </ul>
 
-                    <h3>Sample Size</h3>
-                    <p>We recommend that you fill the IsoFlask with 600-750 mL of Water. The IsoFlask will collect any associated gas with the water. If you wish to use a bottle method for collection please contact us for recommendations. Note that bottle methods may over or under represent the gas content of the water. We do have the capability to analyze dissolved gas from VOA vials or similarly sized containers. However, the amount of gas available would severely limit the isotopic work possible.</p>
+                    <div className="accordion" id="samplingDissolvedGasAccordion">
+                        <div className="accordion-item">
+                            <h3 className="accordion-header">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#samplingDissolvedGasAccordionCollapseOne" aria-expanded="false" aria-controls="samplingDissolvedGasAccordionCollapseOne">
+                                    Guidelines for Sampling Dissolved Gas
+                                </button>
+                            </h3>
 
-                    <h3>Sample Container</h3>
-                    <p>The IsoFlask is the recommended container for this analysis. Other containers used are HDPE bottles with septum integral to the cap, flip top style glass bottles and VOA vials.</p>
+                            <div id="samplingDissolvedGasAccordionCollapseOne" className="accordion-collapse collapse" data-bs-parent="#isamplingDissolvedGasAccordion">
+                                <div className="accordion-body">
+                                    <h4>Sample Size</h4>
+                                    <p>We recommend that you fill the IsoFlask with 600-750 mL of Water. The IsoFlask will collect any associated gas with the water. If you wish to use a bottle method for collection please contact us for recommendations. Note that bottle methods may over or under represent the gas content of the water. We do have the capability to analyze dissolved gas from VOA vials or similarly sized containers. However, the amount of gas available would severely limit the isotopic work possible.</p>
 
-                    <h3>Preservative</h3>
-                    <p>IsoFlasks have a biocide that prevents microbial action. IsoFlasks should be kept from excessive heat and sunlight. Other containers require refrigeration and shipment on ice.</p>
+                                    <h4>Sample Container</h4>
+                                    <p>The IsoFlask is the recommended container for this analysis. Other containers used are HDPE bottles with septum integral to the cap, flip top style glass bottles and VOA vials.</p>
 
-                    <h3>Holding Time</h3>
-                    <p>IsoFlasks can be held unrefrigerated for up to two months. For other containers, if the sample is kept refrigerated, we recommend shipping the sample to us with in two weeks of sampling.</p>
+                                    <h4>Preservative</h4>
+                                    <p>IsoFlasks have a biocide that prevents microbial action. IsoFlasks should be kept from excessive heat and sunlight. Other containers require refrigeration and shipment on ice.</p>
 
-                    <h3>Shipping</h3>
-                    <p>IsoFlask can be shipped using your preferred method. For other containers, we recommend the sample be shipped on ice and overnighted to the lab. Please do not ship on a Friday as we only receive samples Monday through Friday.</p>
+                                    <h4>Holding Time</h4>
+                                    <p>IsoFlasks can be held unrefrigerated for up to two months. For other containers, if the sample is kept refrigerated, we recommend shipping the sample to us with in two weeks of sampling.</p>
+
+                                    <h4>Shipping</h4>
+                                    <p>IsoFlask can be shipped using your preferred method. For other containers, we recommend the sample be shipped on ice and overnighted to the lab. Please do not ship on a Friday as we only receive samples Monday through Friday.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <h3>Analysis Suites</h3>
                     <ul>
@@ -104,9 +115,10 @@ export default function Water() {
 
                 </div>
 
-                {/* δD18O */}
+                {/* Stable Isotopes */}
                 <div class="tab-pane fade" id="water-2-tab-pane" role="tabpanel" aria-labelledby="water-2-tab" tabindex="0">
-                    <h2>Stable Isotopes of Water δD and δ<sup>18</sup>O</h2>
+                    <h2>Stable Isotope Analysis</h2>
+                    <p>Stable isotopes of water δD and δ<sup>18</sup>O intro text here............</p>
 
                     <Image 
                         priority
@@ -117,7 +129,7 @@ export default function Water() {
                         className="float-md-end ms-md-3 mb-3"
                     />
 
-                    <h3>Questions Answered by This Analysis</h3>
+                    <h3>Questions answered by this analysis</h3>
                     <ul>
                         <li>Are deeper brine fluids migrating up into a drinking water aquifer?</li>
                         <li>Is the source of water in an aquifer recent precipitation?</li>
@@ -174,9 +186,9 @@ export default function Water() {
                     </ul>
                 </div>
                 
-                {/* DIC */}
+                {/* Radioisotopes */}
                 <div class="tab-pane fade" id="water-3-tab-pane" role="tabpanel" aria-labelledby="water-3-tab" tabindex="0">
-                    <h2>δ<sup>13</sup>C and <sup>14</sup>C of Dissolved Inorganic Carbon</h2>
+                    <h2>Radioisotope Analysis</h2>
 
                     <Image 
                         priority
@@ -243,9 +255,9 @@ export default function Water() {
                     </ul>
                 </div>
 
-                {/* 3H */}
+                {/* Sulfur */}
                 <div class="tab-pane fade" id="water-4-tab-pane" role="tabpanel" aria-labelledby="water-4-tab" tabindex="0">
-                    <h2>Tritium Analysis via Scintillation Counter</h2>
+                    <h2>Sulfur Analysis</h2>
 
                     <Image 
                         priority
@@ -300,9 +312,9 @@ export default function Water() {
                     <p>No special considerations are needed in shipping these samples. Please inculde a <Link href="#">COC</Link>.</p>
                 </div>
 
-                {/* Sulfates */}
+                {/* Nitrate */}
                 <div class="tab-pane fade" id="water-5-tab-pane" role="tabpanel" aria-labelledby="water-5-tab" tabindex="0">
-                    <h2>Isotopic Analysis of Sulfate</h2>
+                    <h2>Nitrate Analysis</h2>
 
                     <Image 
                         priority
@@ -312,114 +324,51 @@ export default function Water() {
                         height="338"
                         className="float-md-end ms-md-3 mb-3"
                     />
+
+                    <p>Isotopic analysis of nitrate intro text here...</p>
                     
-                    <h3>Questions Answered by This Analysis</h3>
-                    <ul>
-                        <li>What is the source of sulfate or H<sub>2</sub>S in a groundwater well?</li>
-                        <li>Is this sulfate naturally occurring (water rock interactions, thermochemical sulfate reduction)?</li>
-                        <li>Is this microbial sulfate or H<sub>2</sub>S?</li>
-                        <li>Is this naturally occurring sulfate/H<sub>2</sub>S or is oil and gas drilling forming sulfate/H<sub>2</sub>S? </li>
-                    </ul>
-
-                    <h3>δ<sup>34</sup>S and δ<sup>18</sup>O of Sulfate</h3>
-                    <p>Sulfate is analyzed by first isolation via precipitation and then EA/TCEA-IRMS analysis. A minimum concentration of 5 mg/L is required for analysis.</p>
-
-                    <h4>Sample Size</h4>
-                    <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
-
-                    <h4>Sample Container</h4>
-                    <p>We recommend a 1 liter HDPE (plastic) bottle.</p>
-
-                    <h4>Preservative</h4>
-                    <p>The sample should be field filtered using at least 0.45 micron or smaller pore-size diameter filter. The sample must be kept chilled to minimize microbial action.</p>
-
-                    <h4>Holding Time</h4>
-                    <p>Samples should be sent in within two weeks of sampling.</p>
-
-                    <h4>Shipping</h4>
-                    <p>Samples must be shipped on ice and overnighted to our lab. Do not ship on a Friday as there is no one to receive the sample and put in refrigeration over the weekend. Please include a <Link href="#">COC</Link>.</p>
-                </div>
-
-                {/* Nitrates */}
-                <div class="tab-pane fade" id="water-6-tab-pane" role="tabpanel" aria-labelledby="water-6-tab" tabindex="0">
-                    <h2>Isotopic Analysis of Nitrate</h2>
-
-                    <Image 
-                        priority
-                        src={nitratesImg}
-                        alt="Sprinkler system in a farm field"
-                        width="450"
-                        height="338"
-                        className="float-md-end ms-md-3 mb-3"
-                    />
-
-                    <h3>Questions Answered by This Analysis</h3>
-                    <ul>
-                        <li>What is the source of nitrate in a water source and is the concentration at levels dangerous to human health?</li>
-                        <li>Is nitrate from reduced nitrogen fertilizer?</li>
-                        <li>Is nitrate from synthetic fertilizer?</li>
-                        <li>Is nitrate from septic systems?</li>
-                        <li>Is nitrate from manure applications?</li>
-                        <li>Is denitrification occurring in my system?</li>
-                    </ul>
+                    <h3>Questions answered by this analysis</h3>
+                        <ul>
+                            <li>What is the source of nitrate in a water source and is the concentration at levels dangerous to human health?</li>
+                            <li>Is nitrate from reduced nitrogen fertilizer?</li>
+                            <li>Is nitrate from synthetic fertilizer?</li>
+                            <li>Is nitrate from septic systems?</li>
+                            <li>Is nitrate from manure applications?</li>
+                            <li>Is denitrification occurring in a groundwater aquifer system?</li>
+                        </ul>
 
                     <h3>δ<sup>15</sup>N and δ<sup>18</sup>O of Nitrate</h3>
-                    <p>δ<sup>15</sup>N and δ<sup>18</sup>O of Nitrate is analyzed by first isolation via ion exchange and then EA/TCEA-IRMS analysis. A minimum concentration of 3 mg/L (as nitrate) is required for analysis.</p>
+                        <p>δ<sup>15</sup>N and δ<sup>18</sup>O of Nitrate is analyzed by first isolation via ion exchange and then EA/TCEA-IRMS analysis. A minimum concentration of 3 mg/L (as nitrate) is required for analysis.</p>
 
-                    <h4>Sample Size</h4>
-                    <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
+                    <h3>Guidelines for sampling nitrates</h3>
+                        <p><strong>Sample size:</strong> We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
 
-                    <h4>Sample Container</h4>
-                    <p>We recommend a 1 liter HDPE (plastic) bottle.</p>
+                        <p><strong>Sample container:</strong> We recommend a 1 liter HDPE or plastic bottle.</p>
 
-                    <h4>Preservative</h4>
-                    <p>The sample should be field filtered using at least 0.45 micron or smaller pore-size diameter filter. The sample must be kept chilled to minimize microbial action.</p>
+                        <p><strong>Preservative:</strong> The sample should be field filtered using at least 0.45 micron or smaller pore-size diameter filter. The sample must be kept chilled to minimize microbial action.</p>
 
-                    <h4>Holding Time</h4>
-                    <p>Samples should be sent in within two weeks of sampling.</p>
+                        <p><strong>Holding time:</strong> Samples should be sent in within two weeks of sampling.</p>
 
-                    <h4>Shipping</h4>
-                    <p>Samples must be shipped on ice and overnighted to our lab. Do not ship on a Friday as there is no one to receive the sample and put in refrigeration over the weekend. Please include a <Link href="#">COC</Link>.</p>
+                        <p><strong>Shipping:</strong> Samples must be shipped on ice and overnighted to our lab. Do not ship on a Friday as there is no one to receive the sample and put in refrigeration over the weekend. Please include a <Link href="#">COC</Link>.</p>
                 </div>
 
-                {/* Dissolved H2S */}
-                <div class="tab-pane fade" id="water-7-tab-pane" role="tabpanel" aria-labelledby="water-7-tab" tabindex="0">
-                    <h2>Dissolved Hydrogen Sulfide Isotopic Analysis</h2>
+                {/* Water Chemistry */}
+                <div class="tab-pane fade" id="water-6-tab-pane" role="tabpanel" aria-labelledby="water-6-tab" tabindex="0">
+                    <h2>Water Chemistry Analysis</h2>
 
-                    <Image 
-                        priority
-                        src={hydrogenSulfideImg}
-                        alt="Waves in water"
-                        width="450"
-                        height="338"
-                        className="float-md-end ms-md-3 mb-3"
-                    />
-
-                    <h3>Questions Answered by This Analysis</h3>
+                    <h3>Questions answered by this analysis</h3>
                     <ul>
-                        <li>What is the source of sulfate or H<sub>2</sub>S in a groundwater well?</li>
-                        <li>Is this sulfate naturally occurring (water rock interactions, thermochemical sulfate reduction)?</li>
-                        <li>Is this microbial sulfate or H<sub>2</sub>S?</li>
-                        <li>Is this naturally occurring sulfate/H<sub>2</sub>S or is oil and gas drilling forming sulfate/H<sub>2</sub>S? </li>
+                        <li>What is the concentration of a specific metal in a water sample?</li>
+                        <li>Have deeper saline fluids higher in chloride and sodium migrated into shallower groundwater aquifers?</li>
+                        <li>What is the concentration of lithium in produced water?</li>
+                        <li>Are waters from different origins mixing?</li>
+                        <li>Is subsurface carbon sequestration successfully trapping dissolved carbon dioxide in the subsurface?</li>
+                        <li>What is the baseline water quality prior to drilling?</li>
                     </ul>
 
-                    <h3>d<sup>34</sup>S of H<sub>2</sub>S</h3>
-                    <p>H<sub>2</sub>S is evolved from solution, converted to silver sulfide and analyzed via EA-IRMS analysis. A minimum concentration of 3 mg/L is required for analysis.</p>
+                    <h3>Analysis Suites</h3>
+                    <p>Custom analysis packages available on request - call us at (217) 398-3490 or email <Link href="mailto:DLChampaignProjectManagement@stratumreservoir.com">DLChampaignProjectManagement@stratumreservoir.com</Link> for a quote. </p>
 
-                    <h4>Sample Size</h4>
-                    <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
-
-                    <h4>Sample Container</h4>
-                    <p>We recommend a 1 liter HDPE (plastic) bottle. The bottle should have no headspace. Fill the bottle with a surface tension bubble and cap.</p>
-
-                    <h4>Preservative</h4>
-                    <p>The sample must be kept chilled to minimize microbial action. It is recommended that 1mL of 25% NaOH is added.</p>
-
-                    <h4>Holding Time</h4>
-                    <p>Samples should be overnighted to the laboratory. Sampling events should be planned for Monday through Thursday to allow receipt of the sample within 48 hours. If shipment of the sample cannot happen the same or next day the sample should be frozen.</p>
-
-                    <h4>Shipping</h4>
-                    <p>Samples must be shipped on ice and overnighted to our lab. Do not ship on a Friday as there is no one to receive the sample and put in refrigeration over the weekend. Please include a <Link href="#">COC</Link>.</p>
                 </div>
 
             </div>
