@@ -1,11 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import { Montserrat } from "next/font/google";
-import "./globals.css";
+import { Montserrat, Open_Sans } from "next/font/google";
+import "@/css/globals.css";
 import BootstrapClient from '@/components/BootstrapClient';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+// Open Sans or Karla for body font??
+
+const montserrat = Montserrat({ subsets: ["latin"], variable: '--font-montserrat' });
+const openSans = Open_Sans({ subsets: ["latin"], variable: '--font-open-sans' });
 
 export const metadata = {
   title: "Isotech",
@@ -15,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>
+      <body className={`${montserrat.variable} ${openSans.variable}`}>
         <Header />
 
         <main>

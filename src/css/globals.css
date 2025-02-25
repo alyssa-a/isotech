@@ -5,6 +5,7 @@
     --accessible-orange: #B15D25;
     --dark-grey: #313133;
     --light-grey: #DBDDE1;
+    --lighter-grey: #EDEEF0;
     --body-color: #000000;
     --link-color: #0076A5;
     --max-width: 1140px;
@@ -24,6 +25,7 @@ body {
 
 body {
     font-size: 16px;
+    font-family: var(--font-open-sans);
 }
 
 section {
@@ -31,6 +33,7 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-montserrat);
     color: var(--sr-steel);
 }
 
@@ -47,7 +50,7 @@ h3 {
 }
 
 p {
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 a {
@@ -72,6 +75,10 @@ summary {
     font-weight: 500;
 }
 
+table svg {
+    width: 1rem;
+}
+
 /* Header styles */
 header {
     border-top: 10px solid var(--sr-steel);
@@ -89,7 +96,7 @@ header::after {
     width: 30%;
     height: 10px;
     border-bottom: 10px solid var(--sr-orange);
-    border-left: 8px solid rgba(0, 0, 0, 0);
+    border-left: 5px solid rgba(0, 0, 0, 0);
 }
 
 header > .container {
@@ -167,6 +174,7 @@ footer .copyright {
     color: #FFFFFF;
 }
 
+    .green-bg h1,    
     .green-bg h2 {
         color: #FFFFFF;
     }
@@ -179,6 +187,10 @@ footer .copyright {
 .steel-bg a,
 .green-bg a {
     color: #FFFFFF;
+}
+
+.lighter-grey-bg {
+    background-color: var(--lighter-grey);
 }
 
 /* font colors */
@@ -206,9 +218,21 @@ footer .copyright {
 
 /* link buttons */
 a.button {
+    display: inline-block;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+    border: 2px solid #FFFFFF;
+    background-color: var(--sr-green);
+    color: #FFFFFF;
+    transition: all 0.3s;
 }
+
+    a.button:hover {
+        background-color: #FFFFFF;
+        border: 2px solid var(--sr-green);
+        color: var(--sr-green);
+    }
 
 #breadcrumbs {
     background-color: var(--light-grey);
@@ -228,19 +252,33 @@ a.button {
 }
 
 /* Custom classes */
+.landing-hero {
+    position: relative;
+}
+
+    .landing-hero .container {
+        display: grid;
+        grid-template-columns: 1fr 42%;
+    }
+
+    .landing-hero .slanted {
+        clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+        height: 100%;
+        width: 42%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        object-fit: cover;
+    }
+
 .col-list-3 {
     column-count: 3;
 }
 
-.chemical-formula {
-    text-align: center;
-    font-size: 2.25rem;
-    color: var(--sr-green);
-    font-weight: 700;
-}
-
-.card:has(a:hover) .chemical-formula {
-    color: #FFFFFF;
+.portrait {
+    width: 200px;
+    height: 266px;
+    object-fit: cover;
 }
 
 /* Bootstrap overrides */
@@ -255,6 +293,7 @@ a.button {
     height: 100%;
     border-radius: 0;
     border-color: var(--dark-grey);
+    transition: all 0.3s;
 }
 
 .card:has(a:hover) {
@@ -270,6 +309,7 @@ a.button {
 .card-title a {
     color: var(--sr-steel);
     text-decoration: none;
+    transition: all 0.3s;
 }
 
 .card-title a:hover {
@@ -341,11 +381,12 @@ a.button {
 
 .nav-tabs {
     gap: 5px;
-    border-color: var(--light-grey);
+    border-color: var(--sr-green);
+    border-width: 2px;
 }
 
 .nav-tabs .nav-item {
-    margin-bottom: 0;
+    margin-bottom: 1px;
 }
 
 .nav-tabs .nav-link {
@@ -364,6 +405,37 @@ a.button {
     font-weight: 600;
     background-color: var(--sr-green);
     color: #FFFFFF;
+}
+
+.nav-tabs.flex-column {
+    border-bottom: 0;
+    gap: 0;
+}
+
+.nav-tabs.flex-column .nav-link {
+    width: 100%;
+    text-align: left;
+    border: 0;
+    border-bottom: 1px solid var(--light-grey);
+    border-radius: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-tabs.flex-column .nav-link.active::after {
+    content: '';
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url('../../public/images/icons/chevron-right-solid.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .table th {
@@ -416,6 +488,19 @@ a.button {
     
     #sidebar {
         order: 1;
+    }
+
+    .landing-hero .container {
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 300px;
+    }
+
+    .landing-hero .slanted {
+        height: 300px;
+        width: 100%;
+        bottom: 0;
+        top: unset;
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
     }
 
     .col-list-3 {

@@ -1,0 +1,49 @@
+.services-card {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-color: var(--sr-steel);
+}
+
+.services-card::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: var(--sr-steel);
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: all 0.3s;
+}
+
+.services-card .card-body {
+    z-index: 2;
+}
+
+.services-card .card-title a {
+    color: #FFFFFF;
+}
+
+.services-card:has(a:hover)::before {
+    opacity: 0.9;
+}
+
+.services-card:has(a:hover) {
+    background-size: 110%;
+}
+
+.water-card {
+    background-image: url("../../public/images/water-dissolved-gas.jpg");
+}
+
+.gas-card {
+    background-image: url("../../public/images/gas.jpg");
+}
+
+.solid-liquid-card {
+    background-image: url("../../public/images/rock.jpg");
+}

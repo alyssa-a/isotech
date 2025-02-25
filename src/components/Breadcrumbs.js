@@ -9,7 +9,7 @@ export default function Breadcrumbs({ pageTitles }) {
 
     if (pathNames.length > 0) {
         return (
-            <div id="breadcrumbs" className="py-2 mb-4">
+            <div id="breadcrumbs" className="py-2">
                 <div className="container">
                     <ol className="breadcrumb mb-0">
                         <li className="breadcrumb-item">

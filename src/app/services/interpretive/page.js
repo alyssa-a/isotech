@@ -1,10 +1,13 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import Subpage from '@/components/Subpage';
+import keith from '@/public/images/staff/Keith_Hackley.jpg';
+import myles from '@/public/images/staff/Myles_Moore.JPG';
+import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
     title: "Interpretive Services | Services | Isotech",
-    description: "Our team puts together interpretive reports for clients to assess the source, fate, and transport of natural gas and water in the vadose zone, surface water, groundwater aquifers, and oil and gas reservoirs to determine remediation, monitoring, and extraction strategies.",
+    description: "Our team composes interpretive reports for clients to assess the source, fate, and transport of natural gas and water in the vadose zone, surface water, groundwater aquifers, and oil and gas reservoirs to determine remediation, monitoring, and extraction strategies.",
 };
 
 export default function Interpretive() {
@@ -14,102 +17,56 @@ export default function Interpretive() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Interpretive Services</h1>
 
-            <p>Our team puts together interpretive reports for clients to assess the source, fate, and transport of natural gas and water in the vadose zone, surface water, groundwater aquifers, and oil and gas reservoirs to determine remediation, monitoring, and extraction strategies. We present data using diagnostic plots to identify contaminant sources, assess storage gas operations, or to enhance gas production from reservoirs for clients.</p>
+            <p>Our team composes interpretive reports for clients to assess the source, fate, and transport of natural gas and water in the vadose zone, surface water, groundwater aquifers, and oil and gas reservoirs to determine remediation, monitoring, and extraction strategies. We present data using diagnostic plots to identify contaminant sources, assess storage gas operations, or to enhance gas production from reservoirs for clients.</p>
 
             <p>You can call our facility, and we can discuss with you which types of samples you should collect and which analyses to perform to address your environmental issue or to enhance extraction capabilities. By providing us with site maps of where samples were collected and a background on what you are trying to understand using geochemical analyses, we can put together a report with proven sourcing diagrams/mixing calculations and citations to address a variety of geochemical conundrums.</p>
 
-            <h2>Meet Our Team</h2>
-            <div className="row mb-3">
+            <h2>Our Team</h2>
+            <div className="row mb-4">
                 <div className="col-12 col-md-6">
+                    <Image 
+                        priority
+                        src={keith}
+                        alt="Keith Hackley"
+                        className="portrait mb-3"
+                    />
                     <h3 className="fs-5">Dr. Keith C. Hackley</h3>
-                    <p>Senior Geochemist</p>
-
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Launch demo modal
-                    </button>
-
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-
+                    <p className="mb-1">Senior Geochemist</p>
+                    <details>
+                        <summary className="fs-6">About Dr. Hackley</summary>
+                        <p className="mt-1">Before joining Isotech in 2012, Dr. Hackley was the section head of the Isotope Geochemistry Section at the Illinois State Geological Survey where he worked for 29 years. He received his B.S. degree in geology from Pennsylvania State University, followed by a M.S. degree in geology and a Ph.D. in geochemistry from the University of Illinois at Urbana-Champaign. He has over 165 published articles and abstracts in the areas of groundwater, coal, and environmental geochemistry. He is a Licensed Professional Geologist in Illinois and a member of American Association of Petroleum Geologists, Geological Society of America, and the National Ground Water Association.</p>
+                    </details>
                 </div>
 
                 <div className="col-12 col-md-6">
+                    <Image 
+                        priority
+                        src={myles}
+                        alt="Myles Moore"
+                        className="portrait mb-3"
+                    />
                     <h3 className="fs-5">Dr. Myles T. Moore</h3>
-                    <p>Geochemist</p>
+                    <p className="mb-1">Geochemist</p>
+                    <details>
+                        <summary className="fs-6">About Dr. Moore</summary>
+                        <p className="mt-1">Dr. Moore received his B.S. degree in water resource management with a minor in chemistry from the State University of New York at Oneonta, followed by a M.S. degree in earth science and a Ph.D. in geochemistry from the Ohio State University. He then went on to do post-doctoral research at Colorado School of Mines. After which he was a hydrologist with the US Geological Survey, Ohio-Kentucky-Indiana Water Science Center in Indianapolis, Indiana, prior to becoming a Geochemist at Stratum Reservoir Isotech LLC. He has significant experience in using isotopic and trace element analytical results to determine the origin of substances. He has published the results of his findings in high impact chemical journals such as Applied Geochemistry, American Chemical Society Science & Technology, American Association of Petroleum Geologists and Geochimica et Cosmochimica Acta and presented his research at conferences such as Goldschmidt, the American Geophysical Union, and the International Association of Geochemistry.</p>
 
+                        <p>Specifically, he has worked on allocating production from coalbed methane reservoirs versus migration from deeper shale units in the Illinois Basin. He has developed improved techniques to collect gas samples from pressurized cores containing gas hydrates and published on sourcing methane in gas hydrate formations using noble gas and hydrocarbon geochemistry. He has a great deal of experience of sourcing stray gas in the vadose zone and in groundwater wells and has published on specific cases sourcing where dissolved methane was from in groundwater wells in West Virginia and in Western New York. He has also published on identifying the source of contamination in water sources, such as the source of mercury, molybdenum, nitrate, brine, or flowback fluids in surface water and groundwater.</p>
+                    </details>
                 </div>
             </div>
 
+            <h2>Some issues addressed by our interpretive team</h2>
+            <ul>
+                <li>Is stray natural gas from a leaking pipeline, an underground gas storage reservoir, a swamp, microbial drift gas, coal mining, decomposition of an oil spill, leaking from an abandoned well, a producing oil or gas well, or a landfill?</li>
+                <li>What are the sources and processes controlling the presence of methane and brine in groundwater wells?</li>
+                <li>Where is water sourced from that is contaminated with nitrate/toxic metals?</li>
+                <li>Is subsurface carbon sequestration successfully trapping dissolved carbon dioxide in the subsurface?</li>
+                <li>Did storage gas enter a producing well? If so, what proportion of gas is storage gas and native gas in producing well?</li>
+                <li>Is gas from the tubing of a well leaking into the annulus spacing of the well? Could gas in the annulus space of a well be from shallower hydrocarbon bearing units or from microbial activity?</li>
+            </ul>
+
             <div className="accordion" id="teamAccordion">
-                <div className="accordion-item">
-                    <h2 className="accordion-header">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#teamAccordionCollapseOne" aria-expanded="false" aria-controls="teamAccordionCollapseOne">
-                        Questions answered by our interpretive team
-                        </button>
-                    </h2>
-
-                    <div id="teamAccordionCollapseOne" className="accordion-collapse collapse" data-bs-parent="#teamAccordion">
-                        <div className="accordion-body">
-                            <ul>
-                                <li>Are there explosive concentrations of methane in a groundwater well?</li>
-                                <li>What processes are responsible for methane in a water source? Is this microbial methane?</li>
-                                <li>Did natural gas from a producing gas well, a gas storage facility or a landfill migrate into a water source?</li>
-                                <li>Did a remediation project reduce or eliminate hydrocarbon contamination in an aquifer?</li>
-                                <li>Is a groundwater well contaminated with brine or hydrocarbon gas and what are the processes responsible for that contamination?</li>
-                                <li>If multiple sources of methane are present in a water sample, what proportion is from microbial processes? What proportion is from gas migration from a producing gas well? If multiple producing wells cause gas migration into a water well, what proportion of gas is from each well?</li>
-                                <li>Are deeper brine fluids migrating into a drinking water aquifer?</li>
-                                <li>What is the source of water in an aquifer?</li>
-                                <li>Does recharge to an aquifer come from groundwater or surface water (precipitation)?</li>
-                                <li>Where is water sourced from that is contaminated with nitrate/toxic metals?</li>
-                                <li>Are injected produced fluids leaking into shallower aquifers?</li>
-                                <li>Are there relationships between the age of groundwater and water quality?</li>
-                                <li>Did landfill gas migrate into a groundwater well?</li>
-                                <li>Did fluids from producing oil/gas wells migrate into a landfill?</li>
-                                <li>What is the source of sulfate or hydrogen sulfide (H2S) in a groundwater well or in produced fluids from an oil or gas well?</li>
-                                <li>What process are controlling the formation of sulfate (water rock interactions, thermochemical sulfate reduction, microbial processes)?</li>
-                                <li>Is this naturally occurring sulfate/H2S or is oil and gas drilling forming sulfate/H2S?</li>
-                                <li>What is the source of nitrate in a water source and is the concentration at levels dangerous to human health?</li>
-                                <li>Is nitrate from reduced nitrogen fertilizer?</li>
-                                <li>Is nitrate from synthetic fertilizer?</li>
-                                <li>Is nitrate from septic systems?</li>
-                                <li>Is nitrate from manure applications?</li>
-                                <li>Is denitrification occurring in a groundwater aquifer system?</li>
-                                <li>Is microbial sulfate or H2S present in a well or is sulfate or H2S from water rock interactions?</li>
-                                <li>What is the concentration of lithium in produced water?</li>
-                                <li>Are waters from different origins mixing?</li>
-                                <li>Is subsurface carbon sequestration successfully trapping dissolved carbon dioxide in the subsurface?</li>
-                                <li>What is the baseline water quality prior to drilling?</li>
-                                <li>Is stray natural gas from a leaking pipeline, an underground gas storage reservoir, a swamp, microbial drift gas, coal mining, decomposition of an oil spill, leaking from an abandoned well, a producing oil or gas well, or a landfill?</li>
-                                <li>What is the source of gas in a producing well? If a mixture of gas sources, what is the proportion of gas from each source?</li>
-                                <li>Did storage gas enter a producing well? If so, what proportion of gas is storage gas and native gas in producing well?</li>
-                                <li>Is gas from the tubing of a well leaking into the annulus spacing of the well? Could gas in the annulus space of a well be from shallower hydrocarbon bearing units or from microbial activity?</li>
-                                <li>Could hydrocarbon gas be migrating into the soil gas zone and if so what is the source of that hydrocarbon gas?</li>
-                                <li>Has stray gas undergone oxidation?</li>
-                                <li>Has producing gas undergone a hydrocarbon isotopic reversal?</li>
-                                <li>Is microbial methane formed by near surface fermentation or deep sub-surface carbon dioxide reduction?</li>
-                                <li>Is the presence of hydrocarbons in a soil zone from an oil spill or from recent microbial activity?</li>
-                                <li>Was cotton grown in the Xinjiang Uyghur Autonomous Region?</li>
-                                <li>Could a honey sample contain sugar cane and corn syrups, rather than authentic honey derived from C3 plants?</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#teamAccordionCollapseTwo" aria-expanded="false" aria-controls="teamAccordionCollapseTwo">
