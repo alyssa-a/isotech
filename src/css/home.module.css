@@ -1,0 +1,26 @@
+.hero {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+}
+
+.hero > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    color: #FFFFFF;
+}
+
+.services {
+    background-color: var(--sr-green);
+    margin-right: -3.7rem;
+}
+
+.products {
+    background-color: var(--sr-steel);
+    margin-left: -3.7rem;
+}

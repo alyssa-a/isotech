@@ -1,4 +1,4 @@
-import "@/css/services-styles.css";
+import "@/css/services.css";
 import Link from "next/link";
 import Image from "next/image";
 import Section from "@/components/Section";
@@ -30,7 +30,7 @@ export default function Services() {
                 priority
                 src={labPlaceholder}
                 alt="lab equipment"
-                className="slanted"
+                className="slanted-left"
             />
         </Section>
 

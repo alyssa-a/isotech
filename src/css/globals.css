@@ -252,6 +252,14 @@ a.button {
 }
 
 /* Custom classes */
+.slanted-left {
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.slanted-right {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
+
 .landing-hero {
     position: relative;
 }
@@ -261,8 +269,7 @@ a.button {
         grid-template-columns: 1fr 42%;
     }
 
-    .landing-hero .slanted {
-        clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+    .landing-hero .slanted-left {
         height: 100%;
         width: 42%;
         position: absolute;
@@ -279,6 +286,11 @@ a.button {
     width: 200px;
     height: 266px;
     object-fit: cover;
+}
+
+.mw-800 {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* Bootstrap overrides */
