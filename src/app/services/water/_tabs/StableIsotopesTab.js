@@ -4,8 +4,8 @@ import stableIsotopesImg from '@/public/images/water/Fig. 2 Stable Isotopes of w
 
 export default function StableIsotopesTab() {
     return (
-        <div className="tab-pane fade" id="water-2-tab-pane" role="tabpanel" aria-labelledby="water-2-tab" tabIndex="0">
-            <h2>Stable Isotope Analysis</h2>
+        <div className="tab-pane fade" id="StableIsotopes" role="tabpanel" aria-labelledby="StableIsotopesTab" tabIndex="0">
+            <h2>Stable Isotopes</h2>
 
             <figure className="figure float-md-end ms-md-4 mb-4">
                 <Image 
@@ -19,8 +19,8 @@ export default function StableIsotopesTab() {
             </figure>
 
             <div>
-                <h3>Questions answered by this analysis</h3>
-                <ul>
+                <h3>Queries addressed by this analysis</h3>
+                <ul className="questions">
                     <li>Are deeper brine fluids migrating into a drinking water aquifer?</li>
                     <li>What is the source of water in an aquifer?</li>
                     <li>Does recharge to an aquifer come from groundwater or surface water (precipitation)?</li>
@@ -29,8 +29,8 @@ export default function StableIsotopesTab() {
                 </ul>
             </div>
 
-            <h3 className="mt-4">Ground/Surface Waters</h3>
-            <p>We have adopted new technologies to analyze ground and surface waters. Cavity Ring Down Spectrometry allows us to analyze waters more efficiently and cost effectively. Some low salinity brines can also be analyzed with this method.</p>
+            <h3 className="mt-4">δD and δ<sup>18</sup>O: Groundwater</h3>
+            <p>We have adopted new technologies to analyze the isotopic composition of surface water,  groundwater, and deeper produced brine water. Cavity Ring Down Spectrometry allows us to analyze waters more efficiently and cost effectively.</p>
 
             <div className="accordion mb-4" id="samplingGW">
                 <div className="accordion-item">

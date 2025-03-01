@@ -1,4 +1,6 @@
 import Subpage from '@/components/Subpage';
+import Section from '@/components/Section';
+import Tabs from '@/components/Tabs';
 import ChemCompTab from './_tabs/ChemCompTab';
 import HPStableIsotopesTab from './_tabs/HPStableIsotopesTab';
 import SPStableIsotopesTab from './_tabs/SPStableIsotopesTab';
@@ -12,36 +14,63 @@ export const metadata = {
 export default function Gas() {
     const breadcrumbs = ["Services", "Gas Analyses"];
 
+    const tabs = [
+        {
+            name: "Chemical Composition",
+            id: "ChemicalCompositionTab",
+            target: "ChemicalComposition"
+        },
+        {
+            name: "High-Precision Stable Isotopes",
+            id: "HighPrecisionStableIsotopesTab",
+            target: "HighPrecisionStableIsotopes"
+        },
+        {
+            name: "Standard-Precision Stable Isotopes",
+            id: "StandardPrecisionStableIsotopesTab",
+            target: "StandardPrecisionStableIsotopes"
+        },
+        {
+            name: "Radioisotopes",
+            id: "RadioisotopesTab",
+            target: "Radioisotopes"
+        }
+    ];
+
     return (
+        <>
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Gas Analyses</h1>
 
             <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-            <ul class="nav nav-tabs my-4" id="gasTabs" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="gas-1-tab" data-bs-toggle="tab" data-bs-target="#gas-1-tab-pane" type="button" role="tab" aria-controls="gas-1-tab-pane" aria-selected="true">Chemical Composition</button>
-                </li>
-
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="gas-2-tab" data-bs-toggle="tab" data-bs-target="#gas-2-tab-pane" type="button" role="tab" aria-controls="gas-2-tab-pane" aria-selected="false">High-Precision Stable Isotopes</button>
-                </li>
-
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="gas-3-tab" data-bs-toggle="tab" data-bs-target="#gas-3-tab-pane" type="button" role="tab" aria-controls="gas-3-tab-pane" aria-selected="false">Standard-Precision Stable Isotopes</button>
-                </li>
-
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="gas-4-tab" data-bs-toggle="tab" data-bs-target="#gas-4-tab-pane" type="button" role="tab" aria-controls="gas-4-tab-pane" aria-selected="false">Radioisotopes</button>
-                </li>
-            </ul>
-
-            <div class="tab-content px-3" id="gasTabsContent">
-                <ChemCompTab/>
-                <HPStableIsotopesTab/>
-                <SPStableIsotopesTab/>
-                <RadioisotopesTab/>
-            </div>
+                <h2 className="fs-5 mt-4 mb-3">Queries addressed by these analyses</h2>
+                <ul className="questions mb-0">
+                    <li>Is stray natural gas from a leaking pipeline, an underground gas storage reservoir, a swamp, microbial drift gas, coal mining, decomposition of an oil spill, leaking from an abandoned well, or a producing oil or gas well?</li>
+                    <li>Did storage gas enter a producing well? If so, what proportion of gas is storage gas and native gas in producing well?</li>
+                    <li>Is gas from the tubing of a well leaking into the annulus spacing of the well? Could gas in the annulus space of a well be from shallower hydrocarbon bearing units or from microbial activity?</li>
+                    <li>Could hydrocarbon gas be migrating into the soil gas zone and if so, what is the source of that hydrocarbon gas?</li>
+                    <li>Has stray gas undergone oxidation?</li>
+                    <li>What geologic unit is gas from in a producing well? If there is a mixture of gas sources, what is the proportion of gas from each source?</li>
+                    <li>Is microbial methane formed by near surface fermentation or deeper sub-surface carbon dioxide reduction?</li>
+                    <li>Did I discover economically viable concentrations of hydrogen or helium?</li>
+                    <li>While drilling a well could I be drilling through other hydrocarbon bearing units suitable for extraction?</li>
+                    <li>Has producing gas undergone a hydrocarbon isotopic reversal?</li>
+                </ul>
         </Subpage>
+            
+            <div className="nav-tabs-container">
+                <Tabs tabData={tabs}/>
+            </div>
+
+            <Section bgColor={"lighter-grey"}>
+                <div class="tab-content px-3">
+                    <ChemCompTab/>
+                    <HPStableIsotopesTab/>
+                    <SPStableIsotopesTab/>
+                    <RadioisotopesTab/>
+                </div>
+            </Section>
+            </>
     );
 }

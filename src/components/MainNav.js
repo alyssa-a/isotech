@@ -17,7 +17,7 @@ export default function MainNav() {
                             <Link className="nav-link" href="/services">Services</Link>
                         </li>   
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">Products</Link>
+                            <Link className="nav-link" href="/products">Products</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" href="#">Resources</Link>

@@ -4,9 +4,6 @@ import Image from "next/image";
 import Section from "@/components/Section";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import labPlaceholder from "@/public/images/lab-placeholder.jpg";
-import gasIcon from "@/public/images/icons/gas.svg";
-import waterIcon from "@/public/images/icons/water.svg";
-import solidLiquidIcon from "@/public/images/icons/solids-liquids.svg";
 
 export const metadata = {
     title: "Services | Isotech",
@@ -41,44 +38,33 @@ export default function Services() {
             
             <p>Many options are available when ordering isotopic analysis. Analysis is routinely ordered by component, but Isotech has also developed suites to make it simpler for customers to select the proper tests needed for their specific applications. This is especially helpful when certain basic analyses are prerequisites for more extended analysis or when combinations of analysis types are required (ie, gas samples may be subjected to compositional, stable isotope, and radiogenic isotope analysis).</p>
 
-            <h3>By Sample Type</h3>
-
-            <div className="row mt-3">
+            <div className="row mt-4 pt-3">
                 <div className="col-12 col-md-6 col-lg-4 mb-3">
-                    <div className="card p-4 services-card gas-card">
-                        <div className="card-body d-flex flex-column align-items-center">
-                            <Image 
-                                src={gasIcon}
-                                alt="Icon of three circles arranged in a triangle"
-                                className="mb-3"
-                            />
-                            <h4 className="card-title text-center"><Link href="/services/gas" className="stretched-link">Gas</Link></h4>
+                    <div className="card p-5 services-card gas-card">
+                        <div className="card-body">
+                            <h3 className="card-title text-center">
+                                <Link href="/services/gas" className="stretched-link">Gas</Link>
+                            </h3>
                         </div>
                     </div>
                 </div>
 
                 <div className="col-12 col-md-6 col-lg-4 mb-3">
-                    <div className="card p-4 services-card water-card">
-                        <div className="card-body d-flex flex-column align-items-center">
-                            <Image 
-                                src={waterIcon}
-                                alt="Water droplet icon"
-                                className="mb-3"
-                            />
-                            <h4 className="card-title text-center"><Link href="/services/water" className="stretched-link">Water</Link></h4>
+                    <div className="card p-5 services-card water-card">
+                        <div className="card-body">
+                            <h3 className="card-title text-center">
+                                <Link href="/services/water" className="stretched-link">Water</Link>
+                            </h3>
                         </div>
                     </div>
                 </div>
 
                 <div className="col-12 col-md-6 col-lg-4 mb-3">
-                    <div className="card p-4 services-card solid-liquid-card">
-                        <div className="card-body d-flex flex-column align-items-center">
-                            <Image 
-                                src={solidLiquidIcon}
-                                alt="Waves icon"
-                                className="mb-3"
-                            />
-                            <h4 className="card-title text-center"><Link href="#" className="stretched-link">Solids & Liquids</Link></h4>
+                    <div className="card p-5 services-card solid-liquid-card">
+                        <div className="card-body">
+                            <h3 className="card-title text-center">
+                                <Link href="#" className="stretched-link">Solids & Liquids</Link>
+                            </h3>
                         </div>
                     </div>
                 </div>

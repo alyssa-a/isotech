@@ -3,10 +3,8 @@ import Link from 'next/link';
 
 export default function ChemCompTab() {
     return (
-        <div class="tab-pane fade show active" id="gas-1-tab-pane" role="tabpanel" aria-labelledby="gas-1-tab" tabindex="0">
+        <div class="tab-pane fade show active" id="ChemicalComposition" role="tabpanel" aria-labelledby="ChemicalCompositionTab" tabindex="0">
             <h2>Chemical Composition</h2>
-
-            <h3>Queries addressed by these analyses</h3>
 
             <h3>Basic GC</h3>
             <p>Standard chemical characterization of gas samples. Report includes concentrations of hydrocarbons methane through hexanes+ (C1-C6+) and major fixed gases, including nitrogen, carbon monoxide, carbon dioxide, and combined argon + oxygen. </p>

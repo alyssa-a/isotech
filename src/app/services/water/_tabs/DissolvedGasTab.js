@@ -1,32 +1,30 @@
-import Link from 'next/link';
 import Image from 'next/image';
-import Section from '@/components/Section';
-import dissolvedGasImg from '@/public/images/water/Fig. 1 Diss Gas Analysis.PNG';
+import Link from 'next/link';
+import placeholderImg from '@/public/images/placeholder.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export default function DissolvedGasTab() {
     return(
-        <div className="tab-pane fade show active" id="water-1-tab-pane" role="tabpanel" aria-labelledby="water-1-tab" tabIndex="0">
-            <h2>Dissolved Gas Analysis</h2>
+        <div className="tab-pane fade show active" id="DissolvedGas" role="tabpanel" aria-labelledby="DissolvedGasTab" tabIndex="0">
+            <h2>Dissolved Gas</h2>
 
-            <figure className="figure float-md-end mx-md-4 mb-4">
+            <figure className="figure float-md-end ms-md-4 mb-4">
                 <Image 
                     priority
-                    src={dissolvedGasImg}
-                    alt="Diagram illustrating groundwater systems, showing wastewater treatment, drinking water aquifers, abandoned wells, oil and gas reservoirs, and deep saline formations."
-                    width="350"
-                    height="284"
+                    src={placeholderImg}
+                    alt=""
+                    width="450"
                     className="figure-img img-fluid"
                 />
-                <figcaption className="figure-caption">Photo credit: <Link href="https://www.bgs.ac.uk/news/assessing-potential-groundwater-contamination-in-the-pursuit-of-new-energy-sources/">British Geological Survey</Link></figcaption>
+                <figcaption className="figure-caption">Description of the image/graph goes here. Give the user some context...</figcaption>
             </figure>
 
-            <p>Our team determines the dissolved gas composition of water samples collected in IsoFlasks. Analytical reports include a <Link href="#">full compositional and isotopic analysis</Link> of the headspace and dissolved gas concentrations in the water for methane, ethane and propane. Dissolved gas concentrations are available for additional components upon request.</p>
+            <p>Our team determines the dissolved gas composition of water samples collected in IsoFlasks. Analytical reports include a full compositional and isotopic analysis of the headspace and dissolved gas concentrations in the water for methane, ethane and propane. Dissolved gas concentrations are available for additional components upon request.</p>
 
-            <Section bgColor={"lighter-grey"}>
+            {/* <div className="p-4 mb-4 lighter-grey-bg"> */}
                 <h3>Questions answered by this analysis</h3>
-                <ul className="mb-0">
+                <ul className="questions">
                     <li>Are there explosive concentrations of methane in a groundwater well?</li>
                     <li>What processes are responsible for methane in my water source? Is this microbial methane?</li>
                     <li>Did natural gas from a producing gas well, a gas storage facility or a landfill migrate into a water source?</li>
@@ -34,9 +32,12 @@ export default function DissolvedGasTab() {
                     <li>Is a groundwater well contaminated with brine or hydrocarbon gas and what was the source of that contamination?</li>
                     <li>If multiple sources of methane are present in a water sample, what proportion is from microbial processes? What proportion is from gas migration from a producing gas well? If multiple producing wells cause gas migration into a water well, what proportion of gas is from each well?</li>
                 </ul>
-            </Section>
+            {/* </div> */}
 
             <h3 className="mt-4">Sampling Guidelines</h3>
+
+            <h4>Sample Container</h4>
+            <p>The <Link href="/products/isoflask">IsoFlask</Link> is the recommended container for this analysis. Other containers used are HDPE bottles with septum integral to the cap, flip top style glass bottles and VOA vials. </p>
 
             <div className="accordion mb-4 mt-3" id="samplingDG">
                 <div className="accordion-item">
@@ -111,16 +112,10 @@ export default function DissolvedGasTab() {
             </div>
 
             <h3>Analysis Suites</h3>
-            <ul>
-                <li>Gas Chromatograph (GC) dissolved gas analyses: Concentration of methane (CH<sub>4</sub>), ethane, ethene, propane, propene, isobutane, n-butane, iso-pentane, n-pentane, hexanes+,  nitrogen, carbon monoxide, carbon dioxide, oxygen, argon and calculations for the dissolved concentrations for methane, ethane, and propane. </li>
-                <li>DG-1: includes GC dissolved gas, δ<sup>13</sup>C and δD of CH<sub>4</sub></li>
-                <li>DG-2: includes DG-1 plus δ<sup>13</sup>C only of C<sub>2</sub>H<sub>6</sub> and C<sub>3</sub>H<sub>8</sub></li>
-            </ul>
-
             <table className="table table-striped">
                 <thead>
                     <tr>
-                        <th>Analysis Suites</th>
+                        <th>Column Heading?</th>
                         <th>GC Only</th>
                         <th>DG-1</th>
                         <th>DG-2</th>

@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="container">
                     <h2 className="wordmark">
                         <span className="isotech">ISOTECH</span>
-                        <span className="stratum">a <span className="semibold">Stratum Reservoir</span> brand</span>
+                        <span className="stratum">a <span className="fw-semibold">Stratum Reservoir</span> brand</span>
                     </h2>
 
                     <p className="mb-0 mt-4">1308 Parkland Court<br/>

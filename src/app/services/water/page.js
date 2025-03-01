@@ -19,33 +19,33 @@ export default function Water() {
     const tabs = [
         {
             name: "Dissolved Gas",
-            id: "water-1-tab",
-            target: "water-1-tab-pane"
+            id: "DissolvedGasTab",
+            target: "DissolvedGas"
         },
         {
             name: "Stable Isotopes",
-            id: "water-2-tab",
-            target: "water-2-tab-pane"
+            id: "StableIsotopesTab",
+            target: "StableIsotopes"
         },
         {
             name: "Radioisotopes",
-            id: "water-3-tab",
-            target: "water-3-tab-pane"
+            id: "RadioisotopesTab",
+            target: "Radioisotopes"
         },
         {
             name: "Sulfur",
-            id: "water-4-tab",
-            target: "water-4-tab-pane"
+            id: "SulfurTab",
+            target: "Sulfur"
         },
         {
             name: "Nitrate",
-            id: "water-5-tab",
-            target: "water-5-tab-pane"
+            id: "NitrateTab",
+            target: "Nitrate"
         },
         {
             name: "Water Chemistry",
-            id: "water-6-tab",
-            target: "water-6-tab-pane"
+            id: "WaterChemistryTab",
+            target: "WaterChemistry"
         }
     ];
 
@@ -53,7 +53,7 @@ export default function Water() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Water Analyses</h1>
             
-            <p className="lead">Isotech offers numerous types of isotopic analysis for groundwater and surface samples. We also offer <Link href="#">sampling products</Link> to assist you in collecting good, representative samples. If you have a specific need not listed, please <Link href="#">contact us</Link>.</p>
+            <p className="lead">Isotech offers numerous types of isotopic analysis for groundwater and surface samples. We also offer <Link href="/products">sampling products</Link> to assist you in collecting good, representative samples. If you have a specific need not listed, please <Link href="#">contact us</Link>.</p>
 
             <Tabs tabData={tabs}/>
 

@@ -4,8 +4,8 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export default function RadioisotopesTab() {
     return (
-        <div class="tab-pane fade" id="gas-4-tab-pane" role="tabpanel" aria-labelledby="gas-4-tab" tabindex="0">
-        <h2>Radioisotopes Analysis</h2>
+        <div class="tab-pane fade" id="Radioisotopes" role="tabpanel" aria-labelledby="RadioisotopesTab" tabindex="0">
+        <h2>Radioisotopes</h2>
 
         <h3>Questions answered by this analysis</h3>
         <ul>

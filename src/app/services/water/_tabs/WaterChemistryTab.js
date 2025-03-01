@@ -1,21 +1,23 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble } from '@fortawesome/free-solid-svg-icons';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export default function WaterChemistryTab() {    
     return (
         <div className="tab-pane fade" id="water-6-tab-pane" role="tabpanel" aria-labelledby="water-6-tab" tabIndex="0">
             <h2>Water Chemistry</h2>
 
-            <h3>Questions answered by this analysis</h3>
-            <ul>
-                <li>What is the concentration of a specific metal in a water sample?</li>
-                <li>Have deeper saline fluids higher in chloride and sodium migrated into shallower groundwater aquifers?</li>
-                <li>What is the concentration of lithium in produced water?</li>
-                <li>Are waters from different origins mixing?</li>
-                <li>Is subsurface carbon sequestration successfully trapping dissolved carbon dioxide in the subsurface?</li>
-                <li>What is the baseline water quality prior to drilling?</li>
-            </ul>
+            <div className="p-4 mb-4 lighter-grey-bg">
+                <h3>Queries addressed by this analysis</h3>
+                <ul className="questions mt-3">
+                    <li>What is the concentration of a specific metal in a water sample?</li>
+                    <li>Have deeper saline fluids higher in chloride and sodium migrated into shallower groundwater aquifers?</li>
+                    <li>What is the concentration of lithium in produced water?</li>
+                    <li>Are waters from different origins mixing?</li>
+                    <li>Is subsurface carbon sequestration successfully trapping dissolved carbon dioxide in the subsurface?</li>
+                    <li>What is the baseline water quality prior to drilling?</li>
+                </ul>
+            </div>
 
             <h3>Anions</h3>
             <p>Filtered water samples (using a 0.45 micron filter) that are preserved with nitric acid are inlet into an Ion Chromatograph (IC) for analysis.</p>
