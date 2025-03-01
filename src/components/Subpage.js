@@ -5,7 +5,7 @@ export default function Subpage({ breadcrumbs, children }) {
         <>
         <Breadcrumbs pageTitles={breadcrumbs}/>
 
-        <div className="container mb-5">
+        <div className="container mt-4 mb-5">
             {children}
         </div>
         </>

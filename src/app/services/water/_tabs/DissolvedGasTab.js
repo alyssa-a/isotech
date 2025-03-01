@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Section from '@/components/Section';
 import dissolvedGasImg from '@/public/images/water/Fig. 1 Diss Gas Analysis.PNG';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
@@ -7,10 +8,9 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 export default function DissolvedGasTab() {
     return(
         <div className="tab-pane fade show active" id="water-1-tab-pane" role="tabpanel" aria-labelledby="water-1-tab" tabIndex="0">
-
             <h2>Dissolved Gas Analysis</h2>
 
-            <figure className="figure float-md-end ms-md-4 mb-4">
+            <figure className="figure float-md-end mx-md-4 mb-4">
                 <Image 
                     priority
                     src={dissolvedGasImg}
@@ -24,17 +24,19 @@ export default function DissolvedGasTab() {
 
             <p>Our team determines the dissolved gas composition of water samples collected in IsoFlasks. Analytical reports include a <Link href="#">full compositional and isotopic analysis</Link> of the headspace and dissolved gas concentrations in the water for methane, ethane and propane. Dissolved gas concentrations are available for additional components upon request.</p>
 
-            <h3>Questions answered by this analysis</h3>
-            <ul>
-                <li>Are there explosive concentrations of methane in a groundwater well?</li>
-                <li>What processes are responsible for methane in my water source? Is this microbial methane?</li>
-                <li>Did natural gas from a producing gas well, a gas storage facility or a landfill migrate into a water source?</li>
-                <li>Did a remediation project reduce or eliminate hydrocarbon contamination in an aquifer?</li>
-                <li>Is a groundwater well contaminated with brine or hydrocarbon gas and what was the source of that contamination?</li>
-                <li>If multiple sources of methane are present in a water sample, what proportion is from microbial processes? What proportion is from gas migration from a producing gas well? If multiple producing wells cause gas migration into a water well, what proportion of gas is from each well?</li>
-            </ul>
+            <Section bgColor={"lighter-grey"}>
+                <h3>Questions answered by this analysis</h3>
+                <ul className="mb-0">
+                    <li>Are there explosive concentrations of methane in a groundwater well?</li>
+                    <li>What processes are responsible for methane in my water source? Is this microbial methane?</li>
+                    <li>Did natural gas from a producing gas well, a gas storage facility or a landfill migrate into a water source?</li>
+                    <li>Did a remediation project reduce or eliminate hydrocarbon contamination in an aquifer?</li>
+                    <li>Is a groundwater well contaminated with brine or hydrocarbon gas and what was the source of that contamination?</li>
+                    <li>If multiple sources of methane are present in a water sample, what proportion is from microbial processes? What proportion is from gas migration from a producing gas well? If multiple producing wells cause gas migration into a water well, what proportion of gas is from each well?</li>
+                </ul>
+            </Section>
 
-            <h3>Sampling Guidelines</h3>
+            <h3 className="mt-4">Sampling Guidelines</h3>
 
             <div className="accordion mb-4 mt-3" id="samplingDG">
                 <div className="accordion-item">

@@ -35,7 +35,7 @@ export default function Services() {
         </Section>
 
         <Section>
-            <h2>Analytical Services</h2>
+            <h2>Laboratory Services</h2>
 
             <p>At Isotech, we have the capability of measuring carbon, hydrogen, nitrogen, oxygen, and sulfur isotope ratios on a variety of different materials. Examples of some of the materials that can be analyzed are: animal materials, natural gas, carbonates, groundwater, nitrates, fabrics, foods, oils, pharmaceuticals, and plant materials.</p>
             
@@ -52,7 +52,7 @@ export default function Services() {
                                 alt="Icon of three circles arranged in a triangle"
                                 className="mb-3"
                             />
-                            <h4 className="card-title text-center"><Link href="#" className="stretched-link">Gas</Link></h4>
+                            <h4 className="card-title text-center"><Link href="/services/gas" className="stretched-link">Gas</Link></h4>
                         </div>
                     </div>
                 </div>
@@ -88,9 +88,9 @@ export default function Services() {
         <Section bgColor={"lighter-grey"}>
             <h2>Interpretive Services</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Our team composes interpretive reports for clients to assess the source, fate, and transport of natural gas and water in the vadose zone, surface water, groundwater aquifers, and oil and gas reservoirs to determine remediation, monitoring, and extraction strategies. We present data using diagnostic plots to identify contaminant sources, assess storage gas operations, or to enhance gas production from reservoirs for clients.</p>
 
-            <p className="mt-4"><Link className="button" href="/services/interpretive">Explore interpretive services</Link></p>
+            <p className="mt-4"><Link className="button" href="/services/interpretive">Explore Interpretive Services</Link></p>
         </Section>
         </>
     );

@@ -8,7 +8,6 @@ export default function SulfurTab() {
             <h2>Sulfur Analysis</h2>
 
             <Image 
-                priority
                 src={tritiumImg}
                 alt="Oil barrels"
                 width="450"

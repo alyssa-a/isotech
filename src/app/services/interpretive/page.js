@@ -2,8 +2,7 @@ import Image from 'next/image';
 import Subpage from '@/components/Subpage';
 import keith from '@/public/images/staff/Keith_Hackley.jpg';
 import myles from '@/public/images/staff/Myles_Moore.JPG';
-import Section from '@/components/Section';
-import Breadcrumbs from '@/components/Breadcrumbs';
+
 
 export const metadata = {
     title: "Interpretive Services | Services | Isotech",
@@ -34,7 +33,8 @@ export default function Interpretive() {
                     <p className="mb-1">Senior Geochemist</p>
                     <details>
                         <summary className="fs-6">About Dr. Hackley</summary>
-                        <p className="mt-1">Before joining Isotech in 2012, Dr. Hackley was the section head of the Isotope Geochemistry Section at the Illinois State Geological Survey where he worked for 29 years. He received his B.S. degree in geology from Pennsylvania State University, followed by a M.S. degree in geology and a Ph.D. in geochemistry from the University of Illinois at Urbana-Champaign. He has over 165 published articles and abstracts in the areas of groundwater, coal, and environmental geochemistry. He is a Licensed Professional Geologist in Illinois and a member of American Association of Petroleum Geologists, Geological Society of America, and the National Ground Water Association.</p>
+                        <p className="mt-1">Before joining Isotech in 2012, Dr. Hackley was the section head of the Isotope Geochemistry Section at the Illinois State Geological Survey (ISGS) where he worked for 29 years. He attended the University of Wyoming for two years and transferred to Pennsylvania State University where he received his B.S. degree in geology, followed later by a M.S. degree in geology and a Ph.D. in geochemistry from the University of Illinois at Urbana-Champaign. Besides the academic courses taken for the degree programs, he has also attended additional workshops and short courses involving petroleum geochemistry, groundwater geochemistry, applications of environmental isotopes to hydrologic and geochemical problems, and groundwater quality issues surrounding municipal solid waste landfills.</p>
+                        <p>Dr. Hackley was PI and co-Pi of multiple projects with at the ISGS and has over 165 published articles and abstracts in the areas of groundwater, coal, natural gas, and environmental geochemistry. Besides the published articles, he has written numerous unpublished reports for various clients concerning such issues gas migration at landfills, stray gas issues related to utility pipeline situations, natural seeps, storage gas sites, oil/gas wells both onshore and offshore, and identification of the sources of gas within the annulus spaces of oil/gas wells throughout the United States and other countries. Other unpublished reports have involved groundwater studies investigating sources of nitrate contamination and landfill leachate migration. More recently, he has also been involved with the application of environmental isotopes to help verify the geographic origin of cotton. He is a Licensed Professional Geologist in Illinois and a member of American Association of Petroleum Geologists, Geological Society of America, and the National Ground Water Association.</p>
                     </details>
                 </div>
 

@@ -1,44 +1,9 @@
-'use client';
-
-import { useState, useEffect } from 'react';
-import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from '@/public/images/Isotech-logo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+import MainNav from './MainNav';
 
 export default function Header() {
-    const [width, setWidth] = useState();
-    const [visible, setVisible] = useState(true);
-    const pathname = usePathname();
-
-    useEffect(() => {
-        setWidth(window.innerWidth);
-        
-        const handleResize = () => {
-            setWidth(window.innerWidth);
-        };
-      
-        window.addEventListener('resize', handleResize);
-      
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
-
-    useEffect(() => {
-        if (width > 991) {
-            setVisible(true);
-        } else if (width <= 991) {
-            setVisible(false);
-        }
-    }, [width, pathname]);
-
-    const toggleMenu = (e) => {
-        setVisible(!visible);
-    }
-
     return (
         <header>
             <div className="container">
@@ -54,7 +19,9 @@ export default function Header() {
                     </Link>
                 </div>
 
-                <div id="mainNav">
+                <MainNav/>
+
+                {/* <div id="mainNav">
                     { width <= 991 &&
                         <button type="button" id="navToggle" aria-controls="navMenu" aria-expanded={visible ? "true" : "false"} aria-label="Toggle main navigation" onClick={toggleMenu}>
                             { visible ? 
@@ -81,7 +48,8 @@ export default function Header() {
                             
                         </ul>
                     </nav>
-                </div>
+
+                </div> */}
             </div>
         </header>
     )

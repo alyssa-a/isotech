@@ -8,7 +8,6 @@ export default function RadioisotopesTab() {
             <h2>Radioisotope Analysis</h2>
 
             <Image 
-                priority
                 src={radioisotopesImg}
                 alt="Stalactite formations in a cave"
                 width="450"

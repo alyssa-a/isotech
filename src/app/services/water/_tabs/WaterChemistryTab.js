@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faCheckDouble } from '@fortawesome/free-solid-svg-icons';
 
-export default function WaterChemistryTab() {
+export default function WaterChemistryTab() {    
     return (
         <div className="tab-pane fade" id="water-6-tab-pane" role="tabpanel" aria-labelledby="water-6-tab" tabIndex="0">
-            <h2>Water Chemistry Analysis</h2>
+            <h2>Water Chemistry</h2>
 
             <h3>Questions answered by this analysis</h3>
             <ul>

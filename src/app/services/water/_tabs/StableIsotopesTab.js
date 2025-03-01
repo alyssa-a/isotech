@@ -9,7 +9,6 @@ export default function StableIsotopesTab() {
 
             <figure className="figure float-md-end ms-md-4 mb-4">
                 <Image 
-                    priority
                     src={stableIsotopesImg}
                     alt="Diagram of a seawater barrier injection well preventing saltwater intrusion into a drinking water aquifer"
                     width="450"

@@ -8,7 +8,6 @@ export default function NitrateTab() {
             <h2>Nitrate Analysis</h2>
 
             <Image 
-                priority
                 src={sulfatesImg}
                 alt="Grand Prismatic Spring in Yellowstone National Park"
                 width="450"
