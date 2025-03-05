@@ -1,10 +1,10 @@
 import Subpage from '@/components/Subpage';
-import Section from '@/components/Section';
 import Tabs from '@/components/Tabs';
 import ChemCompTab from './_tabs/ChemCompTab';
 import HPStableIsotopesTab from './_tabs/HPStableIsotopesTab';
 import SPStableIsotopesTab from './_tabs/SPStableIsotopesTab';
 import RadioisotopesTab from './_tabs/RadioIsotopesTab';
+import HSIsotopesTab from './_tabs/HSIsotopes';
 
 export const metadata = {
     title: "Gas Analyses | Services | Isotech",
@@ -34,17 +34,23 @@ export default function Gas() {
             name: "Radioisotopes",
             id: "RadioisotopesTab",
             target: "Radioisotopes"
+        },
+        {
+            name: "Hydrogen Sulfide Isotopes",
+            id: "HydrogenSulfideIsotopesTab",
+            target: "HydrogenSulfideIsotopes"
         }
     ];
 
     return (
-        <>
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Gas Analyses</h1>
 
             <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-                <h2 className="fs-5 mt-4 mb-3">Queries addressed by these analyses</h2>
+            {/* <div className="lighter-grey-bg p-4 mt-4 mb-5"> */}
+                <h2 className="fs-5">Queries addressed by these analyses</h2>
+
                 <ul className="questions mb-0">
                     <li>Is stray natural gas from a leaking pipeline, an underground gas storage reservoir, a swamp, microbial drift gas, coal mining, decomposition of an oil spill, leaking from an abandoned well, or a producing oil or gas well?</li>
                     <li>Did storage gas enter a producing well? If so, what proportion of gas is storage gas and native gas in producing well?</li>
@@ -57,20 +63,35 @@ export default function Gas() {
                     <li>While drilling a well could I be drilling through other hydrocarbon bearing units suitable for extraction?</li>
                     <li>Has producing gas undergone a hydrocarbon isotopic reversal?</li>
                 </ul>
-        </Subpage>
-            
-            <div className="nav-tabs-container">
-                <Tabs tabData={tabs}/>
+            {/* </div> */}
+
+            <hr className="my-5"/>
+
+            <div className="row">
+                <div className="col-12 col-lg-3 pe-lg-4 mb-4">
+                    <Tabs tabData={tabs}/>
+                </div>
+
+                <div className="col-12 col-lg-9">
+                    <div class="tab-content pt-lg-2 mt-lg-1">
+                        <ChemCompTab/>
+                        <HPStableIsotopesTab/>
+                        <SPStableIsotopesTab/>
+                        <RadioisotopesTab/>
+                        <HSIsotopesTab/>
+                    </div>
+                </div>
             </div>
 
-            <Section bgColor={"lighter-grey"}>
-                <div class="tab-content px-3">
-                    <ChemCompTab/>
-                    <HPStableIsotopesTab/>
-                    <SPStableIsotopesTab/>
-                    <RadioisotopesTab/>
-                </div>
-            </Section>
-            </>
+            {/* <Tabs tabData={tabs}/>
+
+            <div class="tab-content px-3">
+                <ChemCompTab/>
+                <HPStableIsotopesTab/>
+                <SPStableIsotopesTab/>
+                <RadioisotopesTab/>
+                <HSIsotopesTab/>
+            </div> */}
+        </Subpage>
     );
 }

@@ -11,7 +11,7 @@ export default function MainNav() {
                 <div className="collapse navbar-collapse" id="navToggler">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">About</Link>
+                            <Link className="nav-link" href="/about">About</Link>
                         </li>  
                         <li className="nav-item">
                             <Link className="nav-link" href="/services">Services</Link>
@@ -20,7 +20,7 @@ export default function MainNav() {
                             <Link className="nav-link" href="/products">Products</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" href="#">Resources</Link>
+                            <Link className="nav-link" href="/resources">Resources</Link>
                         </li>  
 
                         {/* <li className="nav-item">

@@ -1,4 +1,4 @@
-import "@/css/services.css";
+import "@/css/services.scss";
 import Link from "next/link";
 import Image from "next/image";
 import Section from "@/components/Section";
@@ -39,7 +39,7 @@ export default function Services() {
             <p>Many options are available when ordering isotopic analysis. Analysis is routinely ordered by component, but Isotech has also developed suites to make it simpler for customers to select the proper tests needed for their specific applications. This is especially helpful when certain basic analyses are prerequisites for more extended analysis or when combinations of analysis types are required (ie, gas samples may be subjected to compositional, stable isotope, and radiogenic isotope analysis).</p>
 
             <div className="row mt-4 pt-3">
-                <div className="col-12 col-md-6 col-lg-4 mb-3">
+                <div className="col-12 col-md-6 mb-4">
                     <div className="card p-5 services-card gas-card">
                         <div className="card-body">
                             <h3 className="card-title text-center">
@@ -49,7 +49,7 @@ export default function Services() {
                     </div>
                 </div>
 
-                <div className="col-12 col-md-6 col-lg-4 mb-3">
+                <div className="col-12 col-md-6 mb-4">
                     <div className="card p-5 services-card water-card">
                         <div className="card-body">
                             <h3 className="card-title text-center">
@@ -59,11 +59,21 @@ export default function Services() {
                     </div>
                 </div>
 
-                <div className="col-12 col-md-6 col-lg-4 mb-3">
+                <div className="col-12 col-md-6 mb-4">
+                    <div className="card p-5 services-card cotton-card">
+                        <div className="card-body">
+                            <h3 className="card-title text-center">
+                                <Link href="#" className="stretched-link">Cotton Origin</Link>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-12 col-md-6 mb-4">
                     <div className="card p-5 services-card solid-liquid-card">
                         <div className="card-body">
                             <h3 className="card-title text-center">
-                                <Link href="#" className="stretched-link">Solids & Liquids</Link>
+                                <Link href="/services/solids-liquids" className="stretched-link">Other Solids & Liquids</Link>
                             </h3>
                         </div>
                     </div>

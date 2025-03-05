@@ -1,62 +1,73 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import tritiumImg from '@/public/images/water-tritium.jpg';
+import Accordion from '@/components/Accordion';
+import fig3 from '@/public/images/water/Fig. 3 Isotopic Analysis of Sulfate.jpg';
 
 export default function SulfurTab() {
     return (
-        <div className="tab-pane fade" id="water-4-tab-pane" role="tabpanel" aria-labelledby="water-4-tab" tabIndex="0">
-            <h2>Sulfur Analysis</h2>
+        <div className="tab-pane fade" id="Sulfur" role="tabpanel" aria-labelledby="SulfurTab" tabIndex="0">
+            <h2>Sulfur</h2>
 
-            <Image 
-                src={tritiumImg}
-                alt="Oil barrels"
-                width="450"
-                height="338"
-                className="float-md-end ms-md-3 mb-3"
-            />
-
-            <h3>Questions Answered by This Analysis</h3>
-            <ul>
-                <li>Did landfill gas migrate outside of a landfill into an aquifer?</li>
-                <li>Did fluids from producing oil/gas wells migrate into a landfill?</li>
-                <li>Is water in an aquifer from recent precipitation (modern) or from an older source?</li>
+            <h3>Queries addressed by this analysis</h3>
+            <ul className="questions mb-0" style={{columns: 1}}>
+                <li><span>What is the source of sulfate or hydrogen sulfide (H<sub>2</sub>S) in a groundwater well or in produced fluids from an oil or gas well?</span></li>
+                <li>What process are controlling the formation of sulfate (water rock interactions, thermochemical sulfate reduction, microbial processes)?</li>
+                <li><span>Is this naturally occurring sulfate/H<sub>2</sub>S or is oil and gas drilling forming sulfate/H<sub>2</sub>S?</span></li>
             </ul>
 
-            <h3>Direct Count</h3>
-            <p>Analysis is effective when elevated tritium concentrations are expected such as landfill and nuclear event studies. The quantifiable limit for direct count is 10-15 TU based on the specific statistics of the run. Smaller concentrations will be reported as a less than value based on the statistics.</p>
+            <figure className="figure row mt-4">
+                <div className="col-12 col-lg-6">
+                    <Image 
+                        priority
+                        src={fig3}
+                        alt=""
+                        width="500"
+                        className="figure-img img-fluid"
+                    />
+                </div>
+                <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
+            </figure>
 
-            <h4>Sample size</h4>
-            <p>We recommend sending in 50 mL of water. Analyses on smaller amounts are possible. If you wish to analyze less than 10 mL please contact us first.</p>
+            <h3 className="mt-4">Dissolved Sulfate Isotopes</h3>
+            <p>δ<sup>34</sup>S and δ<sup>18</sup>O of Sulfate is analyzed by isolation via precipitation and then EA/TCEA-IRMS analysis. A minimum concentration of 5 mg/L is required for analysis.</p>
 
-            <h4>Sample Container</h4>
-            <p>We recommend a HDPE (plastic) bottle.</p>
+            <Accordion heading={"Sampling Guidelines for Dissolved Sulfate Isotopes"} headingLevel={4}>
+                <h5>Sample Size</h5>
+                <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
 
-            <h4>Preservative</h4>
-            <p>No preservative or cooling is required. Ensure that the bottle is air tight to prevent evaporation.</p>
+                <h5>Sample Container</h5>
+                <p>We recommend a 1 liter HDPE (plastic) bottle.</p>
 
-            <h4>Holding Time</h4>
-            <p>Samples should be sent in within six months of sampling.</p>
+                <h5>Preservative</h5>
+                <p>The sample should be field filtered using at least 0.45 micron or smaller pore-size diameter filter. The sample must be kept chilled to minimize microbial action.</p>
 
-            <h4>Shipping</h4>
-            <p>No special considerations are needed in shipping these samples. Please inculde a <Link href="#">COC</Link>.</p>
+                <h5>Holding Time</h5>
+                <p>Samples should be sent in within two weeks of sampling.</p>
 
-            <h3>Electrolytic Enrichment</h3>
-            <p>For tritium levels below modern levels electrolytic enrichment is suggested. The quantifiable limit for electrolytic enrichment is 1TU. Smaller concentrations will be reported as a less than value based on the statistics.</p>
+                <h5>Shipping</h5>
+                <p>Samples must be shipped on ice and overnighted to our lab. Do not ship on a Friday as there is no one to receive the sample and put in refrigeration over the weekend. Please include a <Link href="/resources/shipping-guidelines">Chain of Custody (COC) form</Link>.</p>
+            </Accordion>
 
-            <h4>Sample Size</h4>
-            <p>We recommend sending 1 liter of water. Analysis on smaller amounts is possible. If you wish to analyze less than 500 mL please contact us first.</p>
+            <h3 className="mt-4">Dissolved Hydrogen Sulfide (H<sub>2</sub>S) Isotopes</h3>
+            <p>H<sub>2</sub>S is evolved from solution, converted to silver sulfide and analyzed via EA-IRMS analysis. A minimum concentration of 3 mg/L is required for analysis.</p>
 
-            <h4>Sample Container</h4>
-            <p>We recommend a 1 liter HDPE (plastic) bottle.</p>
+            <Accordion heading={"Sampling Guidelines for Dissolved Hydrogen Sulfide Isotopes"} headingLevel={4}>
+                <h5>Sample Size</h5>
+                <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
 
-            <h4>Preservative</h4>
-            <p>No preservative or cooling is required. Ensure that the bottle is air tight to prevent evaporation.</p>
+                <h5>Sample Container</h5>
+                <p>We recommend a 1 liter HDPE (plastic) bottle. The bottle should have no headspace. Fill the bottle with a surface tension bubble and cap.</p>
 
-            <h4>Holding Time</h4>
-            <p>Samples should be sent in within six months of sampling.</p>
+                <h5>Preservative</h5>
+                <p>The sample must be kept chilled to minimize microbial action. It is recommended that 1mL of 25% NaOH is added.</p>
 
-            <h4>Shipping</h4>
-            <p>No special considerations are needed in shipping these samples. Please inculde a <Link href="#">COC</Link>.</p>
+                <h5>Holding Time</h5>
+                <p>Samples should be overnighted to the laboratory. Sampling events should be planned for Monday through Thursday to allow receipt of the sample within 48 hours. If shipment of the sample cannot happen the same or next day the sample should be frozen.</p>
+
+                <h5>Shipping</h5>
+                <p>Samples must be shipped on ice and overnighted to our lab. Do not ship on a Friday as there is no one to receive the sample and put in refrigeration over the weekend. Please include a <Link href="/resources/shipping-guidelines">Chain of Custody (COC) form</Link>.</p>
+            </Accordion>
+
         </div>
     );
 }

@@ -32,7 +32,7 @@ export default function Home() {
 
                     <p>Isotech specializes in high-precision carbon, hydrogen, oxygen, nitrogen, and sulfur isotope analysis - isotopic fingerprinting - for a variety of industries. We have built our reputation on providing superior services delivered by expert staff.</p>
 
-                    <p className="mt-4"><Link className="button" href="#">More About Isotech</Link></p>
+                    <p className="mt-4"><Link className="button" href="/about">More About Isotech</Link></p>
                 </div>
             </Section>
 

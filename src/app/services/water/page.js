@@ -55,16 +55,23 @@ export default function Water() {
             
             <p className="lead">Isotech offers numerous types of isotopic analysis for groundwater and surface samples. We also offer <Link href="/products">sampling products</Link> to assist you in collecting good, representative samples. If you have a specific need not listed, please <Link href="#">contact us</Link>.</p>
 
-            <Tabs tabData={tabs}/>
+            <div className="row mt-4">
+                <div className="col-12 col-lg-3 pe-lg-4 mb-4">
+                    <Tabs tabData={tabs}/>
+                </div>
 
-            <div className="tab-content px-3" id="waterTabsContent">
-                <DissolvedGasTab/>
-                <StableIsotopesTab/>
-                <RadioisotopesTab/>
-                <SulfurTab/>
-                <NitrateTab/>
-                <WaterChemistryTab/>
+                <div className="col-12 col-lg-9">
+                    <div class="tab-content pt-lg-2 mt-lg-1">
+                        <DissolvedGasTab/>
+                        <StableIsotopesTab/>
+                        <RadioisotopesTab/>
+                        <SulfurTab/>
+                        <NitrateTab/>
+                        <WaterChemistryTab/>
+                    </div>
+                </div>
             </div>
+            
         </Subpage>
     );
 }

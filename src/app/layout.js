@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import { Montserrat, Open_Sans } from "next/font/google";
-import "@/css/globals.css";
+import "@/css/globals.scss";
 import BootstrapClient from '@/components/BootstrapClient';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
