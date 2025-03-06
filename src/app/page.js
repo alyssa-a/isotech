@@ -1,7 +1,8 @@
-import styles from "@/css/home.module.css";
+import styles from "@/css/home.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 import Section from "@/components/Section";
+import cotton from "@/public/images/cotton.jpg";
 
 export default function Home() {
     return (
@@ -11,17 +12,21 @@ export default function Home() {
             <div className={styles.hero}>
                 <div className={`slanted-right ${styles.services}`}>
                     <h2 className="text-center">
-                        <span className="fw-normal">Explore Our</span> 
-                        <br/>
-                        <span className="text-uppercase fs-1">Services</span>
+                        <Link href="/services">
+                            <span className="fw-normal">Explore Our</span> 
+                            <br/>
+                            <span className="text-uppercase fs-1">Services</span>
+                        </Link>
                     </h2>
                 </div>
 
                 <div className={`slanted-left ${styles.products}`}>
                     <h2 className="text-center">
-                        <span className="fw-normal">Discover Our</span> 
-                        <br/>
-                        <span className="text-uppercase fs-1">Products</span>
+                        <Link href="/products">
+                            <span className="fw-normal">Discover Our</span> 
+                            <br/>
+                            <span className="text-uppercase fs-1">Products</span>
+                        </Link>
                     </h2>
                 </div>
             </div>
@@ -33,6 +38,20 @@ export default function Home() {
                     <p>Isotech specializes in high-precision carbon, hydrogen, oxygen, nitrogen, and sulfur isotope analysis - isotopic fingerprinting - for a variety of industries. We have built our reputation on providing superior services delivered by expert staff.</p>
 
                     <p className="mt-4"><Link className="button" href="/about">More About Isotech</Link></p>
+                </div>
+            </Section>
+
+            <Section className="bg-img" style={{backgroundImage: `url(${cotton.src})`}}>
+                <div className="py-md-4 d-flex justify-content-end">
+                    <div className="orange-bg w-lg-50 p-2rem">
+                        <h2>Cotton Origin Verification</h2>
+
+                        <p>Do you know where your cotton is from? Is there a risk that your supply chain could be using yarn or fabric in finished products from prohibited regions that use forced labor?</p>
+
+                        <p>Our team has built an extensive library of isotopic compositions of cotton samples from the major cotton producing regions of the world. You can send in raw cotton fiber, unprocessed or processed greige yarn, dyed fabric, or finished products to our facility to confirm your cotton origin.</p>
+
+                        <p className="mt-4 mb-0"><Link className="button orange-bg" href="/services/cotton">Verify the Origin of Your Cotton</Link></p>
+                    </div>
                 </div>
             </Section>
 

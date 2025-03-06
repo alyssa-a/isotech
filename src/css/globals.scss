@@ -160,7 +160,7 @@ footer .copyright {
     font-size: 14px;
 }
 
-/* background colors */
+/* Background colors */
 .steel-bg {
     background-color: var(--sr-steel);
 }
@@ -190,13 +190,19 @@ footer .copyright {
     background-color: var(--lighter-grey);
 }
 
-/* font colors */
+/* Background images */
+.bg-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Font colors */
 .orange-text {
     color: var(--accessible-orange);
 }
 
-/* link buttons & native buttons */
-button,
+/* Link buttons */
 a.button {
     display: inline-block;
     text-decoration: none;
@@ -206,24 +212,32 @@ a.button {
     background-color: var(--sr-green);
     color: #FFFFFF;
     transition: all 0.3s;
+
+    &.orange-bg {
+        background-color: var(--accessible-orange);
+    }
 }
 
-a.button {
-    display: inline-block;
-    text-decoration: none;
-}
-
-a.button:hover,
-button:hover {
+a.button:hover {
     background-color: #FFFFFF;
     border: 2px solid var(--sr-green);
     color: var(--sr-green);
-}
-    
 
-#breadcrumbs {
-    background-color: var(--light-grey);
-    font-size: 14px;
+    &.orange-bg {
+        border-color: var(--accessible-orange);
+        color: var(--accessible-orange);
+    }
+}
+
+/* Sizing */
+.mw-800 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Padding */
+.p-2rem {
+    padding: 2rem;
 }
 
 /* Custom classes */
@@ -257,11 +271,6 @@ button:hover {
     width: 200px;
     height: 266px;
     object-fit: cover;
-}
-
-.mw-800 {
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 ul.questions {
@@ -340,6 +349,11 @@ ul.questions li:before {
     color: var(--sr-steel);
     background-color: transparent;
     text-decoration: underline;
+}
+
+#breadcrumbs {
+    background-color: var(--light-grey);
+    font-size: 14px;
 }
 
 .breadcrumb-item {
@@ -468,6 +482,31 @@ ul.questions li:before {
     margin-top: 0.5rem;
 }
 
+.btn {
+    border-radius: 0;
+    border: 2px solid #FFFFFF;
+
+    &.green-bg:hover,
+    &.green-bg:focus-visible {
+        border-color: var(--sr-green);
+        color: var(--sr-green);
+    }
+
+    &.dark-grey-bg:hover,
+    &.dark-grey-bg:focus-visible {
+        border-color: var(--dark-grey);
+        color: var(--dark-grey);
+    }
+}
+
+.modal-dialog {
+    max-width: 800px;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
 /* Responsive styles */
 @media screen and (max-width: 991px) {
     header > .container {
@@ -518,5 +557,11 @@ ul.questions li:before {
         bottom: 0;
         top: unset;
         clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+@media (min-width: 992px) {
+    .w-lg-50 {
+        width: 50%;
     }
 }

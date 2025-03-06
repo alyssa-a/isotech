@@ -1,4 +1,4 @@
-export default function Section({ bgColor, className = "", children }) {
+export default function Section({ bgColor, className = "", style = {}, children }) {
     let bgColorClass = '';
     switch (bgColor) {
         case "steel":
@@ -21,7 +21,7 @@ export default function Section({ bgColor, className = "", children }) {
       }
       
     return (
-        <div className={`py-2 ${className} ${bgColorClass}`}>
+        <div className={`py-2 ${className} ${bgColorClass}`} style={style}>
             <div className="container py-4">
                 {children}
             </div>

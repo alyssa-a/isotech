@@ -2,17 +2,18 @@
     width: 100%;
     min-height: 500px;
     display: flex;
-}
 
-.hero > div {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    & > div {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.hero h2 {
-    color: #FFFFFF;
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
 }
 
 .services {

@@ -63,7 +63,7 @@ export default function Services() {
                     <div className="card p-5 services-card cotton-card">
                         <div className="card-body">
                             <h3 className="card-title text-center">
-                                <Link href="#" className="stretched-link">Cotton Origin</Link>
+                                <Link href="/services/cotton" className="stretched-link">Cotton Origin</Link>
                             </h3>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ export default function Services() {
                     <div className="card p-5 services-card solid-liquid-card">
                         <div className="card-body">
                             <h3 className="card-title text-center">
-                                <Link href="/services/solids-liquids" className="stretched-link">Other Solids & Liquids</Link>
+                                <Link href="/services/solids-liquids" className="stretched-link">Solids & Liquids</Link>
                             </h3>
                         </div>
                     </div>
