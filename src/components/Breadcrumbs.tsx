@@ -3,7 +3,13 @@
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
-export default function Breadcrumbs({ pageTitles }) {
+interface BreadcrumbsProps {
+    pageTitles: string[];
+}
+
+export default function Breadcrumbs({ 
+    pageTitles 
+}: BreadcrumbsProps) {
     const paths = usePathname();
     const pathNames = paths.split('/').filter((path) => path);
 

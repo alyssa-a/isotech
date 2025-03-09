@@ -1,4 +1,16 @@
-export default function Tabs({ tabData }) {
+interface Tab {
+    name: string;
+    id: string;
+    target: string;
+}
+
+interface TabsProps {
+    tabData: Tab[];
+}
+
+export default function Tabs({ 
+    tabData 
+}: TabsProps) {
     return (
         <ul className="nav nav-tabs flex-column" role="tablist">
             { tabData.map((tab, i) => (

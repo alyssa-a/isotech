@@ -5,7 +5,7 @@ import fig2 from '@/public/images/water/Fig. 2 Stable Isotopes of water.jpg';
 
 export default function StableIsotopesTab() {
     return (
-        <div className="tab-pane fade" id="StableIsotopes" role="tabpanel" aria-labelledby="StableIsotopesTab" tabIndex="0">
+        <div className="tab-pane fade" id="StableIsotopes" role="tabpanel" aria-labelledby="StableIsotopesTab" tabIndex={0}>
             <h2>Stable Isotopes</h2>
 
             <h3>Queries addressed by this analysis</h3>
@@ -33,7 +33,7 @@ export default function StableIsotopesTab() {
             <h3 className="mt-4">δD and δ<sup>18</sup>O: Groundwater</h3>
             <p>We have adopted new technologies to analyze the isotopic composition of surface water,  groundwater, and deeper produced brine water. Cavity Ring Down Spectrometry allows us to analyze waters more efficiently and cost effectively.</p>
 
-            <Accordion heading={"Sampling Guidelines for Groundwater"} headingLevel={4}>
+            <Accordion heading="Sampling Guidelines for Groundwater" headingLevel={4}>
                 <h5>Sample Size</h5>
                 <p>If you are only analyzing δD and δ<sup>18</sup>O, 2 to 60 mL is sufficient. If you require analysis on smaller volumes please contact us.</p>
 
@@ -53,7 +53,7 @@ export default function StableIsotopesTab() {
             <h3 className="mt-4">δD and δ<sup>18</sup>O: Production Waters</h3>
             <p>Production waters and high salinity brines require vacuum distillation and CF-IRMS analysis.</p>
 
-            <Accordion heading={"Sampling Guidelines for Production Waters"} headingLevel={4}>
+            <Accordion heading="Sampling Guidelines for Production Waters" headingLevel={4}>
                 <h5>Sample Size</h5>
                 <p>If you are only analyzing δD and δ<sup>18</sup>O, 5 to 60 mL of recoverable water is sufficient. If you require analysis on smaller volumes please contact us.</p>
 

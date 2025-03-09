@@ -1,6 +1,17 @@
+import { ReactNode } from "react";
 import { useId } from "react";
 
-export default function Modal({ buttonTxt, modalTitle, children }) {
+interface ModalProps {
+    buttonTxt: string;
+    modalTitle: string;
+    children: ReactNode;
+}
+
+export default function Modal({ 
+    buttonTxt, 
+    modalTitle, 
+    children 
+}: ModalProps) {
     const modalId = useId() + 'Modal';
     
     return (
@@ -9,7 +20,7 @@ export default function Modal({ buttonTxt, modalTitle, children }) {
                 {buttonTxt}
             </button>
 
-            <div className="modal fade" id={modalId} tabindex="-1" aria-labelledby={`${modalId}Label`} aria-hidden="true">
+            <div className="modal fade" id={modalId} tabIndex={-1} aria-labelledby={`${modalId}Label`} aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">

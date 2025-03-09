@@ -5,7 +5,7 @@ import Accordion from '@/components/Accordion';
 
 export default function NitrateTab() {
     return (
-        <div className="tab-pane fade" id="Nitrate" role="tabpanel" aria-labelledby="NitrateTab" tabIndex="0">
+        <div className="tab-pane fade" id="Nitrate" role="tabpanel" aria-labelledby="NitrateTab" tabIndex={0}>
             <h2>Nitrate Isotopes</h2>
 
             <h3>Queries addressed by this analysis</h3>
@@ -36,7 +36,7 @@ export default function NitrateTab() {
             <h3 className="mt-4">δ<sup>15</sup>N and δ<sup>18</sup>O of Nitrate</h3>
             <p>δ<sup>15</sup>N and δ<sup>18</sup>O of Nitrate is analyzed by first isolation via ion exchange and then EA/TCEA-IRMS analysis. A minimum concentration of 3 mg/L (as nitrate) is required for analysis.</p>
 
-            <Accordion heading={"Sampling Guidelines for Nitrate"} headingLevel={4}>
+            <Accordion heading="Sampling Guidelines for Nitrate" headingLevel={4}>
                 <h5>Sample Size</h5>
                 <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
 

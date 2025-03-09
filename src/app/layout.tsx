@@ -5,8 +5,6 @@ import BootstrapClient from '@/components/BootstrapClient';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-// Open Sans or Karla for body font??
-
 const montserrat = Montserrat({ subsets: ["latin"], variable: '--font-montserrat' });
 const openSans = Open_Sans({ subsets: ["latin"], variable: '--font-open-sans' });
 

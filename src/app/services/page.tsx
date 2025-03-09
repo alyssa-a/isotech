@@ -16,7 +16,7 @@ export default function Services() {
         <>
         <Breadcrumbs pageTitles={breadcrumbs}/>
 
-        <Section bgColor={"green"} className="landing-hero">
+        <Section bgColor="green" className="landing-hero">
             <div className="pe-lg-4">
                 <h1>Services</h1>
 
@@ -81,7 +81,7 @@ export default function Services() {
             </div>
         </Section>
 
-        <Section bgColor={"lighter-grey"}>
+        <Section bgColor="lighter grey">
             <h2>Interpretive Services</h2>
 
             <p>Our team composes interpretive reports for clients to assess the source, fate, and transport of natural gas and water in the vadose zone, surface water, groundwater aquifers, and oil and gas reservoirs to determine remediation, monitoring, and extraction strategies. We present data using diagnostic plots to identify contaminant sources, assess storage gas operations, or to enhance gas production from reservoirs for clients.</p>

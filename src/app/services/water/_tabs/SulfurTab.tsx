@@ -5,7 +5,7 @@ import fig3 from '@/public/images/water/Fig. 3 Isotopic Analysis of Sulfate.jpg'
 
 export default function SulfurTab() {
     return (
-        <div className="tab-pane fade" id="Sulfur" role="tabpanel" aria-labelledby="SulfurTab" tabIndex="0">
+        <div className="tab-pane fade" id="Sulfur" role="tabpanel" aria-labelledby="SulfurTab" tabIndex={0}>
             <h2>Sulfur</h2>
 
             <h3>Queries addressed by this analysis</h3>
@@ -31,7 +31,7 @@ export default function SulfurTab() {
             <h3 className="mt-4">Dissolved Sulfate Isotopes</h3>
             <p>δ<sup>34</sup>S and δ<sup>18</sup>O of Sulfate is analyzed by isolation via precipitation and then EA/TCEA-IRMS analysis. A minimum concentration of 5 mg/L is required for analysis.</p>
 
-            <Accordion heading={"Sampling Guidelines for Dissolved Sulfate Isotopes"} headingLevel={4}>
+            <Accordion heading="Sampling Guidelines for Dissolved Sulfate Isotopes" headingLevel={4}>
                 <h5>Sample Size</h5>
                 <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
 
@@ -51,7 +51,7 @@ export default function SulfurTab() {
             <h3 className="mt-4">Dissolved Hydrogen Sulfide (H<sub>2</sub>S) Isotopes</h3>
             <p>H<sub>2</sub>S is evolved from solution, converted to silver sulfide and analyzed via EA-IRMS analysis. A minimum concentration of 3 mg/L is required for analysis.</p>
 
-            <Accordion heading={"Sampling Guidelines for Dissolved Hydrogen Sulfide Isotopes"} headingLevel={4}>
+            <Accordion heading="Sampling Guidelines for Dissolved Hydrogen Sulfide Isotopes" headingLevel={4}>
                 <h5>Sample Size</h5>
                 <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
 

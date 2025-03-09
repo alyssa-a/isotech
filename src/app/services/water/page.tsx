@@ -61,7 +61,7 @@ export default function Water() {
                 </div>
 
                 <div className="col-12 col-lg-9">
-                    <div class="tab-content pt-lg-2 mt-lg-1">
+                    <div className="tab-content pt-lg-2 mt-lg-1">
                         <DissolvedGasTab/>
                         <StableIsotopesTab/>
                         <RadioisotopesTab/>

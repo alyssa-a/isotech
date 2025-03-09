@@ -6,7 +6,7 @@ import fig5 from '@/public/images/water/Fig. 5 Anions and Cations.jpg';
 
 export default function WaterChemistryTab() {    
     return (
-        <div className="tab-pane fade" id="WaterChemistry" role="tabpanel" aria-labelledby="WaterChemistryTab" tabIndex="0">
+        <div className="tab-pane fade" id="WaterChemistry" role="tabpanel" aria-labelledby="WaterChemistryTab" tabIndex={0}>
             <h2>Water Chemistry</h2>
 
             <h3>Queries addressed by this analysis</h3>
@@ -54,7 +54,7 @@ export default function WaterChemistryTab() {
 
             <h3 className="mt-4">Analysis Suites</h3>
 
-            <div class="table-responsive mb-4">
+            <div className="table-responsive mb-4">
             <table className="table table-striped">
                 <thead>
                     <tr>

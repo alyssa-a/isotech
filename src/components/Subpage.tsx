@@ -1,6 +1,15 @@
+import { ReactNode } from "react";
 import Breadcrumbs from "./Breadcrumbs";
 
-export default function Subpage({ breadcrumbs, children }) {
+interface SubpageProps {
+    breadcrumbs: string[];
+    children: ReactNode;
+}
+
+export default function Subpage({ 
+    breadcrumbs, 
+    children 
+}: SubpageProps) {
     return (
         <>
         <Breadcrumbs pageTitles={breadcrumbs}/>

@@ -1,4 +1,18 @@
-export default function Section({ bgColor, className = "", style = {}, children }) {
+import { ReactNode } from 'react';
+
+interface SectionProps {
+    bgColor?: string;
+    className?: string;
+    style?: object;
+    children: ReactNode;
+}
+
+export default function Section({ 
+    bgColor = "", 
+    className = "", 
+    style = {}, 
+    children 
+}: SectionProps) {
     let bgColorClass = '';
     switch (bgColor) {
         case "steel":
@@ -10,14 +24,14 @@ export default function Section({ bgColor, className = "", style = {}, children 
         case "orange":
             bgColorClass = "orange-bg";
             break;
-        case "lighter-grey":
+        case "lighter grey":
             bgColorClass = "lighter-grey-bg";
             break;
-        case "dark-grey":
+        case "dark grey":
             bgColorClass = "dark-grey-bg";
             break;
         default:
-            bgColorClass = '';
+            bgColorClass = "";
       }
       
     return (

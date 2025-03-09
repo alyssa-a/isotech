@@ -2,13 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import fig1 from '@/public/images/water/Fig. 1 Diss Gas Analysis.PNG';
+import fig1 from '@/public/images/water/Fig. 1 Diss Gas Analysis.png';
 
 export default function DissolvedGasTab() {
     const isoflaskLink = "/products/isoflask";
 
     return(
-        <div className="tab-pane fade show active" id="DissolvedGas" role="tabpanel" aria-labelledby="DissolvedGasTab" tabIndex="0">
+        <div className="tab-pane fade show active" id="DissolvedGas" role="tabpanel" aria-labelledby="DissolvedGasTab" tabIndex={0}>
             <h2>Dissolved Gas</h2>
 
             <p>Our team determines the dissolved gas composition of water samples collected in <Link href={isoflaskLink}>IsoFlasks</Link>. Analytical reports include a full compositional and isotopic analysis of the headspace and dissolved gas concentrations in the water for methane, ethane and propane. Dissolved gas concentrations are available for additional components upon request.</p>

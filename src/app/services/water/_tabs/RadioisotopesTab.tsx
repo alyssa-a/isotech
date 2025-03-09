@@ -5,7 +5,7 @@ import fig10 from '@/public/images/water/Figure 10_Landfill contamination_Fluid.
 
 export default function RadioisotopesTab() {
     return (
-        <div className="tab-pane fade" id="Radioisotopes" role="tabpanel" aria-labelledby="RadioisotopesTab" tabIndex="0">
+        <div className="tab-pane fade" id="Radioisotopes" role="tabpanel" aria-labelledby="RadioisotopesTab" tabIndex={0}>
             <h2>Radioisotopes</h2>
 
             <h3>Queries addressed by this analysis</h3>
@@ -54,7 +54,7 @@ export default function RadioisotopesTab() {
             <h3 className="mt-4">Tritium Analysis via Scintillation Counter</h3>
             <p>Analysis is effective when elevated tritium concentrations are expected such as landfill and nuclear event studies. The quantifiable limit for direct count is 10-15 tritium units (TU) based on the specific statistics of the run. Smaller concentrations will be reported as a less than value based on the statistics.</p>
 
-            <Accordion heading={"Sampling Guidelines for Tritium Analysis via Scintillation Counter"} headingLevel={4}>
+            <Accordion heading="Sampling Guidelines for Tritium Analysis via Scintillation Counter" headingLevel={4}>
                 <h5>Sample Size</h5>
                 <p>We recommend sending in 50 mL of water. Analyses on smaller amounts are possible. If you wish to analyze less than 10 mL please contact us first.</p>
 
@@ -74,7 +74,7 @@ export default function RadioisotopesTab() {
             <h3 className="mt-4">Electrolytic Enrichment to measure tritium concentration</h3>
             <p>For tritium levels below modern levels electrolytic enrichment is suggested. The quantifiable limit for electrolytic enrichment is 1TU. Smaller concentrations will be reported as a less than value based on the statistics.</p>
 
-            <Accordion heading={"Sampling Guidelines for Electrolytic Enrichment"} headingLevel={4}>
+            <Accordion heading="Sampling Guidelines for Electrolytic Enrichment" headingLevel={4}>
                 <h5>Sample Size</h5>
                 <p>We recommend sending 1 liter of water. Analysis on smaller amounts is possible. If you wish to analyze less than 500 mL please contact us first.</p>
 

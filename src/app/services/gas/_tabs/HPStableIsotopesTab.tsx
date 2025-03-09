@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faCheckDouble } from '@fortawesome/free-solid-svg-icons';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export default function HPStableIsotopesTab() {
     return (
-        <div class="tab-pane fade" id="HighPrecisionStableIsotopes" role="tabpanel" aria-labelledby="HighPrecisionStableIsotopesTab" tabindex="0">
+        <div className="tab-pane fade" id="HighPrecisionStableIsotopes" role="tabpanel" aria-labelledby="HighPrecisionStableIsotopesTab" tabIndex={0}>
             <h2>High-Precision Stable Isotopes</h2>
 
             <p>Isotech uses an off-line method to generate high-precision stable isotope ratios of carbon and hydrogen in hydrocarbon gas samples. Each sample is separated into its components, each component is combusted, and the combustion products are collected and sealed in a glass ampoule using a vacuum system. The combustion products are then analyzed on a dual-inlet IRMS. This method is much more labor-intensive and time-consuming, but allows us to achieve unbeatable precision: 1 sigma is 0.1‰ for δ<sup>13</sup>C measurements, and 3.5 ‰ for δ<sup>2</sup>H measurements.</p>

@@ -1,6 +1,5 @@
 import styles from "@/css/home.module.scss";
 import Link from "next/link";
-import Image from "next/image";
 import Section from "@/components/Section";
 import cotton from "@/public/images/cotton.jpg";
 

@@ -5,7 +5,7 @@ import chemCompGraph from '@/public/images/gas/Fig. 6A Gas. Chemical Composition
 
 export default function ChemCompTab() {
     return (
-        <div class="tab-pane fade show active" id="ChemicalComposition" role="tabpanel" aria-labelledby="ChemicalCompositionTab" tabindex="0">
+        <div className="tab-pane fade show active" id="ChemicalComposition" role="tabpanel" aria-labelledby="ChemicalCompositionTab" tabIndex={0}>
             <h2>Chemical Composition</h2>
 
             <h3>Basic GC</h3>
@@ -40,7 +40,7 @@ export default function ChemCompTab() {
 
             <h3 className="mt-4">Analysis Suites</h3>
 
-            <Accordion heading={"Basic GC Analysis Suites"} headingLevel={4}>
+            <Accordion heading="Basic GC Analysis Suites" headingLevel={4}>
                 <table className="table table-striped mt-2">
                     <thead>
                         <tr>
@@ -119,7 +119,7 @@ export default function ChemCompTab() {
                 </table>
             </Accordion>
 
-            <Accordion heading={"Full GC Analysis Suites"} headingLevel={4}>
+            <Accordion heading="Full GC Analysis Suites" headingLevel={4}>
                 <table className="table table-striped mt-2">
                     <thead>
                         <tr>

@@ -14,7 +14,7 @@ export default function Resources() {
         <>
         <Breadcrumbs pageTitles={breadcrumbs}/>
 
-        <Section bgColor={"dark-grey"} className="landing-hero">
+        <Section bgColor="dark grey" className="landing-hero">
             <div className="pe-lg-4">
                 <h1>Resources</h1>
 

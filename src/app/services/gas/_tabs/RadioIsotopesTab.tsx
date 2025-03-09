@@ -8,7 +8,7 @@ import fig7C from '@/public/images/gas/Fig 7C. RadioIsotope Analyses.jpg';
 
 export default function RadioisotopesTab() {
     return (
-        <div class="tab-pane fade" id="Radioisotopes" role="tabpanel" aria-labelledby="RadioisotopesTab" tabindex="0">
+        <div className="tab-pane fade" id="Radioisotopes" role="tabpanel" aria-labelledby="RadioisotopesTab" tabIndex={0}>
         <h2>Radioisotopes</h2>
 
         <h3>Carbon-14 (<sup>14</sup>C) of methane or carbon dioxide</h3>
