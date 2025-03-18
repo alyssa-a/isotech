@@ -14,7 +14,7 @@ export default function About() {
         <>
         <Breadcrumbs pageTitles={breadcrumbs}/>
 
-        <Section bgColor="orange" className="landing-hero">
+        <Section bgColor="green" className="landing-hero">
             <div className="pe-lg-4">
                 <h1>About</h1>
 

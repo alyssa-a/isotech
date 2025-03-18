@@ -24,14 +24,21 @@ export default function MainNav() {
                         </li>  
 
                         {/* <li className="nav-item">
-                            <button className="nav-link dropdown-toggle" id="servicesDropdownLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</button>
+                            <button className="nav-link dropdown-toggle" id="servicesDropdownBtn" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</button>
 
-                            <ul className="dropdown-menu" aria-labelledby="#servicesDropdownLink">
-                                <li className="dropdown-item"><Link href="/services">Services</Link></li>
-                                <li className="dropdown-item"><Link href="/services/gas">Gas</Link></li>
-                                <li className="dropdown-item"><Link href="/services/water">Water</Link></li>
-                                <li className="dropdown-item"><Link href="#">Solids & Liquids</Link></li>
-                                <li className="dropdown-item"><Link href="/services/interpretive">Interpretive Services</Link></li>
+                            <ul className="dropdown-menu" aria-labelledby="#servicesDropdownBtn">
+                                <li>
+                                    <div className='container'>
+                                        <Link className="fs-5 d-inline-block mb-2" href="/services">Services</Link>
+                                        <ul className="list-unstyled">
+                                            <li><Link href="/services/gas">Gas</Link></li>
+                                            <li><Link href="/services/water">Water</Link></li>
+                                            <li><Link href="#">Cotton Origin</Link></li>
+                                            <li><Link href="#">Solids & Liquids</Link></li>
+                                            <li><Link href="/services/interpretive">Interpretive Services</Link></li>
+                                        </ul>
+                                    </div>
+                                </li>
                             </ul>
                         </li> */}
                     </ul>
