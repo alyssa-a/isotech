@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Section from "@/components/Section";
-import placeholder from "@/public/images/pexels-pixabay-248152.jpg";
+import placeholder from "@/public/images/products-placeholder.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 

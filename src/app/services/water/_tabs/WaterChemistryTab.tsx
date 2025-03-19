@@ -2,14 +2,14 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import fig5 from '@/public/images/water/Fig. 5 Anions and Cations.jpg';
+import placeholder from '@/public/images/placeholder.png';
 
 export default function WaterChemistryTab() {    
     return (
         <div className="tab-pane fade" id="WaterChemistry" role="tabpanel" aria-labelledby="WaterChemistryTab" tabIndex={0}>
             <h2>Water Chemistry</h2>
 
-            <h3>Queries addressed by this analysis</h3>
+            <h3>Questions we can answer</h3>
             <ul className="questions mb-0" style={{columns: 1}}>
                 <li>What is the concentration of a specific metal in a water sample?</li>
                 <li>Have deeper saline fluids higher in chloride and sodium migrated into shallower groundwater aquifers?</li>
@@ -23,7 +23,7 @@ export default function WaterChemistryTab() {
                 <div className="col-12 col-lg-6">
                     <Image 
                         priority
-                        src={fig5}
+                        src={placeholder}
                         alt=""
                         width="500"
                         className="figure-img img-fluid"

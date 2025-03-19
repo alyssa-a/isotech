@@ -10,37 +10,67 @@ export default function MainNav() {
 
                 <div className="collapse navbar-collapse" id="navToggler">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        
                         <li className="nav-item">
-                            <Link className="nav-link" href="/about">About</Link>
-                        </li>  
-                        <li className="nav-item">
-                            <Link className="nav-link" href="/services">Services</Link>
-                        </li>   
-                        <li className="nav-item">
-                            <Link className="nav-link" href="/products">Products</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" href="/resources">Resources</Link>
-                        </li>  
+                            <button className="nav-link dropdown-toggle" id="aboutDropdownBtn" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</button>
 
-                        {/* <li className="nav-item">
+                            <ul className="dropdown-menu" aria-labelledby="#aboutDropdownBtn">
+                                <li className="container">
+                                    <Link className="fs-4 mb-3 menu-heading" href="/about">About</Link>
+                                    
+                                    <ul className="list-unstyled">
+                                        <li><Link href="/about/staff">Staff</Link></li>
+                                        <li><Link href="/about/water">News</Link></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li className="nav-item">
                             <button className="nav-link dropdown-toggle" id="servicesDropdownBtn" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</button>
 
                             <ul className="dropdown-menu" aria-labelledby="#servicesDropdownBtn">
-                                <li>
-                                    <div className='container'>
-                                        <Link className="fs-5 d-inline-block mb-2" href="/services">Services</Link>
-                                        <ul className="list-unstyled">
-                                            <li><Link href="/services/gas">Gas</Link></li>
-                                            <li><Link href="/services/water">Water</Link></li>
-                                            <li><Link href="#">Cotton Origin</Link></li>
-                                            <li><Link href="#">Solids & Liquids</Link></li>
-                                            <li><Link href="/services/interpretive">Interpretive Services</Link></li>
-                                        </ul>
-                                    </div>
+                                <li className="container">
+                                    <Link className="fs-4 mb-3 menu-heading" href="/services">Services</Link>
+
+                                    <ul className="list-unstyled">
+                                        <li><Link href="/services/gas">Gas</Link></li>
+                                        <li><Link href="/services/water">Water</Link></li>
+                                        <li><Link href="/services/contton">Cotton Origin</Link></li>
+                                        <li><Link href="/services/solids-liquids">Solids & Liquids</Link></li>
+                                        <li><Link href="/services/interpretive">Interpretive Services</Link></li>
+                                    </ul>
                                 </li>
                             </ul>
-                        </li> */}
+                        </li>
+
+                        <li className="nav-item">
+                            <button className="nav-link dropdown-toggle" id="productsDropdownBtn" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</button>
+
+                            <ul className="dropdown-menu" aria-labelledby="#productsDropdownBtn">
+                                <li className="container">
+                                    <Link className="fs-4 mb-3 menu-heading" href="/products">Products</Link>
+
+                                    <ul className="list-unstyled col-list">
+                                        <li><Link href="/products/isotube">IsoTube</Link></li>
+                                        <li><Link href="/products/isojar">IsoJar</Link></li>
+                                        <li><Link href="/products/isobag">IsoBag</Link></li>
+                                        <li><Link href="/products/isoflask">IsoFlask</Link></li>
+                                        <li><Link href="/products/cylinders">Cylinders</Link></li>
+                                        <li><Link href="/products/isotrap">IsoTrap</Link></li>
+                                        <li><Link href="/products/isoscrubber">IsoScrubber</Link></li>
+                                        <li><Link href="/products/isopak">IsoPak</Link></li>
+                                        <li><Link href="/products/dic-kit">DIC Kit</Link></li>
+                                        <li><Link href="/products/water-chemistry-kit">Water Chemistry Kit</Link></li>
+                                        <li><Link href="/products/warranty">Warranty Information</Link></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" href="/resources">Resources</Link>
+                        </li> 
                     </ul>
                 </div>
             </div>

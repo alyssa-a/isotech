@@ -1,14 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Accordion from '@/components/Accordion';
-import fig3 from '@/public/images/water/Fig. 3 Isotopic Analysis of Sulfate.jpg';
+import placeholder from '@/public/images/placeholder.png';
 
 export default function SulfurTab() {
     return (
         <div className="tab-pane fade" id="Sulfur" role="tabpanel" aria-labelledby="SulfurTab" tabIndex={0}>
             <h2>Sulfur</h2>
 
-            <h3>Queries addressed by this analysis</h3>
+            <h3>Questions we can answer</h3>
             <ul className="questions mb-0" style={{columns: 1}}>
                 <li><span>What is the source of sulfate or hydrogen sulfide (H<sub>2</sub>S) in a groundwater well or in produced fluids from an oil or gas well?</span></li>
                 <li>What process are controlling the formation of sulfate (water rock interactions, thermochemical sulfate reduction, microbial processes)?</li>
@@ -19,7 +19,7 @@ export default function SulfurTab() {
                 <div className="col-12 col-lg-6">
                     <Image 
                         priority
-                        src={fig3}
+                        src={placeholder}
                         alt=""
                         width="500"
                         className="figure-img img-fluid"

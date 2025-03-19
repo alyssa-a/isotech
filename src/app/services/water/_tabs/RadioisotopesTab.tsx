@@ -1,14 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Accordion from '@/components/Accordion';
-import fig10 from '@/public/images/water/Figure 10_Landfill contamination_Fluid.jpg';
+import placeholder from '@/public/images/placeholder.png';
 
 export default function RadioisotopesTab() {
     return (
         <div className="tab-pane fade" id="Radioisotopes" role="tabpanel" aria-labelledby="RadioisotopesTab" tabIndex={0}>
             <h2>Radioisotopes</h2>
 
-            <h3>Queries addressed by this analysis</h3>
+            <h3>Questions we can answer</h3>
             <ul className="questions mb-0" style={{columns: 1}}>
                 <li>How old is the groundwater in an aquifer system? </li>
                 <li>Are there relationships between the relative ages of groundwater and water quality?</li>
@@ -22,7 +22,7 @@ export default function RadioisotopesTab() {
                 <div className="col-12 col-lg-6">
                     <Image 
                         priority
-                        src={fig10}
+                        src={placeholder}
                         alt=""
                         width="500"
                         className="figure-img img-fluid"

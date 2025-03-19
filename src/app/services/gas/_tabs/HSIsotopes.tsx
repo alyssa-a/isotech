@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import fig11 from '@/public/images/gas/Fig. 11 H2S in gas well.jpg';
+import placeholder from '@/public/images/placeholder.png';
 
 export default function HSIsotopesTab() {
     return (
@@ -12,7 +12,7 @@ export default function HSIsotopesTab() {
                 <div className="col-12 col-lg-6">
                     <Image 
                         priority
-                        src={fig11}
+                        src={placeholder}
                         alt="Illustration of BIOCIDE 1"
                         width="500"
                         className="figure-img img-fluid"

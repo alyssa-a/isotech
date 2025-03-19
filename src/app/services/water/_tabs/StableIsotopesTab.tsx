@@ -1,14 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Accordion from '@/components/Accordion';
-import fig2 from '@/public/images/water/Fig. 2 Stable Isotopes of water.jpg';
+import placeholder from '@/public/images/placeholder.png';
 
 export default function StableIsotopesTab() {
     return (
         <div className="tab-pane fade" id="StableIsotopes" role="tabpanel" aria-labelledby="StableIsotopesTab" tabIndex={0}>
             <h2>Stable Isotopes</h2>
 
-            <h3>Queries addressed by this analysis</h3>
+            <h3>Questions we can answer</h3>
             <ul className="questions mb-0" style={{columns: 1}}>
                 <li>Are deeper brine fluids migrating into a drinking water aquifer?</li>
                 <li>What is the source of water in an aquifer?</li>
@@ -21,7 +21,7 @@ export default function StableIsotopesTab() {
                 <div className="col-12 col-lg-6">
                     <Image 
                         priority
-                        src={fig2}
+                        src={placeholder}
                         alt=""
                         width="500"
                         className="figure-img img-fluid"

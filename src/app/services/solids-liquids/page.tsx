@@ -17,7 +17,7 @@ export default function SolidsLiquids() {
 
             <p className="lead">Carbon, nitrogen, sulfur, oxygen, and hydrogen isotopic analyses.</p>
 
-            <h2>Queries addressed by these analyses</h2>
+            <h2>Questions we can answer</h2>
 
             <ul className="questions">
                 <li>Is a company falsely claiming that their wine is from a certain region?</li>

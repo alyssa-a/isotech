@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import fig1 from '@/public/images/water/Fig. 1 Diss Gas Analysis.png';
+import placeholder from '@/public/images/placeholder.png';
 
 export default function DissolvedGasTab() {
     const isoflaskLink = "/products/isoflask";
@@ -13,7 +13,7 @@ export default function DissolvedGasTab() {
 
             <p>Our team determines the dissolved gas composition of water samples collected in <Link href={isoflaskLink}>IsoFlasks</Link>. Analytical reports include a full compositional and isotopic analysis of the headspace and dissolved gas concentrations in the water for methane, ethane and propane. Dissolved gas concentrations are available for additional components upon request.</p>
             
-            <h3>Queries addressed by this analysis</h3>
+            <h3>Questions we can answer</h3>
             <ul className="questions mb-0" style={{columns: 1}}>
                 <li>Are there explosive concentrations of methane in a groundwater well?</li>
                 <li>What processes are responsible for methane in my water source? Is this microbial methane?</li>
@@ -27,7 +27,7 @@ export default function DissolvedGasTab() {
                 <div className="col-12 col-lg-6">
                     <Image 
                         priority
-                        src={fig1}
+                        src={placeholder}
                         alt=""
                         width="500"
                         className="figure-img img-fluid"

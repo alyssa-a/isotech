@@ -8,7 +8,7 @@ export default function NitrateTab() {
         <div className="tab-pane fade" id="Nitrate" role="tabpanel" aria-labelledby="NitrateTab" tabIndex={0}>
             <h2>Nitrate Isotopes</h2>
 
-            <h3>Queries addressed by this analysis</h3>
+            <h3>Questions we can answer</h3>
             <ul className="questions mb-0" style={{columns: 1}}>
                 <li>What is the source of nitrate in a water source and is the concentration at levels dangerous to human health?</li>
                 <li>Is nitrate from reduced nitrogen fertilizer?</li>

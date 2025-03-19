@@ -48,7 +48,7 @@ export default function Gas() {
 
             <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-            <h2 className="fs-5">Queries addressed by these analyses</h2>
+            <h2 className="fs-5">Questions we can answer</h2>
 
             <ul className="questions mb-0">
                 <li>Is stray natural gas from a leaking pipeline, an underground gas storage reservoir, a swamp, microbial drift gas, coal mining, decomposition of an oil spill, leaking from an abandoned well, or a producing oil or gas well?</li>
@@ -60,7 +60,7 @@ export default function Gas() {
                 <li>Is microbial methane formed by near surface fermentation or deeper sub-surface carbon dioxide reduction?</li>
                 <li>Did I discover economically viable concentrations of hydrogen or helium?</li>
                 <li>While drilling a well could I be drilling through other hydrocarbon bearing units suitable for extraction?</li>
-                <li>Has producing gas undergone a hydrocarbon isotopic reversal?</li>
+                <li>Did gas originate from a landfill or an alternative source?</li>
             </ul>
 
             <hr className="my-5"/>

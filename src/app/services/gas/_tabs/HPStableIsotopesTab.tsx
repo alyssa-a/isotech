@@ -1,6 +1,8 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import fig14 from '@/public/images/gas/Figure 14 High Precision Stable Isotopes.png';
 
 export default function HPStableIsotopesTab() {
     return (
@@ -10,6 +12,19 @@ export default function HPStableIsotopesTab() {
             <p>Isotech uses an off-line method to generate high-precision stable isotope ratios of carbon and hydrogen in hydrocarbon gas samples. Each sample is separated into its components, each component is combusted, and the combustion products are collected and sealed in a glass ampoule using a vacuum system. The combustion products are then analyzed on a dual-inlet IRMS. This method is much more labor-intensive and time-consuming, but allows us to achieve unbeatable precision: 1 sigma is 0.1‰ for δ<sup>13</sup>C measurements, and 3.5 ‰ for δ<sup>2</sup>H measurements.</p>
 
             <p>Isotech has the capability to analyze δ<sup>13</sup>C and δ<sup>2</sup>H in hydrocarbons C<sub>1</sub>-C<sub>5</sub>; and δ<sup>13</sup>C and δ<sup>18</sup>O of CO<sub>2</sub>.</p>
+
+            <figure className="figure row mt-4">
+                <div className="col-12 col-lg-6">
+                    <Image 
+                        priority
+                        src={fig14}
+                        alt="Graph showing the source of methane"
+                        width="500"
+                        className="figure-img img-fluid"
+                    />
+                </div>
+                <figcaption className="figure-caption col-12 col-lg-6">Diagnostic graph used by our team to identify the source of methane. By comparing the dD versus d<sup>13</sup>C of methane we can determine if methane was formed by thermogenic processes or microbial processes and specifically by the carbon dioxide reduction or fermentation pathway. We can also compare data from multiple sampling points to observe if oxidation is occurring or if gas samples from two different locations are associated.</figcaption>
+            </figure>
 
             <h3 className="mt-4">Sampling Guidelines</h3>
 
