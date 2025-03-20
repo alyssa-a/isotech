@@ -71,7 +71,7 @@ export default function Interpretive() {
                 <li>Is gas from the tubing of a well leaking into the annulus spacing of the well? Could gas in the annulus space of a well be from shallower hydrocarbon bearing units or from microbial activity?</li>
             </ul>
 
-            <h2>Select publications from members of our interpretive team</h2>
+            <h2 className="mt-4">Select publications from members of our interpretive team</h2>
 
             <p><strong>Bold font</strong> indicates Isotech team member.</p>
             
