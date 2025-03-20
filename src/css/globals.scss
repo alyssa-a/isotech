@@ -124,7 +124,10 @@ header {
                 padding-bottom: 0;
 
                 &.show {
-                    color: var(--accessible-orange);
+                    text-decoration: underline;
+                    text-decoration-color: var(--sr-orange);
+                    text-decoration-thickness: 3px;
+                    text-underline-offset: 5px;
                 }
 
                 &.show::after {
@@ -161,22 +164,17 @@ header {
                 min-height: 300px;
             }
 
-            .menu-heading {
-                font-weight: 700;
-                line-height: 1;
-                padding-bottom: 3px;
-                border-bottom: 3px solid var(--sr-orange);
-                display: inline-block;
-                margin-bottom: 1rem;
-            }
-
             a {
                 color: var(--sr-steel);
                 text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
 
-            .list-unstyled a:hover {
-                text-decoration: underline;
+            .icon {
+                max-width: 1rem;
             }
         }
     }
@@ -259,6 +257,11 @@ footer .copyright {
 
 .green-text {
     color: var(--sr-green);
+}
+
+/* Font weights */
+.bold-text {
+    font-weight: 700;
 }
 
 /* Link buttons */

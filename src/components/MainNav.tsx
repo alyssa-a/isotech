@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAnglesRight } from '@fortawesome/free-solid-svg-icons';
 
 export default function MainNav() {
     return (
@@ -16,7 +18,7 @@ export default function MainNav() {
 
                             <ul className="dropdown-menu" aria-labelledby="#aboutDropdownBtn">
                                 <li className="container">
-                                    <Link className="fs-4 mb-3 menu-heading" href="/about">About</Link>
+                                    <Link className="fs-4 mb-3 bold-text" href="/about">About<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
                                     
                                     <ul className="list-unstyled">
                                         <li><Link href="/about/staff">Staff</Link></li>
@@ -31,7 +33,7 @@ export default function MainNav() {
 
                             <ul className="dropdown-menu" aria-labelledby="#servicesDropdownBtn">
                                 <li className="container">
-                                    <Link className="fs-4 mb-3 menu-heading" href="/services">Services</Link>
+                                    <Link className="fs-4 mb-3 bold-text" href="/services">Services<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
 
                                     <ul className="list-unstyled">
                                         <li><Link href="/services/gas">Gas</Link></li>
@@ -49,7 +51,7 @@ export default function MainNav() {
 
                             <ul className="dropdown-menu" aria-labelledby="#productsDropdownBtn">
                                 <li className="container">
-                                    <Link className="fs-4 mb-3 menu-heading" href="/products">Products</Link>
+                                    <Link className="fs-4 mb-3 bold-text" href="/products">Products<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
 
                                     <ul className="list-unstyled col-list">
                                         <li><Link href="/products/isotube">IsoTube</Link></li>

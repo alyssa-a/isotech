@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Subpage from '@/components/Subpage';
 import keith from '@/public/images/staff/Keith_Hackley.jpg';
-import myles from '@/public/images/staff/Myles_Moore.jpg';
+import myles from '@/public/images/placeholder.png';
 import Modal from '@/components/Modal';
 
 export const metadata = {
