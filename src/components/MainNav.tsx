@@ -38,7 +38,7 @@ export default function MainNav() {
                                     <ul className="list-unstyled">
                                         <li><Link href="/services/gas">Gas</Link></li>
                                         <li><Link href="/services/water">Water</Link></li>
-                                        <li><Link href="/services/contton">Cotton Origin</Link></li>
+                                        <li><Link href="/services/cotton">Cotton Origin</Link></li>
                                         <li><Link href="/services/solids-liquids">Solids & Liquids</Link></li>
                                         <li><Link href="/services/interpretive">Interpretive Services</Link></li>
                                     </ul>

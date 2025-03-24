@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Steve Pelphrey",
+        "title": "Laboratory Manager",
+        "email": "Steven.Pelphrey@stratumreservoir.com"
+    },
+    {
+        "name": "Missy Meade",
+        "title": "Product Sales/Customer Service",
+        "email": "melissa.meade@stratumreservoir.com"
+    },
+    {
+        "name": "Keith Hackley",
+        "title": "Senior Isotope Geochemist",
+        "email": "Keith.Hackley@stratumreservoir.com"
+    },
+    {
+        "name": "Sher Dixon",
+        "title": "Project Manager",
+        "email": "Sher.Dixon@stratumreservoir.com"
+    },
+    {
+        "name": "Abby Wright",
+        "title": "Project Manager",
+        "email": "Abby.Wright@stratumreservoir.com"
+    },
+    {
+        "name": "Carrie Kibler",
+        "title": "Project Manager",
+        "email": "Carolyn.Kibler@stratumreservoir.com"
+    },
+    {
+        "name": "Tyler Cunningham",
+        "title": "Laboratory Supervisor",
+        "email": "Tyler.Cunningham@stratumreservoir.com"
+    },
+    {
+        "name": "Jason Klemp",
+        "title": "QHSSE Specialist",
+        "email": "jason.klemp@stratumreservoir.com"
+    },
+    {
+        "name": "Gavin Steele",
+        "title": "Product Line Manager",
+        "email": "Gavin.Steele@stratumreservoir.com"
+    }
+]
