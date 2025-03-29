@@ -54,16 +54,6 @@ const products: Product[] = [
         description: "Designed to scrub sour gas samples for subsequent isotopic analysis."
     },
     {
-        name: "IsoPak",
-        link: "/products/isopak",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-    },
-    {
-        name: "DIC Kit",
-        link: "/products/dic-kit",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-    },
-    {
         name: "Water Chemistry Kit",
         link: "/products/water-chemistry-kit",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
@@ -80,7 +70,7 @@ export default function Products() {
             <div className="pe-lg-4">
                 <h1>Products</h1>
 
-                <p className="lead mb-0 mb-md-3">Because Isotech understands that providing customers with the best possible data begins with the best possible sampling containers, we developed the IsoTube<sup>®</sup>, IsoJar<sup>®</sup> IsoPak™, IsoTrap<sup>®</sup> and IsoFlask<sup>®</sup>. We also offer other high-quality sampling products to assist our customers with the sampling process.</p>
+                <p className="lead mb-0 mb-md-3">Because Isotech understands that providing customers with the best possible data begins with the best possible sampling containers, we developed the IsoTube<sup>®</sup>, IsoJar<sup>®</sup>, IsoTrap<sup>®</sup> and IsoFlask<sup>®</sup>. We also offer other high-quality sampling products to assist our customers with the sampling process.</p>
             </div>
 
             <Image 

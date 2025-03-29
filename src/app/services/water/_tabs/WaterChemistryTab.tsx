@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import analysisSuites from '@/data/water-chemistry-analysis-suites.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import placeholder from '@/public/images/placeholder.png';
@@ -58,7 +59,7 @@ export default function WaterChemistryTab() {
             <table className="table table-striped">
                 <thead>
                     <tr>
-                        <th>Column heading?</th>
+                        <th><span className="visually-hidden">Analytes/properties tested for</span></th>
                         <th>WAB (Basic)</th>
                         <th>WAE (Environmental)</th>
                         <th>WAO (Oilfield)</th>
@@ -67,270 +68,20 @@ export default function WaterChemistryTab() {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Water Properties</td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Sodium</td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Potassium</td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Magnesium</td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Calcium</td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Barium</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Strontium</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Iron</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Manganese</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Lithium</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Boron</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Silicon</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Zinc</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                    </tr>
-                    <tr>
-                        <td>Aluminum</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Cadmium</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Cobalt</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Chromium</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Copper</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Molybdenum</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Nickel</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Phosphorus</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Vanadium</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Sulfate</td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Chloride</td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Fluoride</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                    </tr>
-                    <tr>
-                        <td>Bromide</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>                    
-                    </tr>
-                    <tr>
-                        <td>Iodide</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                    </tr>
-                    <tr>
-                        <td>Nitrate</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                    </tr>
-                    <tr>
-                        <td>Phosphate</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                    </tr>
-                    <tr>
-                        <td>Sulfide</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                        <td><span className="visually-hidden">no</span></td>
-                    </tr>
-                    <tr>
-                        <td>DIC</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                    </tr>
-                    <tr>
-                        <td>TDS</td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                    </tr>
-                    <tr>
-                        <td>TSS</td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><span className="visually-hidden">no</span></td>
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                        <td><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></td>  
-                    </tr>
+                    {analysisSuites.map(property =>
+                        <tr key={property.name}>
+                            <td>{property.name}</td>
+                            {Object.entries(property.suites).map(([key, value]) =>
+                                <td key={key} className="text-center">
+                                    { value ? (
+                                        <><FontAwesomeIcon icon={faCheck} className="fs-6 green-text"/> <span className="visually-hidden">yes</span></>
+                                    ) : (
+                                        <span className="visually-hidden">no</span>
+                                    )}
+                                </td>
+                            )}
+                        </tr>
+                    )}
                 </tbody>
             </table>
             </div>
