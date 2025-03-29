@@ -1,8 +1,20 @@
+'use client';
+import { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesRight } from '@fortawesome/free-solid-svg-icons';
 
 export default function MainNav() {
+    const pathname = usePathname();
+    const navRef = useRef(null);
+
+    useEffect(() => {
+        if (navRef.current) {
+            navRef.current.classList.remove('show');
+        }
+    }, [pathname]);
+
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
@@ -10,7 +22,7 @@ export default function MainNav() {
                 <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="mainNav">
+                <div className="collapse navbar-collapse" id="mainNav" ref={navRef}>
                     <ul className="navbar-nav">
                         
                         <li className="nav-item">
