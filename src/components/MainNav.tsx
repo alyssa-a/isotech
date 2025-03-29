@@ -30,7 +30,7 @@ export default function MainNav() {
 
                             <ul className="dropdown-menu" aria-labelledby="#aboutDropdownBtn">
                                 <li>
-                                    <Link className="mb-lg-3 bold-text" href="/about">About<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
+                                    <Link className="bold-text" href="/about">About<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
                                     
                                     <ul className="list-unstyled">
                                         <li><Link href="/about/staff">Staff</Link></li>
@@ -45,7 +45,7 @@ export default function MainNav() {
 
                             <ul className="dropdown-menu" aria-labelledby="#servicesDropdownBtn">
                                 <li>
-                                    <Link className="mb-lg-3 bold-text" href="/services">Services<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
+                                    <Link className="bold-text" href="/services">Services<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
 
                                     <ul className="list-unstyled">
                                         <li><Link href="/services/gas">Gas</Link></li>
@@ -63,7 +63,7 @@ export default function MainNav() {
 
                             <ul className="dropdown-menu" aria-labelledby="#productsDropdownBtn">
                                 <li>
-                                    <Link className="mb-lg-3 bold-text" href="/products">Products<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
+                                    <Link className="bold-text" href="/products">Products<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
 
                                     <ul className="list-unstyled col-list">
                                         <li><Link href="/products/isotube">IsoTube</Link></li>
@@ -85,7 +85,7 @@ export default function MainNav() {
 
                             <ul className="dropdown-menu" aria-labelledby="#resourcesDropdownBtn">
                                 <li>
-                                    <Link className="mb-lg-3 bold-text" href="/resources">Resources<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
+                                    <Link className="bold-text" href="/resources">Resources<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
                                     
                                     <ul className="list-unstyled">
                                         <li><Link href="/resources/shipping-guidelines">Shipping Guidelines</Link></li>
