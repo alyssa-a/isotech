@@ -89,6 +89,7 @@ export default function MainNav() {
                                     
                                     <ul className="list-unstyled">
                                         <li><Link href="/resources/shipping-guidelines">Shipping Guidelines</Link></li>
+                                        <li><Link href="/resources/faq">Frequently Asked Questions</Link></li>
                                     </ul>
                                 </li>
                             </ul>
