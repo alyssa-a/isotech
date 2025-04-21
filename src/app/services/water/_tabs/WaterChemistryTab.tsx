@@ -11,13 +11,13 @@ export default function WaterChemistryTab() {
             <h2>Water Chemistry</h2>
 
             <h3>Questions we can answer</h3>
-            <ul className="questions mb-0" style={{columns: 1}}>
+            <ul className="questions mb-0">
                 <li>What is the concentration of a specific metal in a water sample?</li>
                 <li>Have deeper saline fluids higher in chloride and sodium migrated into shallower groundwater aquifers?</li>
                 <li>What is the concentration of lithium in produced water?</li>
                 <li>Are waters from different origins mixing?</li>
                 <li>Is subsurface carbon sequestration successfully trapping dissolved carbon dioxide in the subsurface?</li>
-                <li>What is the baseline water quality prior to drilling?</li>
+                <li>What is the baseline water quality prior to oil and gas drilling?</li>
             </ul>
 
             <figure className="figure row mt-4">

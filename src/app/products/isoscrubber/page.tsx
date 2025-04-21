@@ -23,7 +23,7 @@ export default function IsoScrubber() {
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
             />
 
-            <p>Encountering natural gases that contain H<sub>2</sub>S is an increasingly common occurrence. Unfortunately, collecting samples of these gases in the field and getting them back to the laboratory for analysis can be very problematic as H<sub>2</sub>S is highly toxic and cannot be transported by air. Similarly, some laboratories will not accept samples containing H<sub>2</sub>S above certain concentrations (e.g. Isotech&lsquo;s limit for accepting samples containing H<sub>2</sub>S is 50 ppm). Additionally, samples containing H<sub>2</sub>S often require expensive, specially treated containers for shipment as hydrogen sulfide is also quite corrosive.</p>
+            <p>Encountering natural gases that contain H<sub>2</sub>S is an increasingly common occurrence. Unfortunately, collecting gases containing H2S in the field and getting them back to the laboratory for analysis can be very problematic as H<sub>2</sub>S is highly toxic and cannot be transported by plane. Additionally, samples containing H<sub>2</sub>S often require expensive, specially treated containers for shipment as hydrogen sulfide is also quite corrosive.</p>
 
             <p>Isotech&lsquo;s H<sub>2</sub>S IsoScrubber&reg; provides a solution to these challenges:</p>
 

@@ -24,7 +24,7 @@ export default function ChemCompTab() {
                         className="figure-img img-fluid"
                     />
                 </div>
-                <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
+                <figcaption className="figure-caption col-12 col-lg-6">To the left is an example of how our team can help to maximize production in a well field. In the top diagram, 10 wells are producing gas from hydrocarbon bearing geologic units A, B, and C, that has a normal fault cutting through the units. The plot in the bottom, shows isotopic compositions of gas samples collected from each well. In this example, well 5 is producing a mixture of gas from geologic units A and B and well 3 is producing a mixture of gas from geologic units B and C, but over time is starting to produce more gas from unit C. By comparing this information with volumes of gas produced and the associated British Thermal Units (BTU, a value our team provides with each gas analysis), one can determine how to best enhance production from this field. These types of analyses can help in well field management decisions, such as where to drill a new producing well or which wells to stop pumping in.</figcaption>
             </figure>
 
             <h3 className="mt-4">Sampling Guidelines</h3>
@@ -44,7 +44,7 @@ export default function ChemCompTab() {
                 <table className="table table-striped mt-2">
                     <thead>
                         <tr>
-                            <th>Column heading?</th>
+                            <th><span className="visually-hidden">Analytes/properties tested for</span></th>
                             <th>Lowest Reportable Concentration</th>
                             <th>Highest Calibrated Concentration</th>
                         </tr>
@@ -123,7 +123,7 @@ export default function ChemCompTab() {
                 <table className="table table-striped mt-2">
                     <thead>
                         <tr>
-                            <th>Column heading?</th>
+                            <th><span className="visually-hidden">Analytes/properties tested for</span></th>
                             <th>Lowest Reportable Concentration</th>
                             <th>Highest Calibrated Concentration</th>
                         </tr>

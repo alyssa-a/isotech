@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Subpage from "@/components/Subpage";
-import fig9 from "@/public/images/solids-liquids/Fig 9. Inorganic Solids.png"
+import fig15 from "@/public/images/solids-liquids/Figure 15 Solids and Liquids.jpg";
 
 export const metadata = {
     title: "Solids & Liquids | Services | Isotech",
@@ -15,13 +15,12 @@ export default function SolidsLiquids() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Solids & Liquids</h1>
 
-            <p className="lead">Carbon, nitrogen, sulfur, oxygen, and hydrogen isotopic analyses.</p>
+            <p className="lead">Our team can analyze the carbon, nitrogen, sulfur, oxygen, and hydrogen isotopic composition in a variety of different solids and liquids. We have cryogenic mills and elemental analyzers to prepare solid samples for isotopic analyses. Please <Link href="/about/contact">contact us</Link> if you have any questions regarding which types of samples we can provide analyses on.</p>
 
             <h2>Questions we can answer</h2>
 
             <ul className="questions">
                 <li>Is a company falsely claiming that their wine is from a certain region?</li>
-                <li>Has groundwater migrated through a certain rock type?</li>
                 <li>Could a honey sample contain sugar cane and corn syrups, rather than authentic honey derived from C3 plants?</li>
                 <li>Could precipitation or dissolution of certain minerals be occurring in a water sample?</li>
                 <li>Has dissolution occurred on a carbonate sample?</li>
@@ -33,13 +32,13 @@ export default function SolidsLiquids() {
                 <div className="col-12 col-lg-6">
                     <Image 
                         priority
-                        src={fig9}
-                        alt=""
+                        src={fig15}
+                        alt="sample being weighed on a scale"
                         width="600"
                         className="figure-img img-fluid"
                     />
                 </div>
-                <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
+                <figcaption className="figure-caption col-12 col-lg-6">Photo showing scale with solid sample being weighed for isotopic analysis preparation.</figcaption>
             </figure>
 
             <h2>Sampling Guidelines</h2>

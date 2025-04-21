@@ -6,7 +6,7 @@ export default function HSIsotopesTab() {
     return (
         <div className="tab-pane fade" id="HydrogenSulfideIsotopes" role="tabpanel" aria-labelledby="HydrogenSulfideIsotopesTab" tabIndex={0}>
             <h2>Hydrogen Sulfide (H<sub>2</sub>S) Isotopes</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Hydrogen Sulfide is a toxic gas that is dangerous to human health and is costly to remove from produced gas streams. Our team provides sampling equipment to collect a gas sample to ship without HAZMAT restrictions to determine the sulfur isotopic composition of H<sub>2</sub>S to assess the source of H2S. We also sell equipment to remove H<sub>2</sub>S from gas for analyses of other parameters.</p>
 
             <figure className="figure row mt-4">
                 <div className="col-12 col-lg-6">

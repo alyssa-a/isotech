@@ -3,6 +3,7 @@ import Image from "next/image";
 import Subpage from "@/components/Subpage";
 import Accordion from "@/components/Accordion";
 import cylinderImg from "@/public/images/products/Cylinder.jpg";
+import fig7C from '@/public/images/gas/Fig 7C. RadioIsotope Analyses.jpg';
 
 export const metadata = {
     title: "Cylinders | Products | Isotech",
@@ -63,6 +64,19 @@ export default function Cylinders() {
                     <li>Attach the power cord to the cigarette lighter of the field vehicle.  An extension cord is provided and may be used if necessary, but using it will decrease the pumping speed.</li>
                 </ol>
 
+                <figure className="figure row mt-4">
+                    <div className="col-12 col-lg-6">
+                        <Image 
+                            priority
+                            src={fig7C}
+                            alt="sampling equipment in a grassy field"
+                            width="600"
+                            className="figure-img img-fluid"
+                        />
+                    </div>
+                    <figcaption className="figure-caption col-12 col-lg-6">A photo of the LP Tank, the pump and the associated connections to collect a gas sample for <sup>3</sup>H of methane analysis from a gas monitoring well in the field.</figcaption>
+                </figure>
+
                 <h5>Purging</h5>
                 <ol>
                     <li>Attach the inlet tubing to the monitoring probe or extraction well to be sampled. <strong>IMPORTANT:</strong> extend the outlet line outside of the case and point it away from the case; if combustible gases are pumped into the pump case, <strong>they could be ignited by the pump.</strong></li>
@@ -74,7 +88,7 @@ export default function Cylinders() {
                 <h5>Collecting a Sample</h5>
                 <ol>
                     <li>Remove the plastic cap from one of the sampling cylinders, but <strong>do not open the valve on the cylinder.</strong></li>
-                    <li>With the pump running, loosely attach the outlet line to the cylinder so that the threads on the fitting just catch.  Note that on these cylinders, the threads are reversed, so turn counter-clockwise to tighten.  <strong>With the cylinder valve still closed</strong>, push the fitting in tight against the cylinder fitting until a pressure increase on the outlet gauge is observed and then pull the fitting back to allow the pressure to be released.  Repeating this several times will purge the air from the dead volume of the valve.  When the valve is purged, tighten the fitting down with fingers.  It is not necessary to use a wrench on these fittings; the brass f itting seals by pressing against a rubber O-ring, which does not require a lot of pressure to seal.</li>
+                    <li>With the pump running, loosely attach the outlet line to the cylinder so that the threads on the fitting just catch.  Note that on these cylinders, the threads are reversed, so turn counter-clockwise to tighten.  <strong>With the cylinder valve still closed</strong>, push the fitting in tight against the cylinder fitting until a pressure increase on the outlet gauge is observed and then pull the fitting back to allow the pressure to be released.  Repeating this several times will purge the air from the dead volume of the valve.  When the valve is purged, tighten the fitting down with fingers.  It is not necessary to use a wrench on these fittings; the brass fitting seals by pressing against a rubber O-ring, which does not require a lot of pressure to seal.</li>
                     <li>Open the cylinder valve to collect the sample.  The cylinders have been pre-evacuated and therefore purging the cylinder is not necessary.  Note: because the cylinder is under vacuum, the sample will initially be “pulled” into the cylinder very quickly, probably at a rate much quicker than the rate of the pump.  If it is suspected that there is water in the well, care must be taken at this stage so that the water is not pulled into the pump by the faster flow rate.  If it is necessary to slow the rate at this time, use the control valve on the pump, not on the cylinder.  Once the cylinder has reached atmospheric pressure, continue pumping until the cylinder reaches <strong>20 psi</strong>.</li>
                     <li>When the cylinder is filled to 20 psi, close the cylinder valve and then turn off the pump.  Do not over tighten the valve; these valves have a soft seat and need only be tightened down snug.  Over tightening will damage the valve.  Disconnect the cylinder from the tubing and replace the plastic plug into the cylinder valve.</li>
                     <li>Record the sample name or well number, the cylinder pressure, and the date on the sample tag.</li>

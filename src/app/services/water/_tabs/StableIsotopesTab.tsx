@@ -9,10 +9,10 @@ export default function StableIsotopesTab() {
             <h2>Stable Isotopes</h2>
 
             <h3>Questions we can answer</h3>
-            <ul className="questions mb-0" style={{columns: 1}}>
+            <ul className="questions mb-0">
                 <li>Are deeper brine fluids migrating into a drinking water aquifer?</li>
                 <li>What is the source of water in an aquifer?</li>
-                <li>Does recharge to an aquifer come from groundwater or surface water (precipitation)?</li>
+                <li>What water source(s) is recharging an aquifer?</li>
                 <li>Where is water sourced from that is contaminated with nitrate/toxic metals?</li>
                 <li>Are injected produced fluids leaking into shallower aquifers?</li>
             </ul>

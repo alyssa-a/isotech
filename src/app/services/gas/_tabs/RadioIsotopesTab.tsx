@@ -22,7 +22,7 @@ export default function RadioisotopesTab() {
                     className="figure-img img-fluid"
                 />
             </div>
-            <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
+            <figcaption className="figure-caption col-12 col-lg-6">Displayed is a graph used by our team to source gas based on measurements of <sup>14</sup>C in methane. Carbon-14 is a useful tracer due to its half-life decay time of approximately 5,730 years. We can differentiate the source of methane based on the carbon source for methane formation (such as thermogenic gas formation from carbon burial millions of years ago versus recently formed methane from modern swamps or landfills) using <sup>14</sup>C in methane.</figcaption>
         </figure>
 
         <h3>Tritium (<sup>3</sup>H) of methane</h3>
@@ -36,7 +36,7 @@ export default function RadioisotopesTab() {
                     className="figure-img img-fluid"
                 />
             </div>
-            <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
+            <figcaption className="figure-caption col-12 col-lg-6">In situations where multiple modern carbon sources could be responsible for methane formation, we can integrate the powerful tritium of methane tracer. Tritium has a decay half-life of 12.39 years to <sup>3</sup>He and we have found it to be enriched in methane from landfills (Hackley et al., 1996). This allows us to delineate methane from landfills versus methane formation from naturally occurring microbial gas sources such as from swamp environments or drift gas.</figcaption>
         </figure>
 
         <h3 className="mt-4">Sampling Guidelines</h3>
@@ -69,7 +69,7 @@ export default function RadioisotopesTab() {
         <table className="table table-striped">
             <thead>
                 <tr>
-                    <th>Column heading?</th>
+                    <th><span className="visually-hidden">Analytes/properties tested for</span></th>
                     <th>BG-1</th>
                     <th>BG-2</th>
                     <th>BG-3</th>

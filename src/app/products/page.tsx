@@ -8,7 +8,7 @@ import OrderProductsSection from "./OrderProductsSection";
 
 export const metadata = {
     title: "Products | Isotech",
-    description: "",
+    description: "Isotech understands that providing customers with the best possible data begins with using premium sampling containers. We developed the IsoTube®, IsoJar®, IsoTrap® and IsoFlask®.",
 };
 
 interface Product {
@@ -21,17 +21,27 @@ const products: Product[] = [
     {
         name: "IsoTube",
         link: "/products/isotube",
-        description: "The industry standard for mudgas sampling."
+        description: "The industry standard for mud gas and produced gas sampling."
+    },
+    {
+        name: "IsoSampler Pro",
+        link: "https://isosampler.com/isosampler-pro",
+        description: "Manifold to efficiently collect mud gas samples into IsoTubes."
+    },
+    {
+        name: "IsoSampler Go",
+        link: "https://isosampler.com/isosampler-go",
+        description: "Regulator used to collect gas samples from producing wells or separators into IsoTubes."
     },
     {
         name: "IsoJar",
         link: "/products/isojar",
-        description: "Ideal for sampling cuttings and mud from drilling operations."
+        description: "Ideal for gases associated with rock cuttings and mud."
     },
     {
         name: "IsoBag",
         link: "/products/isobag",
-        description: "Ideal for soil gas sampling and any other sampling at atmospheric conditions."
+        description: "Ideal for soil gas sampling or sampling gas in the headspace of a groundwater well."
     },
     {
         name: "IsoFlask",
@@ -41,7 +51,7 @@ const products: Product[] = [
     {
         name: "Cylinders",
         link: "/products/cylinders",
-        description: "For sampling gas at pressures up to 1800 psig."
+        description: <>For sampling gas at pressures up to 1800 psig or for collection of large volumes of gas for <sup>3</sup>H of methane analysis.</>
     },
     {
         name: "IsoTrap",
@@ -51,12 +61,12 @@ const products: Product[] = [
     {
         name: "IsoScrubber",
         link: "/products/isoscrubber",
-        description: "Designed to scrub sour gas samples for subsequent isotopic analysis."
+        description: "Removes hydrogen sulfide from gas stream to collect gas samples safely."
     },
     {
         name: "Water Chemistry Kit",
         link: "/products/water-chemistry-kit",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+        description: "For collecting water samples for cations and anions concentrations."
     }
 ]
 
@@ -70,7 +80,7 @@ export default function Products() {
             <div className="pe-lg-4">
                 <h1>Products</h1>
 
-                <p className="lead mb-0 mb-md-3">Because Isotech understands that providing customers with the best possible data begins with the best possible sampling containers, we developed the IsoTube<sup>®</sup>, IsoJar<sup>®</sup>, IsoTrap<sup>®</sup> and IsoFlask<sup>®</sup>. We also offer other high-quality sampling products to assist our customers with the sampling process.</p>
+                <p className="lead mb-0 mb-md-3">Because Isotech understands that providing customers with the best possible data begins with using premium sampling containers, we developed the IsoTube<sup>®</sup>, IsoJar<sup>®</sup>, IsoTrap<sup>®</sup> and IsoFlask<sup>®</sup>. We also offer other high-quality sampling products to assist our customers with the sampling process.</p>
             </div>
 
             <Image 

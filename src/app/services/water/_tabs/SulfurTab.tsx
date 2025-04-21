@@ -9,9 +9,9 @@ export default function SulfurTab() {
             <h2>Sulfur</h2>
 
             <h3>Questions we can answer</h3>
-            <ul className="questions mb-0" style={{columns: 1}}>
+            <ul className="questions mb-0">
                 <li><span>What is the source of sulfate or hydrogen sulfide (H<sub>2</sub>S) in a groundwater well or in produced fluids from an oil or gas well?</span></li>
-                <li>What process are controlling the formation of sulfate (water rock interactions, thermochemical sulfate reduction, microbial processes)?</li>
+                <li>What processses are controlling the formation of sulfate (water rock interactions, thermochemical sulfate reduction, microbial processes)?</li>
                 <li><span>Is this naturally occurring sulfate/H<sub>2</sub>S or is oil and gas drilling forming sulfate/H<sub>2</sub>S?</span></li>
             </ul>
 

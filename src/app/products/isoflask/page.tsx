@@ -44,7 +44,7 @@ export default function IsoFlask() {
                 <li>Volume: ~750 ml each</li>
                 <li>Stand-up pouch design</li>
                 <li>Removable Luer<sup>®</sup> self-closing valve and cap configuration with tamper evident ring</li>
-                <li>Clear, puncture resistant plastic front with white back to assist in coloration observations</li>
+                <li>The front of the IsoFlask is clear and puncture resistant plastic and the back is white to assist in observing collected water</li>
                 <li>Temperature Range: +41°F (+5°C) to +122°F (+50°C)</li>
             </ul>
 
@@ -72,6 +72,10 @@ export default function IsoFlask() {
                 </li>
                 <li>Submission of samples: Place the IsoFlask into its protective box lying flat. Complete a Chain-of-Custody/Analysis Request Form and include it with the sample(s).  Please note Isotech&lsquo;s receiving hours of Monday through Friday 8:00 a.m. to 4:30 p.m.</li>
             </ol>
+
+            <div className="ratio ratio-16x9 w-lg-50 my-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZkZ-8ySx3FA?si=sABt0VfHvqFDFPoD" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
 
             <p><Link className="button download" href="/files/IsoFlask_Sampling_Instructions.pdf">IsoFlask Sampling Instructions (PDF)</Link></p>
 

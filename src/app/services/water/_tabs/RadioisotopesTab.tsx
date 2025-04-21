@@ -9,7 +9,7 @@ export default function RadioisotopesTab() {
             <h2>Radioisotopes</h2>
 
             <h3>Questions we can answer</h3>
-            <ul className="questions mb-0" style={{columns: 1}}>
+            <ul className="questions mb-0">
                 <li>How old is the groundwater in an aquifer system? </li>
                 <li>Are there relationships between the relative ages of groundwater and water quality?</li>
                 <li>Did landfill gas migrate into a groundwater well?</li>

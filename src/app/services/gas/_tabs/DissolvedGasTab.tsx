@@ -8,20 +8,10 @@ export default function DissolvedGasTab() {
     const isoflaskLink = "/products/isoflask";
 
     return(
-        <div className="tab-pane fade show active" id="DissolvedGas" role="tabpanel" aria-labelledby="DissolvedGasTab" tabIndex={0}>
+        <div className="tab-pane fade" id="DissolvedGas" role="tabpanel" aria-labelledby="DissolvedGasTab" tabIndex={0}>
             <h2>Dissolved Gas</h2>
 
             <p>Our team determines the dissolved gas composition of water samples collected in <Link href={isoflaskLink}>IsoFlasks</Link>. Analytical reports include a full compositional and isotopic analysis of the headspace and dissolved gas concentrations in the water for methane, ethane and propane. Dissolved gas concentrations are available for additional components upon request.</p>
-            
-            <h3>Questions we can answer</h3>
-            <ul className="questions mb-0">
-                <li>Are there explosive concentrations of methane in a groundwater well?</li>
-                <li>What processes are responsible for methane in my water source? Is this microbial methane?</li>
-                <li>Did natural gas from a producing gas well, a gas storage facility or a landfill migrate into a water source?</li>
-                <li>Did a remediation project reduce or eliminate hydrocarbon contamination in an aquifer?</li>
-                <li>Is a groundwater well contaminated with brine or hydrocarbon gas and what was the source of that contamination?</li>
-                <li>If multiple sources of methane are present in a water sample, what proportion is from microbial processes? What proportion is from gas migration from a producing gas well? If multiple producing wells cause gas migration into a water well, what proportion of gas is from each well?</li>
-            </ul>
 
             <figure className="figure row mt-4">
                 <div className="col-12 col-lg-6">

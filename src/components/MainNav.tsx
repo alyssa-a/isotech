@@ -35,6 +35,7 @@ export default function MainNav() {
                                     <ul className="list-unstyled">
                                         <li><Link href="/about/staff">Staff</Link></li>
                                         <li><Link href="/about/news">News</Link></li>
+                                        <li><Link href="/about/contact">Contact</Link></li>
                                     </ul>
                                 </li>
                             </ul>

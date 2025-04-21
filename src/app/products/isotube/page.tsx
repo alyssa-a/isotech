@@ -6,7 +6,7 @@ import isotubeImg from "@/public/images/products/isotube.png";
 
 export const metadata = {
     title: "IsoTube | Products | Isotech",
-    description: "The next-generation IsoTube and IsoSampler™ line set the industry standard for mudgas sampling and other gas sampling applications.",
+    description: "The next-generation IsoTube sets the industry standard for mudgas sampling and produced gas sampling.",
 };
 
 export default function IsoTube() {
@@ -26,11 +26,11 @@ export default function IsoTube() {
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
             />
 
-            <p>The original IsoTube gas sampling system was developed in response to sampling and shipping difficulties we and our customers experienced. Over 1 million IsoTubes have been sold and used by hundreds of customers around the globe. Now, 20 years later, the next-generation IsoTube and IsoSampler™ line continue to set the industry standard for mudgas sampling and other gas sampling applications.</p>
+            <p>The original IsoTube was developed in response to gas sampling and shipping difficulties our customers experienced in the field. Since then, over 1 million IsoTubes have been sold and used by hundreds of customers around the globe. Now, 20 years later, the next-generation IsoTube continues to set the industry standard for mud gas and produced gas sampling.</p>
 
             <h2 className="mt-4">Key Advantages</h2>
 
-            <p><strong>More analysis potential:</strong> IsoTubes are evacuated to minimize air contamination, and IsoSampler devices are designed to pressurize the collected samples. More gas at higher concentrations allows the laboratory to generate more data points and improve precision for our customers.</p>
+            <p><strong>More analysis potential:</strong> IsoTubes are evacuated to minimize air contamination, and IsoSampler devices are designed to pressurize the collected samples. More gas and minimal air contamination allows the laboratory to generate more data points and improve precision for our customers.</p>
 
             <p><strong>Faster, more precise sampling:</strong> Evacuated IsoTubes sample quickly, maximizing data precision at each depth. Data from legacy flow-through systems represents an average gas composition over a wider range of depth in the well, especially when modern field equipment with lower gas flow rates is used.</p>
 

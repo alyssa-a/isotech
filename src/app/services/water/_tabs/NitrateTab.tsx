@@ -9,7 +9,7 @@ export default function NitrateTab() {
             <h2>Nitrate Isotopes</h2>
 
             <h3>Questions we can answer</h3>
-            <ul className="questions mb-0" style={{columns: 1}}>
+            <ul className="questions mb-0">
                 <li>What is the source of nitrate in a water source and is the concentration at levels dangerous to human health?</li>
                 <li>Is nitrate from reduced nitrogen fertilizer?</li>
                 <li>Is nitrate from synthetic fertilizer?</li>
@@ -29,12 +29,12 @@ export default function NitrateTab() {
                     />
                 </div>
                 <figcaption className="figure-caption col-12 col-lg-6">
-                    Description of the graph. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    There are a variety of processes that can result in increased nitrate concentrations in water. This graph is a diagnostic tool used by our interpretive team to use the isotopes of nitrate to determine which processes are responsible for nitrate in water or if denitrification is occurring.
                 </figcaption>
             </figure>    
 
             <h3 className="mt-4">δ<sup>15</sup>N and δ<sup>18</sup>O of Nitrate</h3>
-            <p>δ<sup>15</sup>N and δ<sup>18</sup>O of Nitrate is analyzed by first isolation via ion exchange and then EA/TCEA-IRMS analysis. A minimum concentration of 3 mg/L (as nitrate) is required for analysis.</p>
+            <p>δ<sup>15</sup>N and δ<sup>18</sup>O of Nitrate is analyzed by isolation via ion exchange and then EA/TCEA-IRMS analysis. A minimum concentration of 3 mg/L (as nitrate) is required for analysis.</p>
 
             <Accordion heading="Sampling Guidelines for Nitrate" headingLevel={4}>
                 <h5>Sample Size</h5>

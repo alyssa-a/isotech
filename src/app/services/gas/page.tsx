@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Subpage from '@/components/Subpage';
 import Tabs from '@/components/Tabs';
 import ChemCompTab from './_tabs/ChemCompTab';
@@ -5,10 +6,11 @@ import HPStableIsotopesTab from './_tabs/HPStableIsotopesTab';
 import SPStableIsotopesTab from './_tabs/SPStableIsotopesTab';
 import RadioisotopesTab from './_tabs/RadioIsotopesTab';
 import HSIsotopesTab from './_tabs/HSIsotopes';
+import DissolvedGasTab from './_tabs/DissolvedGasTab';
 
 export const metadata = {
     title: "Gas Analyses | Services | Isotech",
-    description: "",
+    description: "Isotech is an established industry leader in performing gas compositional and isotopic analyses for a variety of enterprises.",
 };
 
 export default function Gas() {
@@ -39,6 +41,11 @@ export default function Gas() {
             name: "Hydrogen Sulfide Isotopes",
             id: "HydrogenSulfideIsotopesTab",
             target: "HydrogenSulfideIsotopes"
+        },
+        {
+            name: "Dissolved Gas",
+            id: "DissolvedGasTab",
+            target: "DissolvedGas"
         }
     ];
 
@@ -46,13 +53,13 @@ export default function Gas() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Gas Analyses</h1>
 
-            <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p className="lead">We are an established industry leader in performing gas compositional and isotopic analyses since 1985 for a variety of enterprises. We are an accredited ISO/IEC 17025:2017 facility and adhere to the forensic isotope ratio mass spectrometry (FIRMS) Good Practice Guide for isotopic analyses. If you have a specific need not listed, please <Link href="/about/contact">contact us</Link>.</p>
 
             <h2 className="fs-5">Questions we can answer</h2>
 
             <ul className="questions mb-0">
-                <li>Is stray natural gas from a leaking pipeline, an underground gas storage reservoir, a swamp, microbial drift gas, coal mining, decomposition of an oil spill, leaking from an abandoned well, or a producing oil or gas well?</li>
-                <li>Did storage gas enter a producing well? If so, what proportion of gas is storage gas and native gas in producing well?</li>
+                <li>Is stray natural gas from a leaking pipeline, gas storage reservoir, swamp, microbial drift gas, coal mining, oil spill, gasoline spill, abandoned well, or a producing oil or gas well?</li>
+                <li>Did storage gas enter a producing well? If so, what proportion of gas is storage gas and native gas in the producing well?</li>
                 <li>Is gas from the tubing of a well leaking into the annulus spacing of the well? Could gas in the annulus space of a well be from shallower hydrocarbon bearing units or from microbial activity?</li>
                 <li>Could hydrocarbon gas be migrating into the soil gas zone and if so, what is the source of that hydrocarbon gas?</li>
                 <li>Has stray gas undergone oxidation?</li>
@@ -77,6 +84,7 @@ export default function Gas() {
                         <SPStableIsotopesTab/>
                         <RadioisotopesTab/>
                         <HSIsotopesTab/>
+                        <DissolvedGasTab/>
                     </div>
                 </div>
             </div>

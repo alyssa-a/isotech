@@ -23,7 +23,7 @@ export default function HPStableIsotopesTab() {
                         className="figure-img img-fluid"
                     />
                 </div>
-                <figcaption className="figure-caption col-12 col-lg-6">Diagnostic graph used by our team to identify the source of methane. By comparing the dD versus d<sup>13</sup>C of methane we can determine if methane was formed by thermogenic processes or microbial processes and specifically by the carbon dioxide reduction or fermentation pathway. We can also compare data from multiple sampling points to observe if oxidation is occurring or if gas samples from two different locations are associated.</figcaption>
+                <figcaption className="figure-caption col-12 col-lg-6">Diagnostic graph used by our team to identify the source of methane. By comparing the δD versus δ<sup>13</sup>C of methane we can determine if methane was formed by thermogenic processes or microbial processes and specifically by the carbon dioxide reduction or fermentation pathway. We can also compare data from multiple sampling points to observe if oxidation is occurring or if gas samples from two different locations are associated.</figcaption>
             </figure>
 
             <h3 className="mt-4">Sampling Guidelines</h3>
@@ -41,7 +41,7 @@ export default function HPStableIsotopesTab() {
             <table className="table table-striped">
                 <thead>
                     <tr>
-                        <th>Column heading?</th>
+                        <th><span className="visually-hidden">Analytes/properties tested for</span></th>
                         <th>NG-1</th>
                         <th>NG-2</th>
                         <th>NG-3</th>

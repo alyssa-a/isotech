@@ -10,7 +10,7 @@ import WaterChemistryTab from './_tabs/WaterChemistryTab';
 
 export const metadata = {
     title: "Water Analyses | Services | Isotech",
-    description: "Isotech offers numerous types of isotopic analysis for groundwater and surface samples.",
+    description: "Isotech offers numerous types of compositional and isotopic analyses for water samples.",
 };
 
 export default function Water() {
@@ -53,7 +53,7 @@ export default function Water() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Water Analyses</h1>
             
-            <p className="lead">Isotech offers numerous types of isotopic analysis for groundwater and surface samples. We also offer <Link href="/products">sampling products</Link> to assist you in collecting good, representative samples. If you have a specific need not listed, please <Link href="#">contact us</Link>.</p>
+            <p className="lead">Isotech offers numerous types of compositional and isotopic analyses for water samples. We also offer <Link href="/products">sampling products</Link> and advice to assist you in collecting good, representative samples. If you have a specific need not listed, please <Link href="/about/contact">contact us</Link>.</p>
 
             <div className="row mt-4">
                 <div className="col-12 col-lg-3 pe-lg-4 mb-4">
