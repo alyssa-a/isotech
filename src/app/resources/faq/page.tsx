@@ -70,7 +70,7 @@ export default function FAQ() {
             </Accordion>
 
             <Accordion heading="How do I become certified to ship hazardous materials (HAZMAT)?" headingLevel={2}>
-                <p>There are a number of companies that offer training courses, either in their facilities or on-site at your company. Alternatively, you can take an online course. Please <Link href="mailto:onlineorders@isotechlabs.com">contact us</Link> for information.</p>
+                <p>There are a number of companies that offer training courses, either in their facilities or on-site at your company. Alternatively, you can take an online course. Please <Link href="/about/contact">contact us</Link> for information.</p>
             </Accordion>
 
             <Accordion heading="What happens to the IsoTubes when the analyses are completed?" headingLevel={2}>

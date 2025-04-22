@@ -36,7 +36,7 @@ export default function RadioisotopesTab() {
 
             <Accordion heading={<>Sampling Guidelines for <sup>14</sup>C of DIC</>} headingLevel={4}>
                 <h5>Sample Size</h5>
-                <p>Minimum-70 mL, ideal-250 mL. If you require analysis on smaller volumes please contact us.</p>
+                <p>Minimum-70 mL, ideal-250 mL. If you require analysis on smaller volumes please <Link href="/about/contact">contact us</Link>.</p>
 
                 <h5>Sample Container</h5>
                 <p>HDPE (plastic) or glass bottle. Plastic is preferred for shipping safety. The sample should not have air included in the bottle.</p>
@@ -56,7 +56,7 @@ export default function RadioisotopesTab() {
 
             <Accordion heading="Sampling Guidelines for Tritium Analysis via Scintillation Counter" headingLevel={4}>
                 <h5>Sample Size</h5>
-                <p>We recommend sending in 50 mL of water. Analyses on smaller amounts are possible. If you wish to analyze less than 10 mL please contact us first.</p>
+                <p>We recommend sending in 50 mL of water. Analyses on smaller amounts are possible. If you wish to analyze less than 10 mL please <Link href="/about/contact">contact us</Link> first.</p>
 
                 <h5>Sample Container</h5>
                 <p>We recommend a HDPE (plastic) bottle.</p>
@@ -76,7 +76,7 @@ export default function RadioisotopesTab() {
 
             <Accordion heading="Sampling Guidelines for Electrolytic Enrichment" headingLevel={4}>
                 <h5>Sample Size</h5>
-                <p>We recommend sending 1 liter of water. Analysis on smaller amounts is possible. If you wish to analyze less than 500 mL please contact us first.</p>
+                <p>We recommend sending 1 liter of water. Analysis on smaller amounts is possible. If you wish to analyze less than 500 mL please <Link href="/about/contact">contact us</Link> first.</p>
 
                 <h5>Sample Container</h5>
                 <p>We recommend a 1 liter HDPE (plastic) bottle.</p>

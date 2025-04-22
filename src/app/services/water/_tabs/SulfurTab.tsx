@@ -33,7 +33,7 @@ export default function SulfurTab() {
 
             <Accordion heading="Sampling Guidelines for Dissolved Sulfate Isotopes" headingLevel={4}>
                 <h5>Sample Size</h5>
-                <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
+                <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please <Link href="/about/contact">contact us</Link> first.</p>
 
                 <h5>Sample Container</h5>
                 <p>We recommend a 1 liter HDPE (plastic) bottle.</p>
@@ -53,7 +53,7 @@ export default function SulfurTab() {
 
             <Accordion heading="Sampling Guidelines for Dissolved Hydrogen Sulfide Isotopes" headingLevel={4}>
                 <h5>Sample Size</h5>
-                <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
+                <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please <Link href="/about/contact">contact us</Link> first.</p>
 
                 <h5>Sample Container</h5>
                 <p>We recommend a 1 liter HDPE (plastic) bottle. The bottle should have no headspace. Fill the bottle with a surface tension bubble and cap.</p>

@@ -35,6 +35,7 @@ export default function MainNav() {
                                     <ul className="list-unstyled">
                                         <li><Link href="/about/staff">Staff</Link></li>
                                         <li><Link href="/about/news">News</Link></li>
+                                        <li><Link href="/about/qaqc">Quality Assurance/Quality Control</Link></li>
                                         <li><Link href="/about/contact">Contact</Link></li>
                                     </ul>
                                 </li>
@@ -89,6 +90,7 @@ export default function MainNav() {
                                     <Link className="bold-text" href="/resources">Resources<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
                                     
                                     <ul className="list-unstyled">
+                                        <li><Link href="/resources/new-client-information">New Client Information</Link></li>
                                         <li><Link href="/resources/shipping-guidelines">Shipping Guidelines</Link></li>
                                         <li><Link href="/resources/faq">Frequently Asked Questions</Link></li>
                                     </ul>

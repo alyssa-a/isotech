@@ -35,7 +35,7 @@ export default function StableIsotopesTab() {
 
             <Accordion heading="Sampling Guidelines for Groundwater" headingLevel={4}>
                 <h5>Sample Size</h5>
-                <p>If you are only analyzing δD and δ<sup>18</sup>O, 2 to 60 mL is sufficient. If you require analysis on smaller volumes please contact us.</p>
+                <p>If you are only analyzing δD and δ<sup>18</sup>O, 2 to 60 mL is sufficient. If you require analysis on smaller volumes please <Link href="/about/contact">contact us</Link>.</p>
 
                 <h5>Sample Container</h5>
                 <p>HDPE, plastic, or glass bottle. Plastic is preferred for shipping safety.</p>
@@ -55,7 +55,7 @@ export default function StableIsotopesTab() {
 
             <Accordion heading="Sampling Guidelines for Production Waters" headingLevel={4}>
                 <h5>Sample Size</h5>
-                <p>If you are only analyzing δD and δ<sup>18</sup>O, 5 to 60 mL of recoverable water is sufficient. If you require analysis on smaller volumes please contact us.</p>
+                <p>If you are only analyzing δD and δ<sup>18</sup>O, 5 to 60 mL of recoverable water is sufficient. If you require analysis on smaller volumes please <Link href="/about/contact">contact us</Link>.</p>
 
                 <h5>Sample Container</h5>
                 <p>HDPE, plastic, or glass bottle. Plastic is preferred for shipping safety.</p>
@@ -75,7 +75,7 @@ export default function StableIsotopesTab() {
 
             <Accordion heading={<>Sampling Guidelines for δ<sup>13</sup>C of DIC</>} headingLevel={4}>
                 <h5>Sample Size</h5>
-                <p>Minimum-25 mL, ideal-150 mL. If you require analysis on smaller volumes please contact us.</p>
+                <p>Minimum-25 mL, ideal-150 mL. If you require analysis on smaller volumes please <Link href="/about/contact">contact us</Link>.</p>
 
                 <h5>Sample Container</h5>
                 <p>HDPE, plastic, or glass bottle. Plastic is preferred for shipping safety. The sample should not have air included in the bottle.</p>

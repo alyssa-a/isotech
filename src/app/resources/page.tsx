@@ -18,7 +18,7 @@ export default function Resources() {
             <div className="pe-lg-4">
                 <h1>Resources</h1>
 
-                <p className="lead mb-0 mb-md-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                <p className="lead mb-0 mb-md-3">Companies from around the world turn to Isotech for help in solving problems through high precision isotopic analysis. We've built a reputation on providing customers with superior sampling products and the best possible technical support.</p>
             </div>
 
             <Image 

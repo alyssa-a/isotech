@@ -92,7 +92,7 @@ export default function Products() {
         </Section>
 
         <Section>
-            <div className="row">
+            <div className="row mt-4">
                 {products.map((product) => (
                     <div key={product.name} className="col-12 col-md-6 col-lg-3 mb-4">
                         <div className="card">

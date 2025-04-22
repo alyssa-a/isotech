@@ -38,7 +38,7 @@ export default function NitrateTab() {
 
             <Accordion heading="Sampling Guidelines for Nitrate" headingLevel={4}>
                 <h5>Sample Size</h5>
-                <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please contact us first.</p>
+                <p>We recommend sending 1 liter of water. Analyses on smaller amounts are possible. If you wish to analyze less than 500 mL please <Link href="/about/contact">contact us</Link> first.</p>
 
                 <h5>Sample Container</h5>
                 <p>We recommend a 1 liter HDPE or plastic bottle.</p>
