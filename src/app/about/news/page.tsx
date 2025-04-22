@@ -61,7 +61,7 @@ export default function News() {
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
             />
 
-            <p>The H<sub>2</sub>S <Link href="/products/isotrap">IsoTrap</Link>, developed by Isotech, was recently part of a study conducted by Shell to help identify the source of H<sub>2</sub>S in a discovered field. Findings were presented at the Petroleum Geoscience Conference & Exhibition (PGCE 2013; Kuala Lumpur, Malaysia) and at the International Meeting on Organic Geochemistry (IMOG 2013; Tenerife, Canary Islands). The IsoTrap is designed to convert hydrogen sulfide into a non-hazardous material for easy transport and subsequent isotopic analysis. The study involved the IsoTrap's role in helping to gather the necessary samples in the field and then subsequent isotopic analysis in Isotech's lab.</p>
+            <p>The H<sub>2</sub>S <Link href="/products/isotrap">IsoTrap</Link>, developed by Isotech, was recently part of a study conducted by Shell to help identify the source of H<sub>2</sub>S in a discovered field. Findings were presented at the Petroleum Geoscience Conference & Exhibition (PGCE 2013; Kuala Lumpur, Malaysia) and at the International Meeting on Organic Geochemistry (IMOG 2013; Tenerife, Canary Islands). The IsoTrap is designed to convert hydrogen sulfide into a non-hazardous material for easy transport and subsequent isotopic analysis. The study involved the IsoTrap&lsquo;s role in helping to gather the necessary samples in the field and then subsequent isotopic analysis in Isotech&lsquo;s lab.</p>
 
             <p className="clearfix">
                 <Link className="button download" href="/files/Shell_PGCE2013_AbstractMcKinney.pdf">Read the Case Study</Link>
