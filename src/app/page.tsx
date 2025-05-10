@@ -2,6 +2,7 @@ import styles from "@/css/home.module.scss";
 import Link from "next/link";
 import Section from "@/components/Section";
 import cotton from "@/public/images/cotton.jpg";
+import map from "@/public/images/world-map.jpg";
 
 export default function Home() {
     return (
@@ -10,13 +11,15 @@ export default function Home() {
 
             <div className={styles.hero}>
                 <div className={`slanted-right ${styles.services}`}>
-                    <h2 className="text-center">
-                        <Link href="/services">
-                            <span className="fw-normal">Explore Our</span> 
-                            <br/>
-                            <span className="text-uppercase fs-1">Services</span>
-                        </Link>
-                    </h2>
+                    <div className="green-bg">
+                        <h2 className="text-center">
+                            <Link href="/services">
+                                <span className="fw-normal">Explore Our</span> 
+                                <br/>
+                                <span className="text-uppercase fs-1">Services</span>
+                            </Link>
+                        </h2>
+                    </div>
                 </div>
 
                 <div className={`slanted-left ${styles.products}`}>
@@ -51,6 +54,23 @@ export default function Home() {
 
                         <p className="mt-4 mb-0"><Link className="button orange-bg" href="/services/cotton">Verify the Origin of Your Cotton</Link></p>
                     </div>
+                </div>
+            </Section>
+
+            <Section 
+                className="bg-img text-center"
+                style={{
+                    backgroundImage: `url(${map.src})`,
+                    backgroundColor: "rgba(255,255,255,0.85)",
+                    backgroundBlendMode: "lighten"
+                }}
+            >
+                <div className="mw-800">
+                    <h2>Satellite Laboratories</h2>
+
+                    <p>Enhancing our service to the oil and gas industry around the globe.</p>
+
+                    <p className="mt-4"><Link className="button" href="/about/satellite-laboratories">See Satellite Labs</Link></p>
                 </div>
             </Section>
 
