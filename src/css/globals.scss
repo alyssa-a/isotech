@@ -361,7 +361,7 @@ a.button {
 }
 
 .slanted-right {
-    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
 
 .landing-hero {
@@ -699,6 +699,10 @@ ul.questions {
 @media screen and (min-width: 768px) {
     .slanted-left {
         clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    
+    .slanted-right {
+        clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
     }
     
     .landing-hero {

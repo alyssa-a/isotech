@@ -11,15 +11,13 @@ export default function Home() {
 
             <div className={styles.hero}>
                 <div className={`slanted-right ${styles.services}`}>
-                    <div className="green-bg">
-                        <h2 className="text-center">
-                            <Link href="/services">
-                                <span className="fw-normal">Explore Our</span> 
-                                <br/>
-                                <span className="text-uppercase fs-1">Services</span>
-                            </Link>
-                        </h2>
-                    </div>
+                    <h2 className="text-center">
+                        <Link href="/services">
+                            <span className="fw-normal">Explore Our</span> 
+                            <br/>
+                            <span className="text-uppercase fs-1">Services</span>
+                        </Link>
+                    </h2>
                 </div>
 
                 <div className={`slanted-left ${styles.products}`}>
