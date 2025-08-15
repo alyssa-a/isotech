@@ -11,7 +11,7 @@ export default function SulfurTab() {
             <h3>Questions we can answer</h3>
             <ul className="questions mb-0">
                 <li><span>What is the source of sulfate or hydrogen sulfide (H<sub>2</sub>S) in a groundwater well or in produced fluids from an oil or gas well?</span></li>
-                <li>What processses are controlling the formation of sulfate (water rock interactions, thermochemical sulfate reduction, microbial processes)?</li>
+                <li>What processes are controlling the formation of sulfate (water rock interactions, thermochemical sulfate reduction, microbial processes)?</li>
                 <li><span>Is this naturally occurring sulfate/H<sub>2</sub>S or is oil and gas drilling forming sulfate/H<sub>2</sub>S?</span></li>
             </ul>
 
@@ -49,7 +49,7 @@ export default function SulfurTab() {
             </Accordion>
 
             <h3 className="mt-4">Dissolved Hydrogen Sulfide (H<sub>2</sub>S) Isotopes</h3>
-            <p>H<sub>2</sub>S is evolved from solution, converted to silver sulfide and analyzed via EA-IRMS analysis. A minimum concentration of 3 mg/L is required for analysis.</p>
+            <p>H<sub>2</sub>S is exsolved from solution, converted to silver sulfide and analyzed via EA-IRMS analysis. A minimum concentration of 3 mg/L is required for analysis.</p>
 
             <Accordion heading="Sampling Guidelines for Dissolved Hydrogen Sulfide Isotopes" headingLevel={4}>
                 <h5>Sample Size</h5>

@@ -9,27 +9,27 @@ import chart2 from "@/public/images/products/isojarschart2.jpg";
 import label from "@/public/images/products/IsoJar_Label.png";
 
 export const metadata = {
-    title: "IsoJar | Products | Isotech",
-    description: "The IsoJar is constructed of a durable, clear plastic designed for collecting drill cuttings.",
+    title: "IsoJar® | Products | Isotech",
+    description: "The IsoJar® is constructed of a durable, clear plastic designed for collecting drill cuttings.",
 };
 
 export default function IsoJar() {
-    const breadcrumbs= ["Products", "IsoJar"];
+    const breadcrumbs= ["Products", "IsoJar®"];
     return (
         <>
         <Subpage breadcrumbs={breadcrumbs}>
-            <h1>IsoJar</h1>
+            <h1>IsoJar®</h1>
 
             <Image 
                 priority
                 src={isoJarImg} 
-                alt="IsoJar" 
+                alt="IsoJar®" 
                 width={125}
                 height={155}
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
             />
             
-            <p className="clearfix">For collecting drill cuttings that have traditionally been sampled into paint cans, we have developed the IsoJar, constructed of a durable, clear plastic. After extensive testing, we have found there is very little change in either the compositional or isotopic data of gases contained in these jars over time since leakage compared to paint cans is drastically reduced</p>
+            <p className="clearfix">For collecting drill cuttings that have traditionally been sampled into paint cans, we have developed the IsoJar®, constructed of a durable, clear plastic. After extensive testing, we have found there is very little change in either the compositional or isotopic data of gases contained in these jars over time since leakage compared to paint cans is drastically reduced</p>
 
             <hr className="mb-5"/>
 
@@ -47,7 +47,7 @@ export default function IsoJar() {
                 <div className="col-12 col-md-6">
                     <Image 
                         src={chart2} 
-                        alt="Graph showing isotope data after 5 months in IsoJars" 
+                        alt="Graph showing isotope data after 5 months in IsoJars®" 
                         width={490}
                         height={208}
                         className="img-fluid d-block mx-auto"
@@ -99,11 +99,11 @@ export default function IsoJar() {
 
             <h3 className="mt-4">Recording Sample Information</h3>
 
-            <p>Record sample identification information on the jar label. Be sure to label the IsoJar with: Well Name, Depth Top, Depth Bottom, Date, Time, and Comment. The following is an example of the label on the jar.</p>
+            <p>Record sample identification information on the jar label. Be sure to label the IsoJar® with: Well Name, Depth Top, Depth Bottom, Date, Time, and Comment. The following is an example of the label on the jar.</p>
 
             <Image 
                 src={label} 
-                alt="Example IsoJar label" 
+                alt="Example IsoJar® label" 
                 width={400}
                 height={134}
                 className="img-fluid d-block mx-auto"
@@ -112,7 +112,7 @@ export default function IsoJar() {
             <h3>Packaging Samples</h3>
             <ol>
                 <li>Seal lid as tight as possible and tape clockwise to ensure sample integrity.</li>
-                <li>After jars are tightly sealed and taped, <strong>place them upside down</strong> in the original shipping box. <strong>If any leaks are detected, transfer the sample to a new IsoJar®.</strong></li>
+                <li>After jars are tightly sealed and taped, <strong>place them upside down</strong> in the original shipping box. <strong>If any leaks are detected, transfer the sample to a new IsoJar®®.</strong></li>
                 <li>Complete the log sheet included in each box. List the samples being shipped in the box by <strong>Well Name, Depth (ft. or m.), Date, Time (24-hour scale), Company/Contact and Operator.</strong></li>
                 <li>Thoroughly seal the box with tape.</li>
             </ol>
@@ -124,7 +124,7 @@ export default function IsoJar() {
                 <li>In situations where the product may not have been handled or stored properly, the customer is advised to evaluate the product for conformity and suitability for use.</li>
             </ul>
 
-            <p><Link className="button download" href="/files/IsoJar_Sampling_Instructions.pdf">IsoJar Sampling Instructions (PDF)</Link></p>
+            <p><Link className="button download" href="/files/IsoJar_Sampling_Instructions.pdf">IsoJar® Sampling Instructions (PDF)</Link></p>
             
         </Subpage>
 

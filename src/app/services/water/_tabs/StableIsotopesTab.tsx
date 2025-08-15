@@ -15,6 +15,7 @@ export default function StableIsotopesTab() {
                 <li>What water source(s) is recharging an aquifer?</li>
                 <li>Where is water sourced from that is contaminated with nitrate/toxic metals?</li>
                 <li>Are injected produced fluids leaking into shallower aquifers?</li>
+                <li>Is water used for injection for enhanced oil recovery being produced by the oil well?</li>
             </ul>
 
             <figure className="figure row mt-4">
@@ -31,7 +32,7 @@ export default function StableIsotopesTab() {
             </figure>
 
             <h3 className="mt-4">δD and δ<sup>18</sup>O: Groundwater</h3>
-            <p>We have adopted new technologies to analyze the isotopic composition of surface water,  groundwater, and deeper produced brine water. Cavity Ring Down Spectrometry allows us to analyze waters more efficiently and cost effectively.</p>
+            <p>We have multiple technologies to analyze the isotopic composition of surface water, groundwater, and deeper produced brine water. Laser Spectrometry allows us to analyze waters more efficiently and cost effectively.</p>
 
             <Accordion heading="Sampling Guidelines for Groundwater" headingLevel={4}>
                 <h5>Sample Size</h5>

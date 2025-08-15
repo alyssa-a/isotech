@@ -5,20 +5,20 @@ import isobagImg from "@/public/images/products/IsoBag.jpg";
 import filledExample from "@/public/images/products/IsoBag_Filled_Example.png";
 
 export const metadata = {
-    title: "IsoBag | Products | Isotech",
+    title: "IsoBag® | Products | Isotech",
     description: "The Isobag is designed for easy collection of soil gases, low-pressure samples or where cylinders would be difficult to use.",
 };
 
 export default function IsoBag() {
-    const breadcrumbs= ["Products", "IsoBag"];
+    const breadcrumbs= ["Products", "IsoBag®"];
     return (
         <Subpage breadcrumbs={breadcrumbs}>
-            <h1>IsoBag</h1>
+            <h1>IsoBag®</h1>
 
             <Image
                 priority
                 src={isobagImg}
-                alt="IsoBag"
+                alt="IsoBag®"
                 width={300}
                 height={302}
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
@@ -56,11 +56,11 @@ export default function IsoBag() {
             </div>
 
             <p className="mt-4">
-                <Link className="button download" href="/files/IsoBag_Sampling_Instructions.pdf">IsoBag Sampling Instructions (PDF)</Link>
+                <Link className="button download" href="/files/IsoBag_Sampling_Instructions.pdf">IsoBag® Sampling Instructions (PDF)</Link>
             </p>
 
             <p>
-                <Link className="button download" href="/files/IsoBag_Stability.pdf">Stability of the IsoBag Over Time (PDF)</Link>
+                <Link className="button download" href="/files/IsoBag_Stability.pdf">Stability of the IsoBag® Over Time (PDF)</Link>
             </p>
 
         </Subpage>

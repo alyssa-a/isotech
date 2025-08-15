@@ -11,7 +11,7 @@ export default function DissolvedGasTab() {
         <div className="tab-pane fade" id="DissolvedGas" role="tabpanel" aria-labelledby="DissolvedGasTab" tabIndex={0}>
             <h2>Dissolved Gas</h2>
 
-            <p>Our team determines the dissolved gas composition of water samples collected in <Link href={isoflaskLink}>IsoFlasks</Link>. Analytical reports include a full compositional and isotopic analysis of the headspace and dissolved gas concentrations in the water for methane, ethane and propane. Dissolved gas concentrations are available for additional components upon request.</p>
+            <p>Our team determines the dissolved gas composition of water samples collected in <Link href={isoflaskLink}>IsoFlasks®</Link>. Analytical reports include a full compositional and isotopic analysis of the headspace, concentration of methane, ethane and propane dissolved in the water, and carbon and hydrogen isotope values for individual gas components. Dissolved gas concentrations are available for additional components upon request.</p>
 
             <figure className="figure row mt-4">
                 <div className="col-12 col-lg-6">
@@ -29,19 +29,19 @@ export default function DissolvedGasTab() {
             <h3 className="mt-4">Sampling Guidelines</h3>
 
             <h4>Sample Container</h4>
-            <p>The <Link href={isoflaskLink}>IsoFlask</Link> is the recommended container for this analysis. Other containers used are HDPE bottles with septum integral to the cap, flip top style glass bottles and VOA vials. </p>
+            <p>The <Link href={isoflaskLink}>IsoFlask®</Link> is the recommended container for this analysis.</p>
 
             <h4>Sample Size</h4>
-            <p>We recommend that you fill the IsoFlask with 600-750 mL of water for dissolved gas analysis. If you wish to use a bottle method for collection please <Link href="/about/contact">contact us</Link> for recommendations. Note that other sampling containers may over or under represent the gas content of the water. We do have the capability to analyze dissolved gas from 40 mL VOA vials or similar sized containers. However, the amount of gas available could severely limit the isotopic work possible.</p>
+            <p>We recommend that you fill the IsoFlask® with 600-750 mL of water. If you wish to use a bottle method for collection please <Link href="/about/contact">contact us</Link> for recommendations. Note that other sampling containers may over or under represent the gas content of the water. We do have the capability to analyze dissolved gas from 40 mL VOA vials or similar sized containers. However, the amount of gas available could severely limit the isotopic work possible.</p>
 
             <h4>Preservative</h4>
-            <p>IsoFlasks have a biocide that prevents microbial action and should be kept from excessive heat and sunlight. Other containers require refrigeration and shipment on ice.</p>
+            <p>IsoFlasks® have a biocide that prevents microbial action and should be kept from excessive heat and sunlight. Other containers require refrigeration and shipment on ice.</p>
 
             <h4>Holding Time</h4>
-            <p>IsoFlasks can be held unrefrigerated for up to two months. For other containers, if the sample is kept refrigerated, we recommend shipping the sample to us with in two weeks of sampling.</p>
+            <p>IsoFlasks® can be held unrefrigerated for up to two months. For other containers, if the sample is kept refrigerated, we recommend shipping the sample to us within two weeks of sampling.</p>
 
             <h4>Shipping</h4>
-            <p>IsoFlasks can be shipped using your preferred method. For other containers, we recommend the sample be shipped on ice and overnighted to the lab. Please do not ship on a Friday as we only receive samples Monday through Friday.</p>
+            <p>IsoFlasks® can be shipped using your preferred method. For other containers, we recommend the sample be shipped on ice and overnighted to the lab. Please do not ship on a Friday as we only receive samples Monday through Friday.</p>
 
             <h3 className="mt-4">Analysis Suites</h3>
             <table className="table table-striped">

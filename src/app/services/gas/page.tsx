@@ -53,7 +53,7 @@ export default function Gas() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Gas Analyses</h1>
 
-            <p className="lead">We are an established industry leader in performing gas compositional and isotopic analyses since 1985 for a variety of enterprises. We are an accredited ISO/IEC 17025:2017 facility and adhere to the forensic isotope ratio mass spectrometry (FIRMS) Good Practice Guide for isotopic analyses. If you have a specific need not listed, please <Link href="/about/contact">contact us</Link>.</p>
+            <p className="lead">We are an established industry leader in performing gas compositional and isotopic analyses since 1985 for a variety of enterprises. If you have a specific need not listed, please <Link href="/about/contact">contact us</Link>.</p>
 
             <h2 className="fs-5">Questions we can answer</h2>
 
@@ -64,7 +64,7 @@ export default function Gas() {
                 <li>Could hydrocarbon gas be migrating into the soil gas zone and if so, what is the source of that hydrocarbon gas?</li>
                 <li>Has stray gas undergone oxidation?</li>
                 <li>What geologic unit is gas from in a producing well? If there is a mixture of gas sources, what is the proportion of gas from each source?</li>
-                <li>Is microbial methane formed by near surface fermentation or deeper sub-surface carbon dioxide reduction?</li>
+                <li>Is microbial methane formed by near surface fermentation or deeper sub-surface carbon dioxide reduction processes?</li>
                 <li>Did I discover economically viable concentrations of hydrogen or helium?</li>
                 <li>While drilling a well could I be drilling through other hydrocarbon bearing units suitable for extraction?</li>
                 <li>Did gas originate from a landfill or an alternative source?</li>

@@ -29,7 +29,7 @@ export default function NitrateTab() {
                     />
                 </div>
                 <figcaption className="figure-caption col-12 col-lg-6">
-                    There are a variety of processes that can result in increased nitrate concentrations in water. This graph is a diagnostic tool used by our interpretive team to use the isotopes of nitrate to determine which processes are responsible for nitrate in water or if denitrification is occurring.
+                    There are a variety of processes that can result in increased nitrate concentrations in water. This graph is a diagnostic tool used by our interpretive team to assess processes responsible for nitrate in water or if denitrification is occurring.
                 </figcaption>
             </figure>    
 

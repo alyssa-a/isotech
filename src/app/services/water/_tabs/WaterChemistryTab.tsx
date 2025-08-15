@@ -33,19 +33,18 @@ export default function WaterChemistryTab() {
                 <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
             </figure>
 
-            <h3 className="mt-4">Anions</h3>
-            <p>Filtered water samples (using a 0.45 micron filter) that are preserved with nitric acid are inlet into an Ion Chromatograph (IC) for analysis.</p>
+            <h3 className="mt-4">Sampling Guidelines and Analytical Procedures</h3>
 
-            <h3 className="mt-4">Cations</h3>
-            <p>Filtered water samples (using a 0.45 micron filter) are inlet into an inductively coupled plasma optical emission spectrometer (ICP-OES) for analysis. This is a separate non acidified bottle from the one collected for anion concentrations.</p>
-            
-            <h3 className="mt-4">Sampling Guidelines</h3>
+            <h4>Anions</h4>
+            <p>In the field, 250 mL of filtered water (using a 0.45 micron filter) is collected in a HDPE or plastic bottle. Water is inlet into an Ion Chromatograph (IC) for anion concentration analysis at the lab.</p>
 
-            <h4>Sample Size </h4>
-            <p>We recommend sending 250 mL of filtered and preserved water in a HDPE (high density polyurethane) or a plastic bottle. Analyses on smaller amounts are possible.</p>
+            <h4>Cations</h4>
+            <p>In the field, 250 mL of filtered water (using a 0.45 micron filter) are collected in a separate HDPE or plastic bottle and preserved with nitric acid. Water is inlet into an inductively coupled plasma optical emission spectrometer (ICP-OES) for cation concentration analysis at the lab.</p>
+
+            <p>Smaller sample volumes can be analyzed for anion and cation concentrations. Please contact the lab for more information.</p>
 
             <h4>Preservative </h4>
-            <p>The sample must be kept chilled to minimize microbial action and preserved with nitric acid to prevent precipitation of metals. It is recommended that several drops of nitric acid are added to the sample bottle. </p>
+            <p>The sample must be kept chilled prior to and during shipment.</p>
 
             <h4>Holding Time</h4>
             <p>Samples should be overnighted to the laboratory. Sampling events should be planned for Monday through Thursday to allow receipt of the sample within 48 hours. If shipment of the sample cannot happen the same or next day the sample should be kept refrigerated.</p>

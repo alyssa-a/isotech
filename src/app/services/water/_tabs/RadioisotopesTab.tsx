@@ -72,7 +72,7 @@ export default function RadioisotopesTab() {
             </Accordion>
 
             <h3 className="mt-4">Electrolytic Enrichment to measure tritium concentration</h3>
-            <p>For tritium levels below modern levels electrolytic enrichment is suggested. The quantifiable limit for electrolytic enrichment is 1TU. Smaller concentrations will be reported as a less than value based on the statistics.</p>
+            <p>For tritium levels at or below modern levels electrolytic enrichment is suggested. The quantifiable limit for electrolytic enrichment is approximately 1TU. Smaller concentrations will be reported as a less than value based on the statistics.</p>
 
             <Accordion heading="Sampling Guidelines for Electrolytic Enrichment" headingLevel={4}>
                 <h5>Sample Size</h5>

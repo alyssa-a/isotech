@@ -53,7 +53,7 @@ export default function MainNav() {
                                     <ul className="list-unstyled">
                                         <li><Link href="/services/gas">Gas</Link></li>
                                         <li><Link href="/services/water">Water</Link></li>
-                                        <li><Link href="/services/cotton">Cotton Origin</Link></li>
+                                        <li><Link href="/services/authentication">Authentication</Link></li>
                                         <li><Link href="/services/solids-liquids">Solids & Liquids</Link></li>
                                         <li><Link href="/services/interpretive">Interpretive Services</Link></li>
                                     </ul>
@@ -69,13 +69,13 @@ export default function MainNav() {
                                     <Link className="bold-text" href="/products">Products<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
 
                                     <ul className="list-unstyled col-list">
-                                        <li><Link href="/products/isotube">IsoTube</Link></li>
-                                        <li><Link href="/products/isojar">IsoJar</Link></li>
-                                        <li><Link href="/products/isobag">IsoBag</Link></li>
-                                        <li><Link href="/products/isoflask">IsoFlask</Link></li>
+                                        <li><Link href="/products/isotube">IsoTube®</Link></li>
+                                        <li><Link href="/products/isojar">IsoJar®</Link></li>
+                                        <li><Link href="/products/isobag">IsoBag®</Link></li>
+                                        <li><Link href="/products/isoflask">IsoFlask®</Link></li>
                                         <li><Link href="/products/cylinders">Cylinders</Link></li>
-                                        <li><Link href="/products/isotrap">IsoTrap</Link></li>
-                                        <li><Link href="/products/isoscrubber">IsoScrubber</Link></li>
+                                        <li><Link href="/products/isotrap">IsoTrap®</Link></li>
+                                        <li><Link href="/products/isoscrubber">IsoScrubber®</Link></li>
                                         <li><Link href="/products/water-chemistry-kit">Water Chemistry Kit</Link></li>
                                         <li><Link href="/products/warranty">Warranty Information</Link></li>
                                     </ul>

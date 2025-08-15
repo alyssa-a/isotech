@@ -19,9 +19,7 @@ export default function Services() {
 
             <h2 className="mt-4">Laboratory Services</h2>
 
-            <p>At Isotech, we have the capability of measuring carbon, hydrogen, nitrogen, oxygen, and sulfur isotope ratios on a variety of different materials. Examples of some of the materials that can be analyzed are: gas, dissolved gas, carbonates, rock, water, nitrates, fabrics, foods, oils, pharmaceuticals, and plant materials.</p>
-            
-            <p>Many options are available when ordering isotopic analyses. Analyses are routinely ordered by component, but Isotech has also developed suites to make it simpler for customers to select the proper tests needed for their specific applications. This is especially helpful when certain basic analyses are prerequisites for more extended analyses or when combinations of analysis types are required (ie, gas samples may be subjected to compositional analyses to ensure proper stable and radiogenic isotopic analyses).</p>
+            <p>Stable isotope analyses include measuring carbon, hydrogen, nitrogen, oxygen, and sulfur isotope ratios on a variety of different materials. The following are just some of the mediums that can be analyzed: gas, dissolved gas, carbonates, rock, water, nitrates, fabrics, foods, oils, pharmaceuticals, and plant materials. We also offer radiometric isotope analyses of tritium and radiocarbon. In addition to isotopic analyses, we offer gas compositional analysis of natural gas and cation and anion concentrations for water samples.</p>
 
             <div className="row mt-4 pt-3">
                 <div className="col-12 col-md-6 mb-4">
@@ -48,7 +46,7 @@ export default function Services() {
                     <div className="card p-5 services-card cotton-card">
                         <div className="card-body">
                             <h3 className="card-title text-center">
-                                <Link href="/services/cotton" className="stretched-link">Cotton Origin</Link>
+                                <Link href="/services/authentication" className="stretched-link">Authentication</Link>
                             </h3>
                         </div>
                     </div>

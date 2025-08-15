@@ -20,7 +20,6 @@ export default function SolidsLiquids() {
             <h2>Questions we can answer</h2>
 
             <ul className="questions">
-                <li>Is a company falsely claiming that their wine is from a certain region?</li>
                 <li>Could a honey sample contain sugar cane and corn syrups, rather than authentic honey derived from C3 plants?</li>
                 <li>Could precipitation or dissolution of certain minerals be occurring in a water sample?</li>
                 <li>Has dissolution occurred on a carbonate sample?</li>

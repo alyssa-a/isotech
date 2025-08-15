@@ -9,10 +9,10 @@ export default function ChemCompTab() {
             <h2>Chemical Composition</h2>
 
             <h3>Basic GC</h3>
-            <p>Standard chemical characterization of gas samples. Report includes concentrations of hydrocarbons methane through hexanes+ (C1-C6+) and major fixed gases, including nitrogen, carbon monoxide, carbon dioxide, and combined argon + oxygen.</p>
+            <p>Standard chemical characterization of gas samples. Report includes concentrations of hydrocarbons methane through hexanes+ (C1-C6+) and major fixed gases, including nitrogen, carbon monoxide, carbon dioxide, and combined argon + oxygen concentrations.</p>
 
             <h3>Full GC</h3>
-            <p>Complete chemical characterization of gas samples. Includes discrete values for argon and oxygen, and full-range detection of helium and hydrogen.</p>
+            <p>Complete chemical characterization of gas samples. Includes discrete values for argon and oxygen concentrations, and detection of helium and hydrogen from 25 parts per million to 100%.</p>
 
             <figure className="figure row mt-4">
                 <div className="col-12 col-lg-6">
@@ -30,7 +30,7 @@ export default function ChemCompTab() {
             <h3 className="mt-4">Sampling Guidelines</h3>
 
             <h4>Sample Container</h4>
-            <p>Gas samples can be collected in <Link href="/products/isobag">IsoBags</Link>, <Link href="/products/isotube">IsoTubes</Link>, gas bags, or steel cylinders.</p>
+            <p>Gas samples can be collected in <Link href="/products/isobag">IsoBags®</Link>, <Link href="/products/isotube">IsoTubes®</Link>, or steel cylinders.</p>
 
             <h4>Holding Time</h4>
             <p>As long as sample containers are not leaking gas, samples will maintain gas molecular and isotopic composition.</p>

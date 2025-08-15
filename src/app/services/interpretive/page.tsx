@@ -82,18 +82,13 @@ containing-microbial-ch4/8640140DDD97208F8E5B44BC5769026C"><sup>14</sup>C Dating
 
                 <li>Coleman, D.D., C.L. Liu, <strong>K.C. Hackley</strong>, and <strong>S.R. Pelphrey</strong>. 1995. <Link href="https://archives.datapages.com/data/deg/1995/002002/95_deg020095.htm">Isotope identification of landfill methane</Link>. <em>Environmental Geosciences</em>, v. 2, no. 2, p. 95-103. </li>
 
-                <li><strong>Hackley, K.C.</strong>, C.L. Liu, and D.D. Coleman. 1996. <Link href="https://ngwa.onlinelibrary.wiley.com/doi/abs/10.1111/j.1745-
-6584.1996.tb02077.x?casa_token=-
-e8b1dg0Pj4AAAAA%3AXjH5O0HG1fE8OetVvw6NCtF0oD05sFnTOxgZ9CnV8A7_jYGl
-z49BY2ebOpHwkTzvF4TIaFXST7dLMrs">Environmental isotope characteristics of landfill leachates and gases</Link>.  <em>Groundwater</em>, v. 34, no. 5, p. 827-836.</li>
+                <li><strong>Hackley, K.C.</strong>, C.L. Liu, and D.D. Coleman. 1996. <Link href="https://ngwa.onlinelibrary.wiley.com/doi/10.1111/j.1745-6584.1996.tb02077.x">Environmental isotope characteristics of landfill leachates and gases</Link>.  <em>Groundwater</em>, v. 34, no. 5, p. 827-836.</li>
 
                 <li>Panno, S.V., <strong>K.C. Hackley</strong>, H.H. Hwang, and W.R. Kelly. 2001. <Link href="https://www.sciencedirect.com/science/article/pii/S0009254101003187?casa_token=_T
 gsj_rcmjYAAAAA:p4CSKr2-
 B77hpfKAKgBsDJJOxQ6IvUiG7tzwt7eqZeKsOos7pAdukP5tHP0HgYUj_Ej1QwEkeg">Determination of the sources of nitrate contamination in karst springs using isotopic and chemical indicators</Link>. <em>Chemical Geology</em>, v. 179, p. 113-128.</li>
 
-                <li>Panno, S.V., <strong>K.C. Hackley</strong>, H.H. Hwang, S.E. Greenberg, I.G. Krapac, S. Landsberger, and D.J. O&lsquo;Kelly. 2006. <Link href="https://ngwa.onlinelibrary.wiley.com/doi/full/10.1111/j.1745-
-6584.2005.00127.x?casa_token=P1nafltXWeIAAAAA%3A_KrPTq7ZLQgSNfYp-
-24K9AceN6MFOEa-BpvZ5FGLUEx3dkyd2AP4esQsOzpxSjvOb-k6lIphpC3EqQE">Characterization and identification of Na-Cl sources in ground water</Link>. <em>Groundwater Journal</em>, 44, p. 176-187.</li>
+                <li>Panno, S.V., <strong>K.C. Hackley</strong>, H.H. Hwang, S.E. Greenberg, I.G. Krapac, S. Landsberger, and D.J. O&lsquo;Kelly. 2006. <Link href="https://ngwa.onlinelibrary.wiley.com/doi/10.1111/j.1745-6584.2005.00127.x">Characterization and identification of Na-Cl sources in ground water</Link>. <em>Groundwater</em>, 44, p. 176-187.</li>
 
                 <li>Panno, S.V., <strong>K.C. Hackley</strong>, W.R. Kelly, and H.H. Hwang. 2006. <Link href="https://acsess.onlinelibrary.wiley.com/doi/full/10.2134/jeq2005.0012?casa_token=zfv8Ur
 Z3lWEAAAAA%3AaGJ4M3ZH28ShCY3RoGxzuupGynE69Spigf_gpT1UlrV6NWBH_jZn
@@ -130,14 +125,11 @@ BLysLvZmfC_z8UakrcjdGfR0">Hydrocarbon-rich groundwater above shale-gas formation
 JArwAAAAA%3AI9WciH0DyUM8KHU35h_DoiFVgfNoqOdkFdGQAzUrDmSwOoiF64x_l
 T_R1ffOUx4tf2BisWPi6oIIxos">Structural and hydrogeological controls on hydrocarbon and brine migration into drinking water aquifers in southern New York</Link>. <em>Groundwater</em>, v. 56, p. 225-244.</li>
 
-                <li><strong>Moore, M.T.</strong>, D.S. Vinson, C.J. Whyte, W.K. Eymold, T.B. Walsh, and T.H. Darrah, 2018. <Link href="https://pubs.geoscienceworld.org/gsl/books/edited-volume/2119/chapter-
-abstract/115206607/Differentiating-between-biogenic-and-
-thermogenic?redirectedFrom=fulltext">Differentiating between biogenic and thermogenic sources of natural gas in coalbed methane reservoirs from the Illinois Basin using noble gas and hydrocarbon geochemistry</Link>. <em>Geological Society, London, Special Publications</em>, v. 468, p. 151.</li>
+                <li><strong>Moore, M.T.</strong>, D.S. Vinson, C.J. Whyte, W.K. Eymold, T.B. Walsh, and T.H. Darrah, 2018. <Link href="https://pubs.geoscienceworld.org/gsl/books/edited-volume/2119/chapter-abstract/115206607/Differentiating-between-biogenic-and-thermogenic?redirectedFrom=fulltext">Differentiating between biogenic and thermogenic sources of natural gas in coalbed methane reservoirs from the Illinois Basin using noble gas and hydrocarbon geochemistry</Link>. <em>Geological Society, London, Special Publications</em>, v. 468, p. 151.</li>
 
-                <li><strong>Moore, M. T.</strong>, S.C. Phillips, A.E. Cook, and T.H. Darrah, 2022. <Link href="https://pubs.geoscienceworld.org/aapg/aapgbull/article-
-abstract/106/5/949/613071/Integrated-geochemical-approach-to-determine-the">Integrated geochemical approach to determine source of methane in gas hydrate from Green Canyon Block 955 in the Gulf of Mexico</Link>. <em>AAPG Bulletin</em> v. 106, 5, p. 949-980</li>
+                <li><strong>Moore, M. T.</strong>, S.C. Phillips, A.E. Cook, and T.H. Darrah, 2022. <Link href="https://archives.datapages.com/data/bulletns/2022/05may/BLTN20087/bltn20087.html?doi=10.1306%2F05272120087">Integrated geochemical approach to determine source of methane in gas hydrate from Green Canyon Block 955 in the Gulf of Mexico</Link>. <em>AAPG Bulletin</em> v. 106, 5, p. 949-980</li>
 
-                <li><strong>Moore, M. T.</strong>, M. Mugivhi, and <strong>K.C. Hackley</strong>, 2024. <Link href="https://conf.goldschmidt.info/goldschmidt/2024/meetingapp.cgi/Paper/24497">Baseline assessment of groundwater quality in the Karoo Basin, South Africa</Link>. <em>Goldschmidt Conference</em>. Chicago, Illinois</li>
+                <li><strong>Moore, M. T.</strong>, M. Mugivhi, and <strong>K.C. Hackley</strong>, 2024. <Link href="https://conf.goldschmidt.info/goldschmidt/2024/meetingapp.cgi/Paper/24497">Baseline assessment of groundwater quality in the Karoo Basin, South Africa</Link>. Naturally occurring contaminants in drinking water and source water. <em>Goldschmidt Conference</em>. Chicago, Illinois</li>
             </ol>
         </Subpage>
     );

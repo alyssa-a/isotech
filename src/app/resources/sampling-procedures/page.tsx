@@ -36,14 +36,14 @@ export default function SamplingProcedures() {
             <ul>
                 <li><Link href="/files/IsoTrap_Sampling_Instructions.pdf">Using IsoTrap®</Link></li>
                 <li><Link href="https://www.youtube.com/watch?v=jv6PwF7ocV8">IsoTrap® Sampling Video</Link></li>
-                <li><Link href="/files/IsoScrubber_Sampling_Instructions.pdf">Using IsoScrubber</Link></li>
-                <li><Link href="https://www.youtube.com/watch?v=rMkLFqpcKWs">IsoScrubber Sampling Video</Link></li>
+                <li><Link href="/files/IsoScrubber_Sampling_Instructions.pdf">Using IsoScrubber®</Link></li>
+                <li><Link href="https://www.youtube.com/watch?v=rMkLFqpcKWs">IsoScrubber® Sampling Video</Link></li>
             </ul>
 
             <h2>Soil-Gas Samples</h2>
             <ul>
                 <li><Link href="/files/IsoBag_Sampling_Instructions.pdf">In gas bags with a hand pump</Link></li>
-                <li><Link href="https://www.youtube.com/watch?v=OnUNlGOFIlg">IsoBag Sampling Video</Link></li>
+                <li><Link href="https://www.youtube.com/watch?v=OnUNlGOFIlg">IsoBag® Sampling Video</Link></li>
                 <li><Link href="/files/LP_Cylinders_Sampling_Instructions.pdf">In LP tanks</Link></li>
             </ul>
 

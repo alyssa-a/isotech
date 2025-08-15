@@ -1,13 +1,13 @@
 [
     {
         "name": "Steve Pelphrey",
-        "title": "Laboratory Manager",
+        "title": "General Manager",
         "email": "Steven.Pelphrey@stratumreservoir.com",
         "image": "Steve_Pelphrey.jpg"
     },
     {
         "name": "Missy Meade",
-        "title": "Product Sales/Customer Service",
+        "title": "Client Services Specialist",
         "email": "melissa.meade@stratumreservoir.com",
         "image": "Missy_Meade.jpg"
     },
@@ -19,7 +19,7 @@
     },
     {
         "name": "Sher Dixon",
-        "title": "Project Manager",
+        "title": "Client Services Supervisor",
         "email": "Sher.Dixon@stratumreservoir.com",
         "image": "Sher_Dixon.jpg"
     },

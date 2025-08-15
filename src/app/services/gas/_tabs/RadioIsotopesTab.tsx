@@ -22,7 +22,7 @@ export default function RadioisotopesTab() {
                     className="figure-img img-fluid"
                 />
             </div>
-            <figcaption className="figure-caption col-12 col-lg-6">Displayed is a graph used by our team to source gas based on measurements of <sup>14</sup>C in methane. Carbon-14 is a useful tracer due to its half-life decay time of approximately 5,730 years. We can differentiate the source of methane based on the carbon source for methane formation (such as thermogenic gas formation from carbon burial millions of years ago versus recently formed methane from modern swamps or landfills) using <sup>14</sup>C in methane.</figcaption>
+            <figcaption className="figure-caption col-12 col-lg-6">Displayed is a graph used by our team to source gas based on measurements of <sup>14</sup>C in methane. Carbon-14 is a useful tracer due to its half-life decay of approximately 5,730 years. We can differentiate the source of methane based on the carbon source for methane formation (such as thermogenic gas formation from carbon burial millions of years ago versus recently formed methane from modern swamps or landfills) using <sup>14</sup>C in methane.</figcaption>
         </figure>
 
         <h3>Tritium (<sup>3</sup>H) of methane</h3>
@@ -36,13 +36,13 @@ export default function RadioisotopesTab() {
                     className="figure-img img-fluid"
                 />
             </div>
-            <figcaption className="figure-caption col-12 col-lg-6">In situations where multiple modern carbon sources could be responsible for methane formation, we can integrate the powerful tritium of methane tracer. Tritium has a decay half-life of 12.39 years to <sup>3</sup>He and we have found it to be enriched in methane from landfills (Hackley et al., 1996). This allows us to delineate methane from landfills versus methane formation from naturally occurring microbial gas sources such as from swamp environments or drift gas.</figcaption>
+            <figcaption className="figure-caption col-12 col-lg-6">In situations where multiple modern carbon sources could be responsible for methane formation, we can integrate the powerful tritium of methane tracer. Tritium has a decay half-life of 12.39 years and we have found it to be enriched in methane from landfills (Hackley et al., 1996). This allows us to delineate methane from landfills versus methane formation from naturally occurring microbial gas sources such as from swamp environments or drift gas.</figcaption>
         </figure>
 
         <h3 className="mt-4">Sampling Guidelines</h3>
 
         <h4>Sample Container</h4>
-        <p>Gas samples for <strong><sup>14</sup>C of methane</strong> can be collected in <Link href="/products/isobag">IsoBags</Link>, <Link href="/products/isotube">IsoTubes</Link>, gas bags, or steel cylinders.</p>
+        <p>Gas samples for <strong><sup>14</sup>C of methane</strong> can be collected in <Link href="/products/isobag">IsoBags®</Link>, <Link href="/products/isotube">IsoTubes®</Link>, gas bags, or steel cylinders.</p>
 
         <p>Gas samples for <strong><sup>3</sup>H of methane</strong> need to be collected in ~18 liter LP tanks that have been pre-evacuated and are pressurized to 20 psi using a pump. It is important to ensure that there are no leaks in the connections and that liquid does not get into the LP tank. A specific SOP for collecting gas samples for tritium analysis is provided.</p>
 
@@ -56,7 +56,7 @@ export default function RadioisotopesTab() {
                     className="figure-img img-fluid"
                 />
             </div>
-            <figcaption className="figure-caption col-12 col-lg-6">A photo of the LP Tank, the pump and the associated connections to collect a gas sample for <sup>3</sup>H of methane analysis from a gas monitoring well in the field.</figcaption>
+            <figcaption className="figure-caption col-12 col-lg-6">A photo of the LP Tank, the pump and the associated connections to collect a gas sample for tritium of methane analysis from a gas monitoring well in the field.</figcaption>
         </figure>
 
         <h4>Holding Time</h4>

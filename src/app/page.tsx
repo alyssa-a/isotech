@@ -33,9 +33,9 @@ export default function Home() {
 
             <Section className="text-center">
                 <div className="mw-800">
-                    <h2>The Largest Commercial Stable Isotope Laboratory in the World</h2>
+                    <h2>One of the Largest Commercial Stable Isotope Laboratories in the World</h2>
 
-                    <p>Isotech specializes in high-precision carbon, hydrogen, oxygen, nitrogen, and sulfur isotope analysis - isotopic fingerprinting - for a variety of industries. We have built our reputation on providing superior services delivered by expert staff.</p>
+                    <p>Isotech specializes in high-precision carbon, hydrogen, oxygen, nitrogen, and sulfur isotope analysis and interpreting data for isotopic fingerprinting. We have built our reputation by providing superior services delivered by expert staff.</p>
 
                     <p className="mt-4"><Link className="button" href="/about">More About Isotech</Link></p>
                 </div>
@@ -46,17 +46,17 @@ export default function Home() {
                     <div className="orange-bg w-lg-50 p-2rem">
                         <h2>Cotton Origin Verification</h2>
 
-                        <p>Do you know where your cotton is from? Is there a risk that your supply chain could be using yarn or fabric in finished products from prohibited regions that use forced labor?</p>
+                        <p>Do you know where your cotton is from? Do you have control and visibility into your supply chain? Is there a risk that your supply chain could be using yarn or fabric in finished products from prohibited regions that use forced labor?</p>
 
                         <p>Our team has built an extensive library of isotopic compositions of cotton samples from the major cotton producing regions of the world. You can send in raw cotton fiber, unprocessed or processed greige yarn, dyed fabric, or finished products to our facility to confirm your cotton origin.</p>
 
-                        <p className="mt-4 mb-0"><Link className="button orange-bg" href="/services/cotton">Verify the Origin of Your Cotton</Link></p>
+                        <p className="mt-4 mb-0"><Link className="button orange-bg" href="/services/authentication">Verify the Origin of Your Cotton</Link></p>
                     </div>
                 </div>
             </Section>
 
             <Section 
-                className="bg-img text-center"
+                className="bg-img text-center py-4"
                 style={{
                     backgroundImage: `url(${map.src})`,
                     backgroundColor: "rgba(255,255,255,0.85)",
@@ -66,12 +66,11 @@ export default function Home() {
                 <div className="mw-800">
                     <h2>Satellite Laboratories</h2>
 
-                    <p>Enhancing our service to the oil and gas industry around the globe.</p>
+                    <p>Enhancing our services to industries around the globe.</p>
 
                     <p className="mt-4"><Link className="button" href="/about/satellite-laboratories">See Satellite Labs</Link></p>
                 </div>
             </Section>
-
         </>
     );
 }

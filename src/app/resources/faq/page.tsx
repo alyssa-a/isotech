@@ -42,23 +42,23 @@ export default function FAQ() {
             </Accordion>
 
             <Accordion heading="Will I get my containers back after the analysis is complete?" headingLevel={2}>
-                <p>Yes, in the case of gas cylinders. We normally dispose of or recycle glass or plastic bottles, gas bags, and IsoTubes. If you have special containers or would like your containers returned, please let us know.</p>
+                <p>Yes, in the case of gas cylinders. We normally dispose of or recycle glass or plastic bottles, gas bags, and IsoTubes®. If you have special containers or would like your containers returned, please let us know.</p>
             </Accordion>
 
             <Accordion heading="My company requires a chain-of-custody form. How do I get one?" headingLevel={2}>
                 <p>You&lsquo;ll find a <Link href="/resources/shipping-guidelines">chain-of-custody form</Link> in the Resources section of this website. The link will take you to a page where you can choose to download a static form to be completed by hand, or an interactive form.</p>
             </Accordion>
 
-            <Accordion heading="Can I buy IsoTubes without using Isotech for analysis?" headingLevel={2}>
-                <p>Yes. Although we would prefer that samples in IsoTubes be returned to us for analysis, there is no requirement to return IsoTubes to Isotech.</p>
+            <Accordion heading="Can I buy IsoTubes® without using Isotech for analysis?" headingLevel={2}>
+                <p>Yes. Although we would prefer that samples in IsoTubes® be returned to us for analysis, there is no requirement to return IsoTubes® to Isotech.</p>
             </Accordion>
 
-            <Accordion heading="Can I reuse the IsoTubes?" headingLevel={2}>
-                <p>IsoTubes are a single-use container and it is this single-use designation that provides for reduced shipping restrictions when compared to traditional cylinders.</p>
+            <Accordion heading="Can I reuse the IsoTubes®?" headingLevel={2}>
+                <p>IsoTubes® are a single-use container and it is this single-use designation that provides for reduced shipping restrictions when compared to traditional cylinders.</p>
             </Accordion>
 
-            <Accordion heading="Can the IsoTubes be pressurized?" headingLevel={2}>
-                <p>Yes. The Wellhead Sampling Device used for collection of pressurized samples into IsoTubes can handle inlet pressures up to 3000 psig, and reduces the pressure to approximately 60 psig. Maximum pressure for an IsoTube is limited to 80 psig.</p>
+            <Accordion heading="Can the IsoTubes® be pressurized?" headingLevel={2}>
+                <p>Yes. The Wellhead Sampling Device used for collection of pressurized samples into IsoTubes® can handle inlet pressures up to 3000 psig, and reduces the pressure to approximately 60 psig. Maximum pressure for an IsoTube® is limited to 80 psig.</p>
             </Accordion>
 
             <Accordion heading="How do I order IsoTube® equipment?" headingLevel={2}>
@@ -73,8 +73,8 @@ export default function FAQ() {
                 <p>There are a number of companies that offer training courses, either in their facilities or on-site at your company. Alternatively, you can take an online course. Please <Link href="/about/contact">contact us</Link> for information.</p>
             </Accordion>
 
-            <Accordion heading="What happens to the IsoTubes when the analyses are completed?" headingLevel={2}>
-                <p>IsoTubes returned to Isotech are disassembled and the materials are then recycled. Nearly every component (&gt;99%) is recycled.</p>
+            <Accordion heading="What happens to the IsoTubes® when the analyses are completed?" headingLevel={2}>
+                <p>IsoTubes® returned to Isotech are disassembled and the materials are then recycled. Nearly every component (&gt;99%) is recycled.</p>
             </Accordion>
 
             <Accordion heading="Is there an IsoTube® distributor in my area?" headingLevel={2}>
