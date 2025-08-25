@@ -73,7 +73,7 @@ export default function FAQ() {
                 <p>There are a number of companies that offer training courses, either in their facilities or on-site at your company. Alternatively, you can take an online course. Please <Link href="/about/contact">contact us</Link> for information.</p>
             </Accordion>
 
-            <Accordion heading="What happens to the IsoTubes® when the analyses are completed?" headingLevel={2}>
+            <Accordion heading="What happens to the IsoTubes when the analyses are completed?" headingLevel={2}>
                 <p>IsoTubes® returned to Isotech are disassembled and the materials are then recycled. Nearly every component (&gt;99%) is recycled.</p>
             </Accordion>
 

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Subpage from "@/components/Subpage";
 import OrderProductsSection from "../OrderProductsSection";
-import isotrapSamplerImg from "@/public/images/products/isotrap.jpg";
+import isotrapSamplerImg from "@/public/images/products/IsoTrap_Sampler.png";
 
 export const metadata = {
     title: "IsoTrap® Sampler | Products | Isotech",
@@ -17,14 +17,14 @@ export default function IsoTrapSampler() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>IsoTrap® Sampler</h1>
 
-            {/* <Image
+            <Image
                 priority
                 src={isotrapSamplerImg}
-                alt="IsoTrap® Sampler"
+                alt="IsoTrap Sampler"
                 width={55}
                 height={300}
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
-            /> */}
+            />
 
             <p>The IsoTrap Sampler is a regulator used to flow gas through the IsoTrap to collect a gas sample for analysis of hydrogen sulfide isotopes.</p>
 

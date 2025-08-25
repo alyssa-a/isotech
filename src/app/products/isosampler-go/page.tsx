@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Subpage from "@/components/Subpage";
 import OrderProductsSection from "../OrderProductsSection";
-import isosamplerGoImg from '@/public/images/products/IsoSampler_Go.png';
+import isosamplerGoImg from '@/public/images/products/IsoSampler_Go.jpg';
 
 export const metadata = {
     title: "IsoSampler™ Go | Products | Isotech",
