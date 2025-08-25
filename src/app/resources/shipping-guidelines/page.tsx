@@ -12,7 +12,7 @@ export default function ShippingGuidelines() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Shipping Guidelines</h1>
 
-            <p>To ensure that your samples arrive safely in our laboratory, we have developed detailed shipping guidelines. For your convenience we have also included MSDS information. All documents are available in PDF format using <Link href="https://get2.adobe.com/reader/">Adobe Acrobat Reader</Link>.</p>
+            <p>To ensure that your samples arrive safely in our laboratory, we have developed detailed shipping guidelines. For your convenience we have also included Material Safety Data Sheet (MSDS) information. All documents are available in PDF format using <Link href="https://get2.adobe.com/reader/">Adobe Acrobat Reader</Link>.</p>
 
             <ul>
                 <li><Link href="/files/IsoTubeSP_UN2037.pdf">Flammable gas samples in IsoTubes® and MSDS for UN2037 (PDF)</Link></li>
@@ -32,7 +32,7 @@ export default function ShippingGuidelines() {
 
             <h2 className="mt-4">Chain of Custody Forms</h2>
 
-            <p>When shipping samples to Isotech we highly recommend sending them with a Chain of Custody (COC). The COC includes critical information regarding sample identification, contact information and analysis requests.</p>
+            <p>When shipping samples to Isotech we require a Chain of Custody (COC). The COC includes critical information regarding sample identification, contact information and analysis requests.</p>
 
             <p>Often in legal proceedings a COC is critical to validate the admissibility of data. We will make contact with the person specified on the COC to confirm analysis requests and expected turnaround times. When your samples are received we will sign the COC and create an electronic copy which will be sent back to you with your results.</p>
 

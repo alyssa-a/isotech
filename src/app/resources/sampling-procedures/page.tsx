@@ -16,8 +16,8 @@ export default function SamplingProcedures() {
 
             <h2>Mudgas Samples</h2>
             <ul>
-                <li><Link href="/files/IsoSampler™ Pro Quick Start Guide.pdf">IsoSampler™ Pro Quick Start Guide</Link></li>
-                <li><Link href="/files/IsoSampler™ Pro Maintanance Guide.pdf">IsoSampler™ Pro Maintenance Guide</Link></li>
+                <li><Link href="/files/IsoSampler Pro Quick Start Guide.pdf">IsoSampler™ Pro Quick Start Guide</Link></li>
+                <li><Link href="/files/IsoSampler Pro Maintanance Guide.pdf">IsoSampler™ Pro Maintenance Guide</Link></li>
             </ul>
 
             <h2>Dissolved Gas Samples from Domestic and Municipal Water Wells</h2>
@@ -29,7 +29,7 @@ export default function SamplingProcedures() {
             <h2>Wellhead and Pipeline Natural Gas Samples</h2>
             <ul>
                 <li><Link href="/files/Stainless_Steel_Cylinders_Sampling_Instructions.pdf">In double-ended gas cylinders</Link></li>
-                <li><Link href="/files/IsoSampler™ GO to collect gas sample from wellhead.pdf">IsoSampler™ GO to collect gas sample from wellhead</Link></li>
+                <li><Link href="/files/IsoSampler GO to collect gas sample from wellhead.pdf">IsoSampler™ GO to collect gas sample from wellhead</Link></li>
             </ul>
 
             <h2>Hydrogen Sulfide Samples</h2>
@@ -44,10 +44,9 @@ export default function SamplingProcedures() {
             <ul>
                 <li><Link href="/files/IsoBag_Sampling_Instructions.pdf">In gas bags with a hand pump</Link></li>
                 <li><Link href="https://www.youtube.com/watch?v=OnUNlGOFIlg">IsoBag® Sampling Video</Link></li>
-                <li><Link href="/files/LP_Cylinders_Sampling_Instructions.pdf">In LP tanks</Link></li>
             </ul>
 
-            <h2>Cuttings Samples</h2>
+            <h2>Cuttings/Mud Samples</h2>
             <ul>
                 <li><Link href="/files/IsoJar_Sampling_Instructions.pdf">In IsoJars®</Link></li>
             </ul>

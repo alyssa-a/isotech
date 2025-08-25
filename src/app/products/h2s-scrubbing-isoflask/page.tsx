@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Subpage from "@/components/Subpage";
 import OrderProductsSection from "../OrderProductsSection";
-import scrubbingIsoFlaskImg from "@/public/images/products/H2S_Scrubbing_IsoFlask.png";
+import scrubbingIsoFlaskImg from "@/public/images/products/H2S_Scrubbing_IsoFlask.jpg";
 
 export const metadata = {
     title: "H₂S Scrubbing IsoFlask® | Products | Isotech",

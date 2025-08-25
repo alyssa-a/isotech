@@ -12,13 +12,13 @@ export default function NewClientInformation() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>New Client Information</h1>
             
-            <p>Thank you for considering using us for your analytical and sampling needs. As the largest commercial stable isotope laboratory in the western hemisphere, Isotech offers superior services and expert staff.</p>
+            <p>Thank you for considering using us for your analytical and sampling needs. As one of the largest commercial isotope laboratory in the western hemisphere, Isotech offers superior services and expert staff.</p>
 
             <h2>Contract</h2>
 
             <p>Our internal processes require that we establish a contract and obtain billing information.  If you want to sign a one-time contract for work we can create a formal price quote for you with terms included.  In that case, please contact one of our Project Managers and request a price quote.</p>
 
-            <p>Otherwise a Master Service Agreement is recommended.  Please review the terms and fill out the form to send along with the billing information</p>
+            <p>Otherwise, a Master Service Agreement is recommended.  Please review the terms and fill out the form to send along with the billing information</p>
 
             <p>
                 <Link className="button download" href="/files/WFT Laboratory Services and Sales Master Agreement.pdf">Master Service Agreement</Link> 

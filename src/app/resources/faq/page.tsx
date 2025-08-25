@@ -22,15 +22,15 @@ export default function FAQ() {
             </Accordion>
 
             <Accordion heading="What is the difference between off-line and online analysis?" headingLevel={2}>
-                <p>Off-line analysis is the traditional method that has been in use for many years. Gas samples are separated into their individual components in a gas chromatograph and each hydrocarbon is then oxidized to CO2 and H2O. These combustion products are then transported to a dual-inlet isotope ratio mass spectrometer (DI-IRMS) for the actual analysis. In the case of the H2O, it must be further reacted to hydrogen gas. In a DI-IRMS, the sample gas is slowly streamed into the instrument and its isotopic composition monitored. Then, via switching valves, a reference gas of precisely known isotopic composition is measured. Measurement of the sample and then the reference gas is repeated several times for a very precise calibration. Online analysis is the newer method, in which the gas chromatograph, combustion system, and IRMS are all connected. Each component is oxidized as it exits the GC and passed directly into the IRMS. Online analysis is faster and cheaper, and it requires much less sample than off-line analysis, but it lacks the precision needed in some applications. Isotech offers both options, depending on customer needs.</p>
+                <p>Off-line analysis is the traditional method that has been in use for many years. Gas samples are separated into their individual components in a gas chromatograph and each hydrocarbon is then oxidized to CO2 and H2O. These combustion products are then transported to a dual-inlet isotope ratio mass spectrometer (DI-IRMS) for the actual analysis. In the case of the H2O, it must be further reacted to hydrogen gas. In a DI-IRMS, the sample gas is slowly streamed into the instrument and its isotopic composition monitored. Then, via switching valves, a reference gas of precisely known isotopic composition is measured. Measurement of the sample and then the reference gas is repeated several times for a very precise calibration. Online analysis is the newer method, in which the gas chromatograph (GC), combustion system, and IRMS are all connected. Each component is oxidized as it exits the GC and passed directly into the IRMS. Online analysis is faster and cheaper, and it requires much less sample than off-line analysis, but it lacks the precision needed in some applications. Isotech offers both options, depending on customer needs.</p>
             </Accordion>
 
             <Accordion heading="How do you ensure the accuracy of your analysis?" headingLevel={2}>
-                <p>At least 20% of all analyses at Isotech are for quality assurance and quality control (QAQC). In addition to regularly calibrating all instruments with standard materials traceable to the National Institute of Standards and Testing (NIST), or the International Atomic Energy Agency (IAEA), approximately 10% of the analyses are of internal check standards that have compositions similar to those of the samples being analyzed. For example, when analyzing methane in samples that are mostly air, we test our methods and our equipment using standards that are diluted with air, and not with pure gases. Close attention to detail and constantly testing ourselves results in the high quality data that our customers expect.</p>
+                <p>At least 20% of all analyses at Isotech are for quality assurance and quality control (QAQC). In addition to regularly calibrating all instruments with standards traceable to the National Institute of Standards and Testing (NIST), or the International Atomic Energy Agency (IAEA), approximately 10% of the analyses are of internal check standards that have compositions similar to those of the samples being analyzed. For example, when analyzing methane in samples that are mostly air, we test our methods and our equipment using standards that are diluted with air, and solely hydrocarbon gas mixtures. Close attention to detail and constantly testing ourselves results in the high quality data that our customers expect.</p>
             </Accordion>
 
-            <Accordion heading="How do I ship my samples? Cylinders? Gas bags? IsoTubes®? Other?" headingLevel={2}>
-                <p>We have <Link href="/resources/shipping-guidelines">shipping instructions</Link> in pdf format that you can download from the Customer Support section of this website. Please note that you must be certified to ship hazardous materials, such as flammable gas.</p>
+            <Accordion heading="How do I ship my samples? Cylinders? IsoBags®? IsoTubes®? Other?" headingLevel={2}>
+                <p>We have <Link href="/resources/shipping-guidelines">shipping instructions</Link> in pdf format that you can download from the Customer Support section of this website. Please note that you must be certified to ship hazardous materials, such as flammable gas. However, the IsoBag kit (3 IsoBags and 5 gallon drum) has been specifically designed so that if 3 IsoBags are filled properly and shipped back in the 5 gallon drum, flammable HAZMAT shipping is not required. Feel free to contact us for more information.</p>
             </Accordion>
 
             <Accordion heading="Can I take samples on an airplane?" headingLevel={2}>
@@ -38,7 +38,7 @@ export default function FAQ() {
             </Accordion>
 
             <Accordion heading="What happens to my samples after the analysis is done?" headingLevel={2}>
-                <p>We generally hold samples for a couple of weeks after data is reported, and then dispose of the samples. Client cylinders are returned. Upon request, we can hold samples for longer periods of time, or return your samples to you.</p>
+                <p>We generally hold samples for a couple of weeks after data is reported, and then dispose of the samples. Client cylinders are returned. Upon request, we can hold samples for longer periods of time or return your samples to you.</p>
             </Accordion>
 
             <Accordion heading="Will I get my containers back after the analysis is complete?" headingLevel={2}>
@@ -46,22 +46,22 @@ export default function FAQ() {
             </Accordion>
 
             <Accordion heading="My company requires a chain-of-custody form. How do I get one?" headingLevel={2}>
-                <p>You&lsquo;ll find a <Link href="/resources/shipping-guidelines">chain-of-custody form</Link> in the Resources section of this website. The link will take you to a page where you can choose to download a static form to be completed by hand, or an interactive form.</p>
+                <p>You&lsquo;ll find a <Link href="/resources/shipping-guidelines">chain-of-custody form</Link> in the Resources section of this website. The link will take you to a page where you can choose to download a static form to be completed by hand, or an interactive form that can be filled out on the computer.</p>
             </Accordion>
 
-            <Accordion heading="Can I buy IsoTubes® without using Isotech for analysis?" headingLevel={2}>
+            <Accordion heading="Can I buy IsoTubes without using Isotech for analysis?" headingLevel={2}>
                 <p>Yes. Although we would prefer that samples in IsoTubes® be returned to us for analysis, there is no requirement to return IsoTubes® to Isotech.</p>
             </Accordion>
 
-            <Accordion heading="Can I reuse the IsoTubes®?" headingLevel={2}>
+            <Accordion heading="Can I reuse the IsoTubes?" headingLevel={2}>
                 <p>IsoTubes® are a single-use container and it is this single-use designation that provides for reduced shipping restrictions when compared to traditional cylinders.</p>
             </Accordion>
 
-            <Accordion heading="Can the IsoTubes® be pressurized?" headingLevel={2}>
-                <p>Yes. The Wellhead Sampling Device used for collection of pressurized samples into IsoTubes® can handle inlet pressures up to 3000 psig, and reduces the pressure to approximately 60 psig. Maximum pressure for an IsoTube® is limited to 80 psig.</p>
+            <Accordion heading="Can the IsoTubes be pressurized?" headingLevel={2}>
+                <p>Yes. The IsoSampler™ Go is used for collection of pressurized samples into IsoTubes. The IsoSampler Go can handle inlet pressures up to 3000 psig, and reduces the pressure to approximately 60 psig. Maximum pressure for an IsoTube® is limited to 80 psig.</p>
             </Accordion>
 
-            <Accordion heading="How do I order IsoTube® equipment?" headingLevel={2}>
+            <Accordion heading="How do I order IsoTube equipment?" headingLevel={2}>
                 <p>You can <Link href="mailto:onlineorders@isotechlabs.com">email your orders</Link> or call 217-398-3490.</p>
             </Accordion>
 
@@ -77,25 +77,27 @@ export default function FAQ() {
                 <p>IsoTubes® returned to Isotech are disassembled and the materials are then recycled. Nearly every component (&gt;99%) is recycled.</p>
             </Accordion>
 
-            <Accordion heading="Is there an IsoTube® distributor in my area?" headingLevel={2}>
-                <p>Following is the list of distributors.</p>
+            <Accordion heading="Is there an IsoTube distributor in my area?" headingLevel={2}>
+                <p>Below is a list of distributors.</p>
 
                 <p>
                     <strong>Isotech</strong><br/>
+                    Contact: Missy Meade<br/>
                     Champaign, Illinois<br/>
-                    217-398-3490
+                    217-398-3490<br/>
+                    Email: <Link href="mailto:melissa.meade@stratumreservoir.com">melissa.meade@stratumreservoir.com</Link>
                 </p>
 
                 <p>
-                    <strong>Stratum Reservior - Calgary, Canada</strong><br/>
-                    Contact: Steven Bartley<br/>
-                    Office: +1 403 736 3500<br/>
-                    Cell: +1 587 226 6795<br/>
-                    Email: <Link href="mailto:Steven.Bartley@stratumreservoir.com">Steven.Bartley@stratumreservoir.com</Link>
+                    <strong>Stratum Reservoir - Houston</strong><br/>
+                    Contact: Jarrod Dall<br/>
+                    Houston, Texas<br/>
+                    832-375-6800<br/>
+                    Email: <Link href="mailto:jarrod.dall@stratumreservoir.com ">jarrod.dall@stratumreservoir.com </Link>
                 </p>
 
                 <p>
-                    <strong>Stratum Reservior - Saudi Arabia</strong><br/>
+                    <strong>Stratum Reservoir - Saudi Arabia</strong><br/>
                     Contact: Patrick Hanna<br/>
                     Cell: +966 551294013<br/>
                     Email: <Link href="mailto:patrick.hanna@stratumreservoir.com">patrick.hanna@stratumreservoir.com</Link><br/>
