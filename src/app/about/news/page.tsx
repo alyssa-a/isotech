@@ -1,10 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Subpage from "@/components/Subpage";
-import cottonImg from "@/public/images/cotton/Figure 13_3D plot of cotton origin.png";
-import isoflaskImg from "@/public/images/products/Iso-Flask-Kit.jpg";
-import isotrapImg from "@/public/images/products/isotrap.jpg";
-import dicKitImg from "@/public/images/products/DICkit.jpg";
+import cottonImg from "@/public/images/authentication/Figure 13_3D plot of cotton origin.png";
 
 export const metadata = {
     title: "News | About | Isotech",

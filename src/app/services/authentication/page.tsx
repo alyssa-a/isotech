@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Subpage from "@/components/Subpage";
-import fig13 from "@/public/images/cotton/Figure 13_3D plot of cotton origin.png";
-import placeholder from "@/public/images/placeholder.png";
+import fig13 from "@/public/images/authentication/Figure 13_3D plot of cotton origin.png";
+import honeyGraph from "@/public/images/authentication/Honey_Graph.png";
 
 export const metadata = {
     title: "Authentication | Services | Isotech",
     description: "",
 };
 
-export default function Cotton() {
+export default function Authentication() {
     const breadcrumbs = ["Services", "Authentication"];
 
     return (
@@ -44,8 +44,8 @@ export default function Cotton() {
                 <div className="col-12 col-lg-6">
                     <Image 
                         priority
-                        src={placeholder}
-                        alt="placeholder"
+                        src={honeyGraph}
+                        alt="graph showing isotopic composition of honey"
                         width="500"
                         className="figure-img img-fluid"
                     />

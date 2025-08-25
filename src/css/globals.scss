@@ -292,6 +292,11 @@ footer .copyright {
     color: var(--sr-green);
 }
 
+/* Font sizes */
+.fs-3rem {
+    font-size: 3rem;
+}
+
 /* Font weights */
 .bold-text {
     font-weight: 700;
@@ -433,6 +438,7 @@ ul.questions {
 .card {
     --bs-card-spacer-y: 1.25rem;
     --bs-card-spacer-x: 1.25rem;
+    color: var(--sr-steel);
     height: 100%;
     border-radius: 0;
     border-color: var(--dark-grey);

@@ -69,13 +69,16 @@ export default function MainNav() {
                                     <Link className="bold-text" href="/products">Products<FontAwesomeIcon icon={faAnglesRight} className="icon orange-text ms-1"/></Link>
 
                                     <ul className="list-unstyled col-list">
-                                        <li><Link href="/products/isotube">IsoTube®</Link></li>
-                                        <li><Link href="/products/isojar">IsoJar®</Link></li>
-                                        <li><Link href="/products/isobag">IsoBag®</Link></li>
-                                        <li><Link href="/products/isoflask">IsoFlask®</Link></li>
+                                        <li><Link href="/products/isotube">IsoTube<sup>®</sup></Link></li>
+                                        <li><Link href="/products/isosampler-pro">IsoSampler™ Pro</Link></li>
+                                        <li><Link href="/products/isosampler-go">IsoSampler™ Go</Link></li>
+                                        <li><Link href="/products/isojar">IsoJar<sup>®</sup></Link></li>
+                                        <li><Link href="/products/isobag">IsoBag<sup>®</sup></Link></li>
+                                        <li><Link href="/products/isoflask">IsoFlask<sup>®</sup></Link></li>
                                         <li><Link href="/products/cylinders">Cylinders</Link></li>
-                                        <li><Link href="/products/isotrap">IsoTrap®</Link></li>
-                                        <li><Link href="/products/isoscrubber">IsoScrubber®</Link></li>
+                                        <li><Link href="/products/isotrap">IsoTrap<sup>®</sup></Link></li>
+                                        <li><Link href="/products/isotrap-sampler">IsoTrap<sup>®</sup> Sampler</Link></li>
+                                        <li><Link href="/products/h2s-scrubbing-isoflask">H<sub>2</sub>S Scrubbing IsoFlask<sup>®</sup></Link></li>
                                         <li><Link href="/products/water-chemistry-kit">Water Chemistry Kit</Link></li>
                                         <li><Link href="/products/warranty">Warranty Information</Link></li>
                                     </ul>

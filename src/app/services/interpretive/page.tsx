@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Subpage from '@/components/Subpage';
-import keith from '@/public/images/staff/Keith_Hackley.jpg';
+import keith from '@/public/images/staff/Keith_Hackley.png';
 import myles from '@/public/images/staff/Moore.jpg';
 import Modal from '@/components/Modal';
 
