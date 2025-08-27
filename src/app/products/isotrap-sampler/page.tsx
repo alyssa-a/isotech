@@ -21,8 +21,8 @@ export default function IsoTrapSampler() {
                 priority
                 src={isotrapSamplerImg}
                 alt="IsoTrap Sampler"
-                width={55}
-                height={300}
+                width={250}
+                height={450}
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
             />
 
