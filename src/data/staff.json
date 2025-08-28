@@ -6,26 +6,38 @@
         "image": "Steve_Pelphrey.png"
     },
     {
+        "name": "Tyler Cunningham",
+        "title": "Laboratory Supervisor",
+        "email": "Tyler.Cunningham@stratumreservoir.com",
+        "image": "Tyler_Cunningham.jpg"
+    },
+    {
+        "name": "Cameron Jones",
+        "title": "Laboratory Supervisor",
+        "email": "Cameron.Jones@stratumreservoir.com",
+        "image": "profile_placeholder.jpg"
+    },
+    {
         "name": "Missy Meade",
         "title": "Client Services Specialist",
         "email": "melissa.meade@stratumreservoir.com",
         "image": "Missy_Meade.jpg"
     },
     {
-        "name": "Keith Hackley",
-        "title": "Senior Isotope Geochemist",
-        "email": "Keith.Hackley@stratumreservoir.com",
-        "image": "Keith_Hackley.png"
+        "name": "Julia Ohlsson",
+        "title": "Purchasing and Accounts Payable Specialist",
+        "email": "julia.ohlsson@stratumreservoir.com",
+        "image": "profile_placeholder.jpg"
     },
     {
         "name": "Sher Dixon",
-        "title": "Client Services Supervisor",
+        "title": "Senior Project Manager",
         "email": "Sher.Dixon@stratumreservoir.com",
         "image": "Sher_Dixon.jpg"
     },
     {
         "name": "Abby Wright",
-        "title": "Project Manager",
+        "title": "Senior Project Manager",
         "email": "Abby.Wright@stratumreservoir.com",
         "image": "Abby_Wright.jpg"
     },
@@ -36,14 +48,38 @@
         "image": "Carrie_Kibler.jpg"
     },
     {
-        "name": "Tyler Cunningham",
-        "title": "Laboratory Supervisor",
-        "email": "Tyler.Cunningham@stratumreservoir.com",
-        "image": "Tyler_Cunningham.jpg"
+        "name": "Aidee Steele",
+        "title": "Project Manager",
+        "email": "Aidee.Steele@stratumreservoir.com",
+        "image": "profile_placeholder.jpg"
+    },
+    {
+        "name": "Morgan Barstow",
+        "title": "Mudgas Project Manager",
+        "email": "Morgan.Barstow@stratumreservoir.com",
+        "image": "profile_placeholder.jpg"
+    },
+    {
+        "name": "Suzanne Gent",
+        "title": "Quality Control Specialist",
+        "email": "Suzanne.Walker@stratumreservoir.com",
+        "image": "profile_placeholder.jpg"
+    },
+    {
+        "name": "Keith Hackley",
+        "title": "Senior Isotope Geochemist",
+        "email": "Keith.Hackley@stratumreservoir.com",
+        "image": "Keith_Hackley.png"
+    },
+    {
+        "name": "Myles Moore",
+        "title": "Senior Geochemist",
+        "email": "Myles.Moore@stratumreservoir.com",
+        "image": "Moore.jpg"
     },
     {
         "name": "Jason Klemp",
-        "title": "QHSSE Specialist",
+        "title": "Quality Health Safety Security and Enviroment Specialist",
         "email": "jason.klemp@stratumreservoir.com",
         "image": "Jason_Klemp.jpg"
     },

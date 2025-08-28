@@ -19,7 +19,7 @@ export default function About() {
             <div className="pe-lg-4">
                 <h1>About</h1>
 
-                <p className="lead mb-0 mb-md-3">The largest commercial stable isotope laboratory in the world, Isotech specializes in high-precision carbon, hydrogen, oxygen, nitrogen, and sulfur isotope analysis - isotopic fingerprinting - for a variety of industries. We have built our reputation by providing superior services delivered by expert staff.</p>
+                <p className="lead mb-0 mb-md-3">As one of the largest commercial stable isotope laboratories in the world, Isotech specializes in high-precision carbon, hydrogen, oxygen, nitrogen, and sulfur isotope analysis - isotopic fingerprinting - for a variety of industries. We have built our reputation by providing superior services delivered by expert staff.</p>
             </div>
 
             <Image 

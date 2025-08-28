@@ -75,7 +75,7 @@ export default function SatelliteLaboratories() {
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
             />
 
-            <p className="clearfix">Our satellite lab in Argentina, opened in 2023, located in the excellent hands of the team at GeoLab Sur S.A. For further information, including pricing for analyses and sampling products, <Link href="mailto:hector.villar@geolabsur.com">contact Stratum Reservoir - Buenos Aires</Link>.</p>
+            <p className="clearfix">Our satellite lab in Argentina, opened in 2023, located in the excellent hands of the team at GeoLab Sur S.A. For further information, including pricing for analyses and sampling products, <Link href="mailto:hector.villar@geolabsur.com">contact GeoLab Sur</Link>.</p>
 
         </Subpage>
     );

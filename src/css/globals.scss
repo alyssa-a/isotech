@@ -222,34 +222,39 @@ header {
 /* Footer styles */
 footer {
     color: #FFFFFF;
-}
 
-footer .main-footer {
-    background-color: var(--sr-steel);
-}
+    a {
+        color: #FFFFFF;
+    }
 
-footer .wordmark {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    color: #FFFFFF;
-    line-height: 1;
-}
+    .main-footer {
+        background-color: var(--sr-steel);
+    }
 
-footer .isotech {
-    font-weight: 700;
-    font-size: 42px;
-}
 
-footer .stratum {
-    font-weight: 400;
-    font-size: 14px;
-    margin-left: 3px;
-}
+    .wordmark {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        color: #FFFFFF;
+        line-height: 1;
+    }
 
-footer .copyright {
-    background-color: var(--dark-grey);
-    font-size: 14px;
+    .isotech {
+        font-weight: 700;
+        font-size: 42px;
+    }
+
+    .stratum {
+        font-weight: 400;
+        font-size: 14px;
+        margin-left: 3px;
+    }
+
+    .copyright {
+        background-color: var(--dark-grey);
+        font-size: 14px;
+    }
 }
 
 /* Background colors */
@@ -457,6 +462,10 @@ ul.questions {
     &:has(a:hover) {
         background-color: var(--sr-steel);
         color: #FFFFFF;
+    }
+
+    img {
+        width: 100%;;
     }
 }
 
