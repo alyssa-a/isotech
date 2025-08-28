@@ -29,7 +29,7 @@ export default function News() {
             <p>For more information about Cotton Assurance download a copy of the brochure or call us at 217-398-3490.</p>
 
             <p className="clearfix">
-                <Link className="button download" href="/files/APDN_CertainT_Isotopes_2024.pdf">Cotton Assurance Brochure</Link>
+                <Link className="button download" href="/files/APDN_CertainT_Isotopes_2024.pdf" target="_blank">Cotton Assurance Brochure</Link>
             </p>
 
             {/*<hr className="my-4"/>*/}

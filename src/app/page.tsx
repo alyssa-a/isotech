@@ -71,6 +71,25 @@ export default function Home() {
                     <p className="mt-4"><Link className="button" href="/about/satellite-laboratories">See Satellite Labs</Link></p>
                 </div>
             </Section>
+
+            <Section className="text-center">
+                <h2>Certifications</h2>
+
+                <div className="row">
+                    <div className="col-sm-12 col-md-6">
+                        <p>
+                            <strong>ISO / IEC 17025:2017</strong><br/>
+                            Accreditation #120824
+                        </p>
+                        <p><Link href="/files/ISO17025certificate.pdf" target="_blank">Download our ISO 17025:2017 Certificate</Link></p>
+                    </div>
+
+                    <div className="col-sm-12 col-md-6">
+                        <p><strong>ISO 9001:2015</strong></p>
+                        <p><Link href="/files/ISO9001certificate.pdf" target="_blank">Download our ISO 9001:2015 Certificate</Link></p>
+                    </div>
+                </div>
+            </Section>
         </>
     );
 }

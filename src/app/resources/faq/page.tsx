@@ -14,7 +14,7 @@ export default function FAQ() {
             <h1 className="mb-4">Frequently Asked Questions</h1>
 
             <Accordion heading="What is our QHSSE policy?" headingLevel={2}>
-                <p><Link href="/files/90-70-24-5015 QHSSE Policy Rev. 5.pdf">QHSSE Policy (PDF)</Link></p>
+                <p><Link href="/files/90-70-24-5015 QHSSE Policy Rev. 5.pdf" target="_blank">QHSSE Policy (PDF)</Link></p>
             </Accordion>
 
             <Accordion heading="I want to do isotopic analysis of a gas sample. Do I have to order compositional analysis too?" headingLevel={2}>

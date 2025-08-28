@@ -28,9 +28,9 @@ export default function IsoTrapSampler() {
 
             <p>The IsoTrap Sampler is a regulator used to flow gas through the IsoTrap to collect a gas sample for analysis of hydrogen sulfide isotopes.</p>
 
-            <p className="mt-4"><Link className="button download" href="/files/IsoTrap_Product_Flyer.pdf">IsoTrap Product Flyer (PDF)</Link></p>
+            <p className="mt-4"><Link className="button download" href="/files/IsoTrap_Product_Flyer.pdf" target="_blank">IsoTrap Product Flyer (PDF)</Link></p>
 
-            <p><Link className="button download" href="/files/IsoTrap_Sampling_Instructions.pdf">IsoTrap Sampling Instructions (PDF)</Link></p>
+            <p><Link className="button download" href="/files/IsoTrap_Sampling_Instructions.pdf" target="_blank">IsoTrap Sampling Instructions (PDF)</Link></p>
 
             <div className="ratio ratio-16x9 w-lg-50 my-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/jv6PwF7ocV8?si=kEE2IX4rM4_-WbOh" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

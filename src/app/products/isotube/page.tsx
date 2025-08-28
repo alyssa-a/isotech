@@ -38,7 +38,7 @@ export default function IsoTube() {
 
             <p><strong>Environmentally-friendly:</strong> IsoTubes are 99.9% recyclable.</p>
 
-            <p className="mt-4"><Link className="button download" href="/files/IsoTube Specification Sheet.pdf">IsoTube Specification Sheet (PDF)</Link></p>
+            <p className="mt-4"><Link className="button download" href="/files/IsoTube Specification Sheet.pdf" target="_blank">IsoTube Specification Sheet (PDF)</Link></p>
 
             <p><Link href="https://isosampler.com" className="button">Learn more about IsoTube sampling devices</Link></p>
         </Subpage>

@@ -23,10 +23,6 @@ export default function OrderProductsSection() {
                     </p>
                 </div>
             </div>
-
-
-
-
         </Section>
     );
 }

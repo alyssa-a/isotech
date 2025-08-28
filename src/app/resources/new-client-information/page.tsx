@@ -21,7 +21,7 @@ export default function NewClientInformation() {
             <p>Otherwise, a Master Service Agreement is recommended.  Please review the terms and fill out the form to send along with the billing information</p>
 
             <p>
-                <Link className="button download" href="/files/WFT Laboratory Services and Sales Master Agreement.pdf">Master Service Agreement</Link> 
+                <Link className="button download" href="/files/WFT Laboratory Services and Sales Master Agreement.pdf" target="_blank">Master Service Agreement</Link> 
             </p>
 
             <h2>Billing</h2>
@@ -29,7 +29,7 @@ export default function NewClientInformation() {
             <p>To be able to ship sampling containers and provide services we need to establish you in our accounting system. This requires that a Credit Application be completed.  Our project managers and customer service representatives can help you with any questions about the forms.</p>
 
             <p>
-                <Link className="button download" href="/files/Credit Application.pdf">Credit Application</Link> 
+                <Link className="button download" href="/files/Credit Application.pdf" target="_blank">Credit Application</Link> 
             </p>
 
         </Subpage>

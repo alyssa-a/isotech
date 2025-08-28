@@ -60,7 +60,7 @@ export default function IsoJar() {
                 <li>In situations where the product may not have been handled or stored properly, the customer is advised to evaluate the product for conformity and suitability for use.</li>
             </ul>
 
-            <p className="mt-4"><Link className="button download" href="/files/IsoJar_Sampling_Instructions.pdf">IsoJar Sampling Instructions (PDF)</Link></p>
+            <p className="mt-4"><Link className="button download" href="/files/IsoJar_Sampling_Instructions.pdf" target="_blank">IsoJar Sampling Instructions (PDF)</Link></p>
             
         </Subpage>
 
