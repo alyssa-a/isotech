@@ -37,7 +37,7 @@ export default function SolidsLiquids() {
                         className="figure-img img-fluid"
                     />
                 </div>
-                <figcaption className="figure-caption col-12 col-lg-6">Photo showing scale with solid sample being weighed for isotopic analysis preparation.</figcaption>
+                <figcaption className="figure-caption col-12 col-lg-6">A scale with a solid sample being weighed for isotopic analysis preparation.</figcaption>
             </figure>
 
             <h2>Sampling Guidelines</h2>

@@ -18,7 +18,7 @@ export default function RadioisotopesTab() {
                 <li>Are nuclear waste fluids migrating into an aquifer?</li>
             </ul>
 
-            <figure className="figure row mt-4">
+            {/* <figure className="figure row mt-4">
                 <div className="col-12 col-lg-6">
                     <Image 
                         priority
@@ -29,7 +29,7 @@ export default function RadioisotopesTab() {
                     />
                 </div>
                 <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
-            </figure>
+            </figure> */}
 
             <h3 className="mt-4">Carbon-14 (<sup>14</sup>C) of Dissolved Inorganic Carbon</h3>
             <p>Water is acidified and the resulting carbon dioxide is collected and sent to <Link href="https://www.radiocarbon.com/">Beta Analytic</Link> for AMS analysis. Results are reported in percent modern carbon (pMC).</p>

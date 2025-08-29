@@ -18,10 +18,9 @@ export default function StableIsotopesTab() {
                 <li>Is water used for injection for enhanced oil recovery being produced by the oil well?</li>
             </ul>
 
-            <figure className="figure row mt-4">
+            {/* <figure className="figure row mt-4">
                 <div className="col-12 col-lg-6">
                     <Image 
-                        priority
                         src={placeholder}
                         alt=""
                         width="500"
@@ -29,7 +28,7 @@ export default function StableIsotopesTab() {
                     />
                 </div>
                 <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
-            </figure>
+            </figure> */}
 
             <h3 className="mt-4">δD and δ<sup>18</sup>O: Groundwater</h3>
             <p>We have multiple technologies to analyze the isotopic composition of surface water, groundwater, and deeper produced brine water. Laser Spectrometry allows us to analyze waters more efficiently and cost effectively.</p>

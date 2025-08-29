@@ -13,7 +13,7 @@ export default function QualityAssurance() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Quality Assurance/Quality Control</h1>
 
-            <p>Isotech, an ISO 9001:2008 Certified company, since inception has been known for the quality of its data, as demonstrated by the accompanying comparison graphs. Isotech was co-selected by NIST (National Institute of Standards and Technology) to perform the isotopic calibration of natural gas standards for international distribution.</p>
+            <p className="mt-4">Isotech, an ISO 9001:2008 Certified company, since inception has been known for the quality of its data, as demonstrated by the accompanying comparison graphs. Isotech was co-selected by NIST (National Institute of Standards and Technology) to perform the isotopic calibration of natural gas standards for international distribution.</p>
 
             <p>In addition to required annual proficiency tests mandated to maintain our ISO17025 accreditation, Isotech participates in round-robin testing whenever the opportunity arises and has participated in studies by the Finnigan Corporation, IAEA, and FIRMS, among others.</p>
 

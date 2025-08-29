@@ -20,10 +20,9 @@ export default function WaterChemistryTab() {
                 <li>What is the baseline water quality prior to oil and gas drilling?</li>
             </ul>
 
-            <figure className="figure row mt-4">
+            {/* <figure className="figure row mt-4">
                 <div className="col-12 col-lg-6">
                     <Image 
-                        priority
                         src={placeholder}
                         alt=""
                         width="500"
@@ -31,7 +30,7 @@ export default function WaterChemistryTab() {
                     />
                 </div>
                 <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
-            </figure>
+            </figure> */}
 
             <h3 className="mt-4">Sampling Guidelines and Analytical Procedures</h3>
 
