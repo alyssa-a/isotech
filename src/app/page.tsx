@@ -1,8 +1,10 @@
 import styles from "@/css/home.module.scss";
 import Link from "next/link";
+import Image from "next/image";
 import Section from "@/components/Section";
 import cotton from "@/public/images/cotton.jpg";
 import map from "@/public/images/world-map.jpg";
+import acreditationLogo from '@/public/images/Iso accreditation symbol.png';
 
 export default function Home() {
     return (
@@ -72,21 +74,31 @@ export default function Home() {
                 </div>
             </Section>
 
-            <Section className="text-center">
-                <h2>Certifications</h2>
+            <Section>
 
                 <div className="row">
-                    <div className="col-sm-12 col-md-6">
-                        <p>
-                            <strong>ISO / IEC 17025:2017</strong><br/>
-                            Accreditation #120824
-                        </p>
-                        <p><Link href="/files/ISO17025certificate.pdf" target="_blank">Download our ISO 17025:2017 Certificate</Link></p>
+                    <div className="col-md-6">
+                        <Image
+                            src={acreditationLogo}
+                            alt="ISO Accreditation Logo"
+                            width={180}
+                            height={180}
+                            className="img-fluid float-md-end me-md-4 mb-3"
+                        />
                     </div>
 
-                    <div className="col-sm-12 col-md-6">
-                        <p><strong>ISO 9001:2015</strong></p>
-                        <p><Link href="/files/ISO9001certificate.pdf" target="_blank">Download our ISO 9001:2015 Certificate</Link></p>
+                    <div className="col-md-6">
+                        <h2>Certifications</h2>
+
+                        <p>
+                            <strong>ISO / IEC 17025:2017</strong> | Accreditation #120824<br/>
+                            <Link href="/files/ISO17025certificate.pdf" target="_blank">Download our ISO / IEC 17025:2017 Certificate</Link>
+                        </p>
+
+                        <p>
+                            <strong>ISO 9001:2015</strong><br/>
+                            <Link href="/files/ISO9001certificate.pdf" target="_blank">Download our ISO 9001:2015 Certificate</Link>
+                        </p>
                     </div>
                 </div>
             </Section>

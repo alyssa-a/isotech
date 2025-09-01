@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import placeholder from '@/public/images/placeholder.png';
+import dissolvedGasImg from '@/public/images/water/Dissolved Gas_Water Analyses.png';
 
 export default function DissolvedGasTab() {
     const isoflaskLink = "/products/isoflask";
@@ -13,13 +13,23 @@ export default function DissolvedGasTab() {
 
             <p>Our team determines the dissolved gas composition of water samples collected in <Link href={isoflaskLink}>IsoFlasks®</Link>. Analytical reports include a full compositional and isotopic analysis of the headspace, concentration of methane, ethane and propane dissolved in the water, and carbon and hydrogen isotope values for individual gas components. Dissolved gas concentrations are available for additional components upon request.</p>
 
+            <Image 
+                priority
+                src={dissolvedGasImg}
+                alt="Layered diagram of water wells near a landfill"
+                width={400}
+                height={363}
+                className="figure-img img-fluid float-lg-end ms-lg-3 mb-3"
+            />
+
             {/* <figure className="figure row mt-4">
                 <div className="col-12 col-lg-6">
                     <Image 
                         priority
-                        src={placeholder}
+                        src={dissolvedGasImg}
                         alt=""
-                        width="500"
+                        width={400}
+                        height={363}
                         className="figure-img img-fluid"
                     />
                 </div>

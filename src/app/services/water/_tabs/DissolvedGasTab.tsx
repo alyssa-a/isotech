@@ -26,7 +26,7 @@ export default function DissolvedGasTab() {
             <Image 
                 priority
                 src={dissolvedGasImg}
-                alt=""
+                alt="Layered diagram of water wells near a landfill"
                 width={400}
                 height={363}
                 className="figure-img img-fluid float-lg-end ms-lg-3 mb-3"
@@ -38,7 +38,8 @@ export default function DissolvedGasTab() {
                         priority
                         src={dissolvedGasImg}
                         alt=""
-                        width="500"
+                        width={400}
+                        height={363}
                         className="figure-img img-fluid"
                     />
                 </div>
