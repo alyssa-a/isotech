@@ -3,6 +3,7 @@ import Image from "next/image";
 import Subpage from "@/components/Subpage";
 import OrderProductsSection from "../OrderProductsSection";
 import isosamplerGoImg from '@/public/images/products/IsoSampler_Go.jpg';
+import adapterImg from "@/public/images/products/Adapter for Septum Valve Old tube to new tube.png";
 
 export const metadata = {
     title: "IsoSampler™ Go | Products | Isotech",
@@ -29,6 +30,18 @@ export default function IsoSamplerGo() {
             <p>The IsoSampler Go is used to collect pressurized gas samples from a well head or separator into an IsoTube®. The IsoSampler Go can reduce gas pressures up to 3000 psi down to 80 psi for gas sample collection. Wellhead pressures greater than 3000 psi will require additional flow controls.</p>
 
             <p className="mt-4"><Link className="button download" href="/files/IsoSampler_Go_Sampling_Instructions.pdf" target="_blank">IsoSampler Go Sampling Instructions</Link></p>
+
+            <h2 className="mt-4">Adapter to use the Wellhead Sampler with the current IsoTubes</h2>
+
+            <p>For customers that have the Wellhead Sampler that was used to collect gas samples with the old IsoTubes (double valved tube), we also provide a adapter to use the Wellhead Sampler to collect gas samples into the current IsoTubes (single valved tube). Photo shown below:</p>
+
+            <Image 
+                src={adapterImg}
+                alt="Adapter to connect old isoTube septum valve to current isoTube"
+                width={400}
+                height={315}
+                className="figure-img img-fluid d-block mx-auto mt-4"
+            />
 
         </Subpage>
 
