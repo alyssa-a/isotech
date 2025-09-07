@@ -22,26 +22,12 @@ export default function Footer() {
                                 Champaign, Illinois 61821<br/>
                                 Phone: 217-398-3490
                             </p>
-
-                            <p className="mb-0  mt-4">
-                                <strong>Order Products:</strong><br/>
-                                <Link href="mailto:onlineorders@stratumreservoir.com">onlineorders@stratumreservoir.com</Link>
-                            </p>
                         </div>
 
                         <div className="col-lg-6 mt-4">
-                            <Image
-                                src={acreditationLogo}
-                                alt="PJLA Testing accredition logo"
-                                width={100}
-                                height={98}
-                                className="img-fluid float-md-start me-md-3 mb-3"
-                            />
-
-                            <p className="mb-0">
-                                <strong>Certifications:</strong><br/>
-                                <Link href="/files/ISO17025certificate.pdf" target="_blank">ISO / IEC 17025:2017 | Accreditation #120824</Link><br/>
-                                <Link href="/files/ISO9001certificate.pdf" target="_blank">ISO 9001:2015</Link>
+                            <p>
+                                <strong>Order Products:</strong><br/>
+                                <Link href="mailto:onlineorders@stratumreservoir.com">onlineorders@stratumreservoir.com</Link>
                             </p>
                         </div>
                     </div>

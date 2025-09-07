@@ -74,31 +74,24 @@ export default function Home() {
                 </div>
             </Section>
 
-            <Section>
+            <Section className="text-center py-4">
+                <h2 className="mb-4">Certifications</h2>
 
                 <div className="row">
-                    <div className="col-md-6">
-                        <Image
-                            src={acreditationLogo}
-                            alt="ISO Accreditation Logo"
-                            width={180}
-                            height={180}
-                            className="img-fluid float-md-end me-md-4 mb-3"
-                        />
+                    <div className="col-md-6 mb-4 mb-md-0">
+                        <div className="card p-4 d-flex flex-column justify-content-center">
+                            <h3>ISO / IEC 17025:2017</h3>
+                            <p>Accreditation #120824</p>
+                            <p><Link className="button download" href="/files/ISO17025certificate.pdf" target="_blank">Download our ISO / IEC 17025:2017 Certificate</Link></p>
+                        </div>
                     </div>
 
                     <div className="col-md-6">
-                        <h2>Certifications</h2>
+                        <div className="card p-4 d-flex flex-column justify-content-center">
+                            <h3>ISO 9001:2015</h3>
 
-                        <p>
-                            <strong>ISO / IEC 17025:2017</strong> | Accreditation #120824<br/>
-                            <Link href="/files/ISO17025certificate.pdf" target="_blank">Download our ISO / IEC 17025:2017 Certificate</Link>
-                        </p>
-
-                        <p>
-                            <strong>ISO 9001:2015</strong><br/>
-                            <Link href="/files/ISO9001certificate.pdf" target="_blank">Download our ISO 9001:2015 Certificate</Link>
-                        </p>
+                            <p><Link className="button download" href="/files/ISO9001certificate.pdf" target="_blank">Download our ISO 9001:2015 Certificate</Link></p>
+                        </div>
                     </div>
                 </div>
             </Section>
