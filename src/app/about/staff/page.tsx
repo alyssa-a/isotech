@@ -21,8 +21,8 @@ export default function Staff() {
                         <Image
                             src={`/images/staff/${person.image}`}
                             alt={person.name}
-                            width={105}
-                            height={157}
+                            width={200}
+                            height={280}
                             className="img-fluid mb-3"
                         />
                         <h2 className="fs-5 mb-1">{person.name}</h2>

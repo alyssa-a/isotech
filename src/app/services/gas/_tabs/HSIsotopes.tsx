@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import HSIsotopesImg from '@/public/images/staff/Hydrogen Sulfide Isotopes_Gas Analyses.png';
+import HSIsotopesImg from '@/public/images/gas/Hydrogen Sulfide Isotopes_Gas Analyses.png';
 
 export default function HSIsotopesTab() {
     return (
