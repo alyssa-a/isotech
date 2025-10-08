@@ -2,19 +2,19 @@
     {
         "name": "Steve Pelphrey",
         "title": "General Manager",
-        "email": "Steven.Pelphrey@stratumreservoir.com",
+        "email": "steven.pelphrey@stratumreservoir.com",
         "image": "Steve_Pelphrey.jpg"
     },
     {
         "name": "Tyler Cunningham",
         "title": "Laboratory Supervisor",
-        "email": "Tyler.Cunningham@stratumreservoir.com",
+        "email": "tyler.cunningham@stratumreservoir.com",
         "image": "Tyler_Cunningham.jpg"
     },
     {
         "name": "Cameron Jones",
         "title": "Laboratory Supervisor",
-        "email": "Cameron.Jones@stratumreservoir.com",
+        "email": "cameron.jones@stratumreservoir.com",
         "image": "Cam_Jones.jpg"
     },
     {
@@ -25,50 +25,50 @@
     },
     {
         "name": "Sher Dixon",
-        "title": "Senior Project Manager",
-        "email": "Sher.Dixon@stratumreservoir.com",
+        "title": "Client Services Supervisor",
+        "email": "sher.dixon@stratumreservoir.com",
         "image": "Sher_Dixon.jpg"
     },
     {
         "name": "Abby Wright",
         "title": "Senior Project Manager",
-        "email": "Abby.Wright@stratumreservoir.com",
+        "email": "abby.wright@stratumreservoir.com",
         "image": "Abby_Wright.jpg"
     },
     {
         "name": "Carrie Kibler",
-        "title": "Project Manager",
-        "email": "Carolyn.Kibler@stratumreservoir.com",
+        "title": "Senior Project Manager",
+        "email": "carolyn.kibler@stratumreservoir.com",
         "image": "Carrie_Kibler.jpg"
     },
     {
         "name": "Aidee Steele",
         "title": "Project Manager",
-        "email": "Aidee.Steele@stratumreservoir.com",
+        "email": "aidee.steele@stratumreservoir.com",
         "image": "Aidee_Steele.jpg"
     },
     {
         "name": "Morgan Barstow",
         "title": "Mudgas Project Manager",
-        "email": "Morgan.Barstow@stratumreservoir.com",
+        "email": "morgan.barstow@stratumreservoir.com",
         "image": "Morgan_Barstow.jpg"
     },
     {
         "name": "Suzanne Gent",
         "title": "Quality Control Specialist",
-        "email": "Suzanne.Walker@stratumreservoir.com",
+        "email": "suzanne.walker@stratumreservoir.com",
         "image": "profile_placeholder.jpg"
     },
     {
         "name": "Keith Hackley",
         "title": "Senior Isotope Geochemist",
-        "email": "Keith.Hackley@stratumreservoir.com",
+        "email": "keith.hackley@stratumreservoir.com",
         "image": "Keith_Hackley.jpg"
     },
     {
         "name": "Myles Moore",
         "title": "Senior Geochemist",
-        "email": "Myles.Moore@stratumreservoir.com",
+        "email": "myles.moore@stratumreservoir.com",
         "image": "Myles_Moore.jpg"
     },
     {
@@ -80,7 +80,7 @@
     {
         "name": "Gavin Steele",
         "title": "Product Line Manager",
-        "email": "Gavin.Steele@stratumreservoir.com",
+        "email": "gavin.steele@stratumreservoir.com",
         "image": "Gavin_Steele.jpg"
     }
 ]
