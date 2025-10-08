@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Subpage from "@/components/Subpage";
-import qcImg from "@/public/images/QC.jpg";
+import qcImg from "@/public/images/Quality Assurance.Quality Control Table.png";
 
 export const metadata = {
     title: "Quality Assurance/Quality Control | About | Isotech",
@@ -20,12 +20,12 @@ export default function QualityAssurance() {
             <Image 
                 src={qcImg}
                 alt="table of analysis results"
-                width={800}
-                height={812}
+                width={700}
+                height={873}
                 className="img-fluid"
             />
 
-            <p>At least 20% of all analyses performed at Isotech are for QA/QC.</p>
+            <p className="mt-3">At least 20% of all analyses performed at Isotech are for QA/QC.</p>
 
             <h2>Standards</h2>
 

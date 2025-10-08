@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Accordion from '@/components/Accordion';
-import placeholder from '@/public/images/placeholder.png';
+import stableIsotopesImg from '@/public/images/water/Stable Isotopes of Water Figure.png';
 
 export default function StableIsotopesTab() {
     return (
@@ -17,6 +17,14 @@ export default function StableIsotopesTab() {
                 <li>Are injected produced fluids leaking into shallower aquifers?</li>
                 <li>Is water used for injection for enhanced oil recovery being produced by the oil well?</li>
             </ul>
+
+            <Image 
+                src={stableIsotopesImg}
+                alt="Graph showing stable isotopes of water"
+                width={600}
+                height={443}
+                className="figure-img img-fluid mx-auto d-block my-4"
+            />
 
             {/* <figure className="figure row mt-4">
                 <div className="col-12 col-lg-6">
