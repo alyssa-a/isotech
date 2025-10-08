@@ -26,7 +26,7 @@ export default function SamplingProcedures() {
                 <li><Link href="https://www.youtube.com/watch?v=ZkZ-8ySx3FA" target="_blank">IsoFlask® Sampling Video</Link></li>
             </ul>
 
-            <h2>Wellhead and Pipeline Natural Gas Samples</h2>
+            <h2>Wellhead Gas Samples</h2>
             <ul>
                 <li><Link href="/files/Stainless_Steel_Cylinders_Sampling_Instructions.pdf" target="_blank">In double-ended gas cylinders</Link></li>
                 <li><Link href="/files/IsoSampler GO to collect gas sample from wellhead.pdf" target="_blank">IsoSampler™ GO to collect gas sample from wellhead</Link></li>
@@ -36,8 +36,7 @@ export default function SamplingProcedures() {
             <ul>
                 <li><Link href="/files/IsoTrap_Sampling_Instructions.pdf" target="_blank">Using IsoTrap®</Link></li>
                 <li><Link href="https://www.youtube.com/watch?v=jv6PwF7ocV8" target="_blank">IsoTrap® Sampling Video</Link></li>
-                <li><Link href="/files/IsoScrubber_Sampling_Instructions.pdf" target="_blank">Using IsoScrubber®</Link></li>
-                <li><Link href="https://www.youtube.com/watch?v=rMkLFqpcKWs" target="_blank">IsoScrubber® Sampling Video</Link></li>
+                <li><Link href="/files/H2S_IsoFlask_Sampling_Instructions.pdf" target="_blank">Using H<sub>2</sub>S Scrubbing IsoFlasks®</Link></li>
             </ul>
 
             <h2>Soil-Gas Samples</h2>
