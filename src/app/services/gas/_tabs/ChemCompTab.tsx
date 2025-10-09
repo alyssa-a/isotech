@@ -19,12 +19,13 @@ export default function ChemCompTab() {
                     <Image 
                         priority
                         src={chemCompGraph}
-                        alt=""
-                        width="500"
+                        alt="Graph showing gas composition data"
+                        width={400}
+                        height={523}
                         className="figure-img img-fluid"
                     />
                 </div>
-                <figcaption className="figure-caption col-12 col-lg-6">To the left is an example of how our team can help to maximize production in a well field. In the top diagram, 10 wells are producing gas from hydrocarbon bearing geologic units A, B, and C, that has a normal fault cutting through the units. The plot in the bottom, shows isotopic compositions of gas samples collected from each well. In this example, well 5 is producing a mixture of gas from geologic units A and B and well 3 is producing a mixture of gas from geologic units B and C, but over time is starting to produce more gas from unit C. By comparing this information with volumes of gas produced and the associated British Thermal Units (BTU, a value our team provides with each gas analysis), one can determine how to best enhance production from this field. These types of analyses can help in well field management decisions, such as where to drill a new producing well or which wells to stop pumping in.</figcaption>
+                <figcaption className="figure-caption col-12 col-lg-6">This is an example of how gas composition data in tandem with isotopic measurements can be used to understand the origin of gas in a well field. Gas composition and isotopic data from gas samples collected from different wells can be compared to determine the source of gas or if a mixture of gases are contributing to gas production in a well.</figcaption>
             </figure>
 
             <h3 className="mt-4">Sampling Guidelines</h3>

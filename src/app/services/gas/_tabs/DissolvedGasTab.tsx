@@ -11,7 +11,7 @@ export default function DissolvedGasTab() {
         <div className="tab-pane fade" id="DissolvedGas" role="tabpanel" aria-labelledby="DissolvedGasTab" tabIndex={0}>
             <h2>Dissolved Gas</h2>
 
-            <p>Our team determines the dissolved gas composition of water samples collected in <Link href={isoflaskLink}>IsoFlasks®</Link>. Analytical reports include a full compositional and isotopic analysis of the headspace, concentration of methane, ethane and propane dissolved in the water, and carbon and hydrogen isotope values for individual gas components. Dissolved gas concentrations are available for additional components upon request.</p>
+            <p>Our team determines the dissolved gas composition of water samples collected in <Link href={isoflaskLink}>IsoFlasks®</Link>. Analytical reports include a full compositional and isotopic analysis of the headspace, concentration of methane, ethane and propane dissolved in the water, and carbon and hydrogen isotope values for individual gas components. Dissolved gas concentrations are available for additional components upon request. Below is a diagram showing some sources of stray gas that could migrate into a groundwater well.</p>
 
             <Image 
                 priority
@@ -21,20 +21,6 @@ export default function DissolvedGasTab() {
                 height={363}
                 className="figure-img img-fluid float-lg-end ms-lg-3 mb-3"
             />
-
-            {/* <figure className="figure row mt-4">
-                <div className="col-12 col-lg-6">
-                    <Image 
-                        priority
-                        src={dissolvedGasImg}
-                        alt=""
-                        width={400}
-                        height={363}
-                        className="figure-img img-fluid"
-                    />
-                </div>
-                <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
-            </figure> */}
 
             <h3 className="mt-4">Sampling Guidelines</h3>
 

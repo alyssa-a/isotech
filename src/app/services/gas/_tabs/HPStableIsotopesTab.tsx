@@ -19,11 +19,12 @@ export default function HPStableIsotopesTab() {
                         priority
                         src={fig14}
                         alt="Graph showing the source of methane"
-                        width="500"
+                        width={500}
+                        height={490}
                         className="figure-img img-fluid"
                     />
                 </div>
-                <figcaption className="figure-caption col-12 col-lg-6">Diagnostic graph used by our team to identify the source of methane. By comparing the δD versus δ<sup>13</sup>C of methane we can determine if methane was formed by thermogenic processes or microbial processes and specifically by the carbon dioxide reduction or fermentation pathway. We can also compare data from multiple sampling points to observe if oxidation is occurring or if gas samples from two different locations are associated.</figcaption>
+                <figcaption className="figure-caption col-12 col-lg-6">A diagnostic plot that uses the isotopes of methane to determine if methane was formed by thermogenic processes, sub-surface microbial processes, or near-surface microbial gas processes.</figcaption>
             </figure>
 
             <h3 className="mt-4">Sampling Guidelines</h3>

@@ -18,11 +18,12 @@ export default function RadioisotopesTab() {
                     priority
                     src={fig7A}
                     alt="graph showing detection of tritium and carbon 14"
-                    width="500"
+                    width={500}
+                    height={256}
                     className="figure-img img-fluid"
                 />
             </div>
-            <figcaption className="figure-caption col-12 col-lg-6">Displayed is a graph used by our team to source gas based on measurements of <sup>14</sup>C in methane. Carbon-14 is a useful tracer due to its half-life decay of approximately 5,730 years. We can differentiate the source of methane based on the carbon source for methane formation (such as thermogenic gas formation from carbon burial millions of years ago versus recently formed methane from modern swamps or landfills) using <sup>14</sup>C in methane.</figcaption>
+            <figcaption className="figure-caption col-12 col-lg-6">We can differentiate methane formed from carbon that was buried millions of years ago (thermogenic gas), methane from drift gas that formed tens to hundreds of thousands of years ago, and recently forming methane from swamps and landfill gas using measurements of <sup>14</sup>C in methane and carbon dioxide.</figcaption>
         </figure>
 
         <h3>Tritium (<sup>3</sup>H) of methane</h3>
@@ -32,11 +33,12 @@ export default function RadioisotopesTab() {
                     priority
                     src={fig7B}
                     alt="bar chart showing carbon 14 activity in different types of samples"
-                    width="500"
+                    width={500}
+                    height={307}
                     className="figure-img img-fluid"
                 />
             </div>
-            <figcaption className="figure-caption col-12 col-lg-6">In situations where multiple modern carbon sources could be responsible for methane formation, we can integrate the powerful tritium of methane tracer. Tritium has a decay half-life of 12.39 years and we have found it to be enriched in methane from landfills (Hackley et al., 1996). This allows us to delineate methane from landfills versus methane formation from naturally occurring microbial gas sources such as from swamp environments or drift gas.</figcaption>
+            <figcaption className="figure-caption col-12 col-lg-6">Tritium has a half-life decay of 12.39 years, and we have found it to be enriched in methane from landfills (Hackley et al., 1996). This allows us to delineate methane from landfills versus methane formation from naturally occurring microbial gas sources such as from swamp environments or drift gas.</figcaption>
         </figure>
 
         <h3 className="mt-4">Sampling Guidelines</h3>

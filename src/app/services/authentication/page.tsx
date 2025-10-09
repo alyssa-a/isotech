@@ -50,16 +50,16 @@ export default function Authentication() {
                         className="figure-img img-fluid"
                     />
                 </div>
-                <figcaption className="figure-caption col-12 col-lg-6">The plot shows how we can use the carbon isotopic composition to determine if a honey sample is made of pure honey, honey that has been adulterated by sugar or if it is made of sugar from sugar cane/corn syrup. </figcaption>
+                <figcaption className="figure-caption col-12 col-lg-6">The plot shows how we can use the carbon isotopic composition to determine if a honey sample is made of pure honey or if it has been adulterated with sugar cane or corn syrup.</figcaption>
             </figure>
 
             <hr className="my-4"/>
 
             <h2>Meat and Timber Authentication</h2>
 
-            <p>Unfortunately, bad actors can label lower quality meat or wood as higher quality products to unethically increase profits. For example, bad actors can label beef “Product of USA”, however the cattle could have born, raised, and slaughtered outside the USA. Bad actors could also harvest timber from protected regions and fraudulently pass it off as timber being grown in regions where logging is permitted.</p>
+            <p>Unfortunately, bad actors can label lower quality meat or wood as higher quality products to unethically increase profits. For example, beef can be labeled as “Product of USA” and cattle could have born, raised, and slaughtered outside the USA. Timber can be harvested from protected regions and fraudulently passed off as timber being grown in regions where logging is permitted.</p>
 
-            <p>Our team can make isotopic measurements of meat and timber to assess the origin of where cattle were raised or where timber were grown to verify the true origin of meat or timber. These isotopic measurements in meat can also be used to verify if cattle were truly grass-fed or if bad actors are trying to pass off corn-fed beef as grass-fed beef.</p>
+            <p>Our team can make isotopic measurements of meat and timber to assess the origin of where cattle were raised or where timber was grown to verify the origin of meat or timber.</p>
 
         </Subpage>
     );

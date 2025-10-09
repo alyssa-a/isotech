@@ -45,9 +45,7 @@ export default function ShippingGuidelines() {
 
             <h2 className="mt-4">HAZMAT Certification</h2>
 
-            <p>You must be certified to ship hazardous goods before sending flammable and/or toxic gases to Isotech&lsquo;s laboratory.</p>
-
-            <p>Numerous companies offer training courses at your facility or online. If you&lsquo;re interested in an online course, please <Link href="/about/contact">contact us</Link> and we&lsquo;ll provide you with the necessary information.</p>
+            <p>You must be certified to ship hazardous goods before sending flammable gases to Isotech&lsquo;s laboratory.</p>
 
         </Subpage>
     );
