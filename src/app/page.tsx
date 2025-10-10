@@ -35,7 +35,7 @@ export default function Home() {
 
             <Section className="text-center">
                 <div className="mw-800">
-                    <h2>One of the Largest Commercial Stable Isotope Laboratories in the World</h2>
+                    <h2>A Global Leader in High Precision Isotope Testing</h2>
 
                     <p>Isotech specializes in high-precision carbon, hydrogen, oxygen, nitrogen, and sulfur isotope analysis and interpreting data for isotopic fingerprinting. We have built our reputation by providing superior services delivered by expert staff.</p>
 

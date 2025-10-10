@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Section from "@/components/Section";
-import buildingImg from "@/public/images/isotech-building2010.jpg";
+import buildingImg from "@/public/images/Isotech Building side view.png";
 
 export const metadata = {
     title: "About | Isotech",
