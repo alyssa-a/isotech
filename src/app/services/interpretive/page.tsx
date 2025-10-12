@@ -21,14 +21,16 @@ export default function Interpretive() {
 
             <p>You can call our facility, and we can discuss with you which types of samples you should collect and which analyses to perform to address your environmental issue or to enhance extraction capabilities. By providing us with site maps of where samples were collected and a background on what you are trying to understand using geochemical analyses, we can put together a report with proven sourcing diagrams/mixing calculations and citations to address a variety of geochemical conundrums.</p>
 
-            <h2>Our Team</h2>
-            <div className="row mb-4">
+            <h2 className='mt-4'>Our Team</h2>
+            <div className="row">
                 <div className="col-12 col-md-6">
                     <Image 
                         priority
                         src={keith}
+                        width={200}
+                        height={280}
                         alt="Keith Hackley"
-                        className="portrait mb-3"
+                        className="mb-3"
                     />
 
                     <h3 className="fs-5 mb-1">Dr. Keith C. Hackley</h3>
@@ -46,8 +48,10 @@ export default function Interpretive() {
                     <Image 
                         priority
                         src={myles}
+                        width={200}
+                        height={280}
                         alt="Myles Moore"
-                        className="portrait mb-3"
+                        className="mb-3"
                     />
 
                     <h3 className="fs-5 mb-1">Dr. Myles T. Moore</h3>
@@ -62,7 +66,7 @@ export default function Interpretive() {
                 </div>
             </div>
 
-            <h2>Some issues addressed by our interpretive team</h2>
+            <h2 className='mt-4'>Some issues addressed by our interpretive team</h2>
             <ul className="questions">
                 <li>Is stray natural gas from a leaking pipeline, an underground gas storage reservoir, a swamp, microbial drift gas, coal mining, decomposition of an oil spill, leaking from an abandoned well, a producing oil or gas well, or a landfill?</li>
                 <li>What are the sources and processes controlling the presence of methane and brine in groundwater wells?</li>
