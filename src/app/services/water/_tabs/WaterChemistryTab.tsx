@@ -1,38 +1,14 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import analysisSuites from '@/data/water-chemistry-analysis-suites.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import placeholder from '@/public/images/placeholder.png';
 
 export default function WaterChemistryTab() {    
     return (
         <div className="tab-pane fade" id="WaterChemistry" role="tabpanel" aria-labelledby="WaterChemistryTab" tabIndex={0}>
             <h2>Water Chemistry</h2>
 
-            <h3>Questions we can answer</h3>
-            <ul className="questions mb-0">
-                <li>What is the concentration of a specific metal in a water sample?</li>
-                <li>Have deeper saline fluids higher in chloride and sodium migrated into shallower groundwater aquifers?</li>
-                <li>What is the concentration of lithium in produced water?</li>
-                <li>Are waters from different origins mixing?</li>
-                <li>Is subsurface carbon sequestration successfully trapping dissolved carbon dioxide in the subsurface?</li>
-                <li>What is the baseline water quality prior to oil and gas drilling?</li>
-            </ul>
-
-            {/* <figure className="figure row mt-4">
-                <div className="col-12 col-lg-6">
-                    <Image 
-                        src={placeholder}
-                        alt=""
-                        width="500"
-                        className="figure-img img-fluid"
-                    />
-                </div>
-                <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
-            </figure> */}
-
-            <h3 className="mt-4">Sampling Guidelines and Analytical Procedures</h3>
+            <h3>Sampling Guidelines and Analytical Procedures</h3>
 
             <h4>Anions</h4>
             <p>In the field, 250 mL of filtered water (using a 0.45 micron filter) is collected in a HDPE or plastic bottle. Water is inlet into an Ion Chromatograph (IC) for anion concentration analysis at the lab.</p>
@@ -86,6 +62,16 @@ export default function WaterChemistryTab() {
 
             <p>Custom analysis packages available on request - call us at (217) 398-3490 or email <Link href="mailto:DLChampaignProjectManagement@stratumreservoir.com">DLChampaignProjectManagement@stratumreservoir.com</Link> for a quote. </p>
 
+            <h3 className='mt-4'>Questions we can answer</h3>
+
+            <ul className="questions mb-0">
+                <li>What is the concentration of a specific metal in a water sample?</li>
+                <li>Have deeper saline fluids higher in chloride and sodium migrated into shallower groundwater aquifers?</li>
+                <li>What is the concentration of lithium in produced water?</li>
+                <li>Are waters from different origins mixing?</li>
+                <li>Is subsurface carbon sequestration successfully trapping dissolved carbon dioxide in the subsurface?</li>
+                <li>What is the baseline water quality prior to oil and gas drilling?</li>
+            </ul>
         </div>
     );
 }

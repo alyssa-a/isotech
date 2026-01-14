@@ -55,24 +55,7 @@ export default function Gas() {
 
             <p className="lead">We are an established industry leader in performing gas compositional and isotopic analyses since 1985 for a variety of enterprises. If you have a specific need not listed, please <Link href="/about/contact">contact us</Link>.</p>
 
-            <h2 className="fs-5">Questions we can answer</h2>
-
-            <ul className="questions mb-0">
-                <li>Is stray natural gas from a leaking pipeline, gas storage reservoir, swamp, microbial drift gas, coal mining, oil spill, gasoline spill, abandoned well, or a producing oil or gas well?</li>
-                <li>Did storage gas enter a producing well? If so, what proportion of gas is storage gas and native gas in the producing well?</li>
-                <li>Is gas from the tubing of a well leaking into the annulus spacing of the well? Could gas in the annulus space of a well be from shallower hydrocarbon bearing units or from microbial activity?</li>
-                <li>Could hydrocarbon gas be migrating into the soil gas zone and if so, what is the source of that hydrocarbon gas?</li>
-                <li>Has stray gas undergone oxidation?</li>
-                <li>What geologic unit is gas from in a producing well? If there is a mixture of gas sources, what is the proportion of gas from each source?</li>
-                <li>Is microbial methane formed by near surface fermentation or deeper sub-surface carbon dioxide reduction processes?</li>
-                <li>Did I discover economically viable concentrations of hydrogen or helium?</li>
-                <li>While drilling a well could I be drilling through other hydrocarbon bearing units suitable for extraction?</li>
-                <li>Did gas originate from a landfill or an alternative source?</li>
-            </ul>
-
-            <hr className="my-5"/>
-
-            <div className="row">
+            <div className="row mt-4">
                 <div className="col-12 col-lg-3 pe-lg-4 mb-4">
                     <Tabs tabData={tabs}/>
                 </div>
@@ -88,6 +71,23 @@ export default function Gas() {
                     </div>
                 </div>
             </div>
+
+            <hr className="my-5"/>
+
+            <h2>Questions we can answer</h2>
+
+            <ul className="questions mb-0">
+                <li>Is stray natural gas from a leaking pipeline, gas storage reservoir, swamp, microbial drift gas, coal mining, oil spill, gasoline spill, abandoned well, or a producing oil or gas well?</li>
+                <li>Did storage gas enter a producing well? If so, what proportion of gas is storage gas and native gas in the producing well?</li>
+                <li>Is gas from the tubing of a well leaking into the annulus spacing of the well? Could gas in the annulus space of a well be from shallower hydrocarbon bearing units or from microbial activity?</li>
+                <li>Could hydrocarbon gas be migrating into the soil gas zone and if so, what is the source of that hydrocarbon gas?</li>
+                <li>Has stray gas undergone oxidation?</li>
+                <li>What geologic unit is gas from in a producing well? If there is a mixture of gas sources, what is the proportion of gas from each source?</li>
+                <li>Is microbial methane formed by near surface fermentation or deeper sub-surface carbon dioxide reduction processes?</li>
+                <li>Did I discover economically viable concentrations of hydrogen or helium?</li>
+                <li>While drilling a well could I be drilling through other hydrocarbon bearing units suitable for extraction?</li>
+                <li>Did gas originate from a landfill or an alternative source?</li>
+            </ul>
         </Subpage>
     );
 }

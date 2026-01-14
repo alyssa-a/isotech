@@ -18,7 +18,7 @@ export default function HSIsotopesTab() {
                     height={404}
                     className="figure-img img-fluid mx-auto d-block mb-3"
                 />
-                <figcaption className="figure-caption">Hydrogen Sulfide is a toxic gas that is dangerous to human health and is costly to remove from gas production operations. Isotech is not a sour gas lab and therefore cannot receive sour gases. Our team provides a gas sampling device that converts H<sub>2</sub>S from a gas stream into a solid to ship without HAZMAT restrictions (the IsoTrap® ). We can determine the sulfur isotopic composition of the solid H<sub>2</sub>S to assess the source of H<sub>2</sub>S. We also sell equipment to remove H<sub>2</sub>S from gas for analysis of other parameters.</figcaption>
+                <figcaption className="figure-caption">Understanding the source of H<sub>2</sub>S is important for well field management and future exploration activities. The associated costs in remediating a well that contains H<sub>2</sub>S could make a well no longer feasible to produce gas from. The diagram above shows some of the possible H<sub>2</sub>S sources that our isotope testing can differentiate.”</figcaption>
             </figure>
 
             <h3 className="mt-4">Sampling Guidelines</h3>

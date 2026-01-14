@@ -8,16 +8,6 @@ export default function NitrateTab() {
         <div className="tab-pane fade" id="Nitrate" role="tabpanel" aria-labelledby="NitrateTab" tabIndex={0}>
             <h2>Nitrate Isotopes</h2>
 
-            <h3>Questions we can answer</h3>
-            <ul className="questions mb-0">
-                <li>What is the source of nitrate in a water source and is the concentration at levels dangerous to human health?</li>
-                <li>Is nitrate from reduced nitrogen fertilizer?</li>
-                <li>Is nitrate from synthetic fertilizer?</li>
-                <li>Is nitrate from septic systems?</li>
-                <li>Is nitrate from manure applications?</li>
-                <li>Is denitrification occurring in a groundwater aquifer system?</li>
-            </ul>
-
             <figure className="figure row mt-4">
                 <div className="col-12 col-lg-6">
                     <Image 
@@ -52,6 +42,17 @@ export default function NitrateTab() {
                 <h5>Shipping</h5>
                 <p>Samples must be shipped on ice and overnighted to our lab. Do not ship on a Friday as there is no one to receive the sample and put in refrigeration over the weekend. Please include a <Link href="/resources/shipping-guidelines">Chain of Custody (COC) form</Link>.</p>
             </Accordion>
+            
+            <h3 className='mt-4'>Questions we can answer</h3>
+
+            <ul className="questions mb-0">
+                <li>What is the source of nitrate in a water source and is the concentration at levels dangerous to human health?</li>
+                <li>Is nitrate from reduced nitrogen fertilizer?</li>
+                <li>Is nitrate from synthetic fertilizer?</li>
+                <li>Is nitrate from septic systems?</li>
+                <li>Is nitrate from manure applications?</li>
+                <li>Is denitrification occurring in a groundwater aquifer system?</li>
+            </ul>
         </div>
     );
 }

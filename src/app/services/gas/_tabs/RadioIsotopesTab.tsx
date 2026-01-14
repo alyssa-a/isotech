@@ -23,7 +23,7 @@ export default function RadioisotopesTab() {
                     className="figure-img img-fluid"
                 />
             </div>
-            <figcaption className="figure-caption col-12 col-lg-6">We can differentiate methane formed from carbon that was buried millions of years ago (thermogenic gas), methane from drift gas that formed tens to hundreds of thousands of years ago, and recently forming methane from swamps and landfill gas using measurements of <sup>14</sup>C in methane and carbon dioxide.</figcaption>
+            <figcaption className="figure-caption col-12 col-lg-6">We can differentiate methane formed from carbon that was buried millions of years ago, methane from drift gas that formed tens to hundreds of thousands of years ago, and recently forming methane from swamps and landfill gas using measurements of <sup>14</sup>C in methane and carbon dioxide.</figcaption>
         </figure>
 
         <h3>Tritium (<sup>3</sup>H) of methane</h3>

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Accordion from '@/components/Accordion';
-import chemCompGraph from '@/public/images/gas/Fig. 6A Gas. Chemical Composition.jpg';
+import chemCompGraph from '@/public/images/gas/Services.Gas Analyses.Chemical Composition.png';
 
 export default function ChemCompTab() {
     return (
@@ -21,11 +21,11 @@ export default function ChemCompTab() {
                         src={chemCompGraph}
                         alt="Graph showing gas composition data"
                         width={400}
-                        height={523}
+                        height={387}
                         className="figure-img img-fluid"
                     />
                 </div>
-                <figcaption className="figure-caption col-12 col-lg-6">This is an example of how gas composition data in tandem with isotopic measurements can be used to understand the origin of gas in a well field. Gas composition and isotopic data from gas samples collected from different wells can be compared to determine the source of gas or if a mixture of gases are contributing to gas production in a well.</figcaption>
+                <figcaption className="figure-caption col-12 col-lg-6">This plot shows how hydrocarbon gas composition data in tandem with isotopic measurements can be used to understand the origin of a gas sample. Gas composition and isotopic data from gas samples collected from different wells can be compared to determine the source of gas or if a mixture of gases are contributing to gas production in a well.</figcaption>
             </figure>
 
             <h3 className="mt-4">Sampling Guidelines</h3>

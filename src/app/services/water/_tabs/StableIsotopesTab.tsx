@@ -8,16 +8,6 @@ export default function StableIsotopesTab() {
         <div className="tab-pane fade" id="StableIsotopes" role="tabpanel" aria-labelledby="StableIsotopesTab" tabIndex={0}>
             <h2>Stable Isotopes</h2>
 
-            <h3>Questions we can answer</h3>
-            <ul className="questions mb-0">
-                <li>Are deeper brine fluids migrating into a drinking water aquifer?</li>
-                <li>What is the source of water in an aquifer?</li>
-                <li>What water source(s) is recharging an aquifer?</li>
-                <li>Where is water sourced from that is contaminated with nitrate/toxic metals?</li>
-                <li>Are injected produced fluids leaking into shallower aquifers?</li>
-                <li>Is water used for injection for enhanced oil recovery being produced by the oil well?</li>
-            </ul>
-
             <figure className="figure row mt-4">
                 <div className="col-12 col-lg-6">
                     <Image 
@@ -91,6 +81,17 @@ export default function StableIsotopesTab() {
                 <h5>Shipping</h5>
                 <p>We recommend the sample be shipped on ice and overnighted to the lab. Please do not ship on a Friday as we only receive sample Monday through Friday.</p>
             </Accordion>
+
+            <h3 className="mt-4">Questions we can answer</h3>
+
+            <ul className="questions mb-0">
+                <li>Are deeper brine fluids migrating into a drinking water aquifer?</li>
+                <li>What is the source of water in an aquifer?</li>
+                <li>What water source(s) is recharging an aquifer?</li>
+                <li>Where is water sourced from that is contaminated with nitrate/toxic metals?</li>
+                <li>Are injected produced fluids leaking into shallower aquifers?</li>
+                <li>Is water used for injection for enhanced oil recovery being produced by the oil well?</li>
+            </ul>
         </div>
     );
 }

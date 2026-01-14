@@ -1,37 +1,12 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import Accordion from '@/components/Accordion';
-import placeholder from '@/public/images/placeholder.png';
 
 export default function RadioisotopesTab() {
     return (
         <div className="tab-pane fade" id="Radioisotopes" role="tabpanel" aria-labelledby="RadioisotopesTab" tabIndex={0}>
             <h2>Radioisotopes</h2>
 
-            <h3>Questions we can answer</h3>
-            <ul className="questions mb-0">
-                <li>How old is the groundwater in an aquifer system? </li>
-                <li>Are there relationships between the relative ages of groundwater and water quality?</li>
-                <li>Did landfill gas migrate into a groundwater well?</li>
-                <li>Did fluids from producing oil/gas wells migrate into a landfill?</li>
-                <li>Is water in an aquifer from recent precipitation (modern) or from an older source?</li>
-                <li>Are nuclear waste fluids migrating into an aquifer?</li>
-            </ul>
-
-            {/* <figure className="figure row mt-4">
-                <div className="col-12 col-lg-6">
-                    <Image 
-                        priority
-                        src={placeholder}
-                        alt=""
-                        width="500"
-                        className="figure-img img-fluid"
-                    />
-                </div>
-                <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
-            </figure> */}
-
-            <h3 className="mt-4">Carbon-14 (<sup>14</sup>C) of Dissolved Inorganic Carbon</h3>
+            <h3>Carbon-14 (<sup>14</sup>C) of Dissolved Inorganic Carbon</h3>
             <p>Water is acidified and the resulting carbon dioxide is collected and sent to <Link href="https://www.radiocarbon.com/">Beta Analytic</Link> for AMS analysis. Results are reported in percent modern carbon (pMC).</p>
 
             <Accordion heading={<>Sampling Guidelines for <sup>14</sup>C of DIC</>} headingLevel={4}>
@@ -90,6 +65,17 @@ export default function RadioisotopesTab() {
                 <h5>Shipping</h5>
                 <p>No special considerations are needed in shipping these samples. Please include a <Link href="/resources/shipping-guidelines">Chain of Custody (COC) form</Link>.</p>
             </Accordion>
+
+            <h3 className="mt-4">Questions we can answer</h3>
+            
+            <ul className="questions mb-0">
+                <li>How old is the groundwater in an aquifer system? </li>
+                <li>Are there relationships between the relative ages of groundwater and water quality?</li>
+                <li>Did landfill gas migrate into a groundwater well?</li>
+                <li>Did fluids from producing oil/gas wells migrate into a landfill?</li>
+                <li>Is water in an aquifer from recent precipitation (modern) or from an older source?</li>
+                <li>Are nuclear waste fluids migrating into an aquifer?</li>
+            </ul>
         </div>
     );
 }

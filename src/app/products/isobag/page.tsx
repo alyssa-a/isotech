@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Subpage from "@/components/Subpage";
 import OrderProductsSection from "../OrderProductsSection";
-import isobagImg from "@/public/images/products/IsoBag.jpg";
+import isobagImg from "@/public/images/products/IsoBag kit.Handpump.Tubing.png";
 
 export const metadata = {
     title: "IsoBag® | Products | Isotech",

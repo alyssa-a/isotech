@@ -340,16 +340,6 @@
         }
     },
     {
-        "name": "TDS (Gravimetrically)",
-         "suites": {
-            "wab": false,
-            "wae": false,
-            "wao": false,
-            "wafa": false,
-            "wac" : false
-        }
-    },
-    {
         "name": "TSS",
          "suites": {
             "wab": false,

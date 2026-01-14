@@ -13,9 +13,9 @@ export default function QualityAssurance() {
         <Subpage breadcrumbs={breadcrumbs}>
             <h1>Quality Assurance/Quality Control</h1>
 
-            <p className="mt-4">Isotech, an ISO 9001:2008 Certified company, since inception has been known for the quality of its data, as demonstrated by the accompanying comparison graphs. Isotech was co-selected by NIST (National Institute of Standards and Technology) to perform the isotopic calibration of natural gas standards for international distribution.</p>
+            <p className="mt-4">Isotech is an International Organization for Standardization (ISO) 9001 and ISO 17025 certified company that since its inception has been known for the quality of its data. Isotech was co-selected by NIST (National Institute of Standards and Technology) to perform the isotopic calibration of natural gas standards for international distribution.</p>
 
-            <p>In addition to required annual proficiency tests mandated to maintain our ISO17025 accreditation, Isotech participates in round-robin testing whenever the opportunity arises and has participated in studies by the Finnigan Corporation, IAEA, and FIRMS, among others.</p>
+            <p>In addition to required annual proficiency tests mandated to maintain our ISO17025 accreditation, Isotech participates in round-robin testing whenever the opportunity arises and has participated in studies by the Finnigan Corporation, International Atomic Energy Agency (IAEA), Forensic Isotope Ratio Mass Spectrometry (FIRMS) network, and others.</p>
 
             <Image 
                 src={qcImg}
@@ -35,7 +35,7 @@ export default function QualityAssurance() {
 
             <p>A check/reference sample is analyzed approximately every tenth analysis. This, is a quality control measure to ensure methodologies are being properly followed. Check/reference samples are chosen which have been analyzed many times over a period of years with consistent results and which are compositionally similar to the samples being analyzed.</p>
 
-            <h2>Standards Duplicate Samples</h2>
+            <h2>Duplicate Analyses</h2>
 
             <p>Where appropriate, duplicate analyses are also performed approximately every tenth analysis.</p>
         </Subpage>

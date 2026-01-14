@@ -19,7 +19,7 @@ import isotrapSamplerThumbnail from "@/public/images/products/thumbnails/isotrap
 
 export const metadata = {
     title: "Products | Isotech",
-    description: "Isotech understands that providing customers with the best possible data begins with using premium sampling containers. We developed the IsoTube®, IsoJar®, IsoTrap® and IsoFlask®.",
+    description: "Isotech understands that providing customers with the best possible data begins with using premium sampling containers. We developed the IsoTube®, IsoBag®, IsoJar®, IsoTrap® and IsoFlask®.",
 };
 
 interface Product {
@@ -108,7 +108,7 @@ export default function Products() {
             <div className="pe-lg-4">
                 <h1>Products</h1>
 
-                <p className="lead mb-0 mb-md-3">Because Isotech understands that providing customers with the best possible data begins with using premium sampling containers, we developed the IsoTube<sup>®</sup>, IsoJar<sup>®</sup>, IsoTrap<sup>®</sup> and IsoFlask<sup>®</sup>. We also offer other high-quality sampling products to assist our customers with the sampling process.</p>
+                <p className="lead mb-0 mb-md-3">Because Isotech understands that providing customers with the best possible data begins with using premium sampling containers, we developed the IsoTube<sup>®</sup>, IsoBag<sup>®</sup>, IsoJar<sup>®</sup>, IsoTrap<sup>®</sup> and IsoFlask<sup>®</sup>. We also offer other high-quality sampling products to assist our customers with the sampling process.</p>
             </div>
 
             <Image 

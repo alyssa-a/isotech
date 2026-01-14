@@ -19,9 +19,7 @@ export default function Services() {
 
             <h2 className="mt-4">Laboratory Services</h2>
 
-            <p>Stable isotope analyses include measuring carbon, hydrogen, nitrogen, oxygen, and sulfur isotope ratios on a variety of different materials. The following are just some of the mediums that can be analyzed: gas, dissolved gas, carbonates, rock, water, nitrates, fabrics, foods, oils, pharmaceuticals, and plant materials. We also offer radiometric isotope analyses of tritium and radiocarbon. In addition to isotopic analyses, we offer gas compositional analysis of natural gas and cation and anion concentrations for water samples.</p>
-
-            <div className="row mt-4 pt-3">
+            <div className="row">
                 <div className="col-12 col-md-6 mb-4">
                     <div className="card p-5 services-card gas-card">
                         <div className="card-body">

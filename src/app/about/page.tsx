@@ -31,9 +31,9 @@ export default function About() {
         </Section>
 
         <Section>
-            <p>From the original offerings of chemical and stable isotope analysis of natural gases, Isotech has expanded into isotope analyses of other gases, waters, organic and inorganic solids, and organic liquids, completing samples for customers around the world. We have also expanded our analytical services to include water chemistry analysis.</p>
+            <p>From the original offerings of gas composition and stable isotope analysis of natural gases, Isotech has expanded into isotope analyses and molecular composition of radiogenic isotopes, waters, organic and inorganic solids, and nutrients, completing analyses for samples from customers around the world. We have also expanded our analytical services to include water chemistry analysis.</p>
 
-            <p>Known for the innovative development of the IsoTube®, IsoJar®, IsoTrap® and IsoFlask® sampling containers, Isotech sets industry standards for generating the most accurate data possible and providing the highest quality customer service.</p>
+            <p>Known for the innovative development of the IsoTube®, IsoBag®, IsoJar®, IsoTrap® and IsoFlask® sampling containers, Isotech sets industry standards for generating the most accurate data possible and providing the highest quality customer service.</p>
 
             <h2 className="mt-4">Staff</h2>
 

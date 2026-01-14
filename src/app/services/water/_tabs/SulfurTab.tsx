@@ -1,33 +1,12 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import Accordion from '@/components/Accordion';
-import placeholder from '@/public/images/placeholder.png';
 
 export default function SulfurTab() {
     return (
         <div className="tab-pane fade" id="Sulfur" role="tabpanel" aria-labelledby="SulfurTab" tabIndex={0}>
             <h2>Sulfur</h2>
 
-            <h3>Questions we can answer</h3>
-            <ul className="questions mb-0">
-                <li><span>What is the source of sulfate or hydrogen sulfide (H<sub>2</sub>S) in a groundwater well or in produced fluids from an oil or gas well?</span></li>
-                <li>What processes are controlling the formation of sulfate (water rock interactions, thermochemical sulfate reduction, microbial processes)?</li>
-                <li><span>Is this naturally occurring sulfate/H<sub>2</sub>S or is oil and gas drilling forming sulfate/H<sub>2</sub>S?</span></li>
-            </ul>
-
-            {/* <figure className="figure row mt-4">
-                <div className="col-12 col-lg-6">
-                    <Image 
-                        src={placeholder}
-                        alt=""
-                        width="500"
-                        className="figure-img img-fluid"
-                    />
-                </div>
-                <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
-            </figure> */}
-
-            <h3 className="mt-4">Dissolved Sulfate Isotopes</h3>
+            <h3>Dissolved Sulfate Isotopes</h3>
             <p>δ<sup>34</sup>S and δ<sup>18</sup>O of Sulfate is analyzed by isolation via precipitation and then EA/TCEA-IRMS analysis. A minimum concentration of 5 mg/L is required for analysis.</p>
 
             <Accordion heading="Sampling Guidelines for Dissolved Sulfate Isotopes" headingLevel={4}>
@@ -67,6 +46,13 @@ export default function SulfurTab() {
                 <p>Samples must be shipped on ice and overnighted to our lab. Do not ship on a Friday as there is no one to receive the sample and put in refrigeration over the weekend. Please include a <Link href="/resources/shipping-guidelines">Chain of Custody (COC) form</Link>.</p>
             </Accordion>
 
+            <h3 className='mt-4'>Questions we can answer</h3>
+
+            <ul className="questions mb-0">
+                <li><span>What is the source of sulfate or hydrogen sulfide (H<sub>2</sub>S) in a groundwater well or in produced fluids from an oil or gas well?</span></li>
+                <li>What processes are controlling the formation of sulfate (water rock interactions, thermochemical sulfate reduction, microbial processes)?</li>
+                <li><span>Is this naturally occurring sulfate/H<sub>2</sub>S or is oil and gas drilling forming sulfate/H<sub>2</sub>S?</span></li>
+            </ul>
         </div>
     );
 }

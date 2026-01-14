@@ -13,16 +13,6 @@ export default function DissolvedGasTab() {
 
             <p>Our team determines the dissolved gas composition of water samples collected in <Link href={isoflaskLink}>IsoFlasks®</Link>. Analytical reports include a full compositional and isotopic analysis of the headspace and dissolved gas concentrations in the water for methane, ethane and propane. Dissolved gas concentrations are available for additional components upon request. Below is a diagram showing some sources of stray gas that could migrate into a groundwater well.</p>
             
-            <h3>Questions we can answer</h3>
-            <ul className="questions mb-0">
-                <li>Are there explosive concentrations of methane in a groundwater well?</li>
-                <li>What processes are responsible for methane in my water source? Is microbial methane present in my water source?</li>
-                <li>Did natural gas from a producing gas well, a gas storage facility, or a landfill migrate into a water source?</li>
-                <li>Did a remediation project reduce or eliminate hydrocarbon contamination in an aquifer?</li>
-                <li>Is a groundwater well contaminated with brine or hydrocarbon gas and what was the source of that contamination?</li>
-                <li>If multiple sources of methane are present in a water sample, what proportion is from microbial processes? What proportion is from gas migration from a producing gas well? If multiple producing wells cause gas migration into a water well, what proportion of gas is from each well?</li>
-            </ul>
-
             <Image 
                 priority
                 src={dissolvedGasImg}
@@ -31,20 +21,6 @@ export default function DissolvedGasTab() {
                 height={363}
                 className="figure-img img-fluid float-lg-end ms-lg-3 mb-3"
             />
-
-            {/* <figure className="figure row mt-4">
-                <div className="col-12 col-lg-6">
-                    <Image 
-                        priority
-                        src={dissolvedGasImg}
-                        alt=""
-                        width={400}
-                        height={363}
-                        className="figure-img img-fluid"
-                    />
-                </div>
-                <figcaption className="figure-caption col-12 col-lg-6">Description of the image/graph goes here. Give the user some context... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</figcaption>
-            </figure> */}
 
             <h3 className="mt-4">Sampling Guidelines</h3>
 
@@ -101,6 +77,16 @@ export default function DissolvedGasTab() {
                 </tbody>
             </table>
 
+            <h3 className="mt-4">Questions we can answer</h3>
+
+            <ul className="questions mb-0">
+                <li>Are there explosive concentrations of methane in a groundwater well?</li>
+                <li>What processes are responsible for methane in my water source? Is microbial methane present in my water source?</li>
+                <li>Did natural gas from a producing gas well, a gas storage facility, or a landfill migrate into a water source?</li>
+                <li>Did a remediation project reduce or eliminate hydrocarbon contamination in an aquifer?</li>
+                <li>Is a groundwater well contaminated with brine or hydrocarbon gas and what was the source of that contamination?</li>
+                <li>If multiple sources of methane are present in a water sample, what proportion is from microbial processes? What proportion is from gas migration from a producing gas well? If multiple producing wells cause gas migration into a water well, what proportion of gas is from each well?</li>
+            </ul>
         </div>
     );
 }

@@ -27,7 +27,7 @@ export default function IsoJar() {
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
             />
             
-            <p className="clearfix">For collecting drill cuttings that have traditionally been sampled into paint cans, we have developed the IsoJar, constructed of a durable, clear plastic. After extensive testing, we have found there is very little change in either the compositional or isotopic data of gases contained in IsoJars compared to leakage associated with using paint cans for sampling.</p>
+            <p className="clearfix">For collecting drill cuttings that have traditionally been sampled into paint cans, we have developed the IsoJar; constructed of a durable, clear plastic. After extensive testing, we have found there is very little change in the compositional data and no change in the isotopic data of gases contained in IsoJars compared to leakage associated with using amber glass bottles for sampling.</p>
 
             <hr className="mb-5"/>
 
