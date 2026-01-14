@@ -14,7 +14,7 @@ export default function SamplingProcedures() {
 
             <p>The following sampling techniques are commonly used by many of Isotech's customers. If you have a unique situation and need further assistance, please <Link href="/about/contact">contact us</Link>. All instructions are available in PDF format using <Link href="https://get2.adobe.com/reader/">Adobe Acrobat Reader</Link>.</p>
 
-            <h2>Mudgas Samples</h2>
+            <h2>Mud gas Samples</h2>
             <ul>
                 <li><Link href="/files/IsoSampler Pro Quick Start Guide.pdf" target="_blank">IsoSampler™ Pro Quick Start Guide</Link></li>
                 <li><Link href="/files/IsoSampler Pro Maintanance Guide.pdf" target="_blank">IsoSampler™ Pro Maintenance Guide</Link></li>

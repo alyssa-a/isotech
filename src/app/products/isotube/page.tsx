@@ -11,7 +11,7 @@ import attachedValvesImg from "@/public/images/products/Isotubes with septum con
 
 export const metadata = {
     title: "IsoTube® | Products | Isotech",
-    description: "The next-generation IsoTube® sets the industry standard for mudgas sampling and produced gas sampling.",
+    description: "The next-generation IsoTube® sets the industry standard for mud gas sampling and produced gas sampling.",
 };
 
 export default function IsoTube() {

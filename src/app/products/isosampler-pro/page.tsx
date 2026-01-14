@@ -26,7 +26,7 @@ export default function IsoSamplerPro() {
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
             />
 
-            <p>One of the primary designs of the IsoTubes<sup>®</sup> is for sampling gas during mudgas logging. The simple snap-in feature of the IsoSampler Pro allow samples to be taken instantaneously from a flow stream by simply snapping an IsoTube into the sampling chuck. This can all be done without interfering with the operation of other mud-logging equipment.</p>
+            <p>One of the primary designs of the IsoTubes<sup>®</sup> is for sampling gas during mud gas logging. The simple snap-in feature of the IsoSampler Pro allow samples to be taken instantaneously from a flow stream by simply snapping an IsoTube into the sampling chuck. This can all be done without interfering with the operation of other mud-logging equipment.</p>
 
             <p><strong>Note:</strong> IsoTubes are not suitable for collecting gases containing hydrogen sulfide (H<sub>2</sub>S, sour gas). The IsoSampler Pro has two pump output settings. Make sure you have selected the correct pump output setting for your gas flow rate prior to taking a sample, or your samples may be compromised. See the installation guide for more information.</p>
 

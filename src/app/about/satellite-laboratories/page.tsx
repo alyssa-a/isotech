@@ -45,7 +45,7 @@ export default function SatelliteLaboratories() {
                 className="img-fluid float-lg-end ms-lg-3 mb-3"
             />
 
-            <p>Isotech&lsquo;s satellite laboratory in Houston, Texas opened in the fall of 2011, expanding our capacity to provide mudgas analyses to the southern regions of the United States. Located at Stratum Reservoir headquarters. If you are in the area ask for a tour and what additional solutions Stratum can offer.</p>
+            <p>Isotech&lsquo;s satellite laboratory in Houston, Texas opened in the fall of 2011, expanding our capacity to provide mud gas analyses to the southern regions of the United States. Located at Stratum Reservoir headquarters. If you are in the area ask for a tour and what additional solutions Stratum can offer.</p>
 
             <p className="clearfix">For further information, including pricing for analyses and sampling products, please <Link href="mailto:Jarrod.dall@stratumreservoir.com">contact Stratum Reservoir - Houston</Link>.</p>
 
