@@ -28,7 +28,7 @@ export default function WaterChemistryKit() {
 
             <p>Each Water Chemistry Kit comes with a pre-acidified 250 mL bottle (bottle with red tape on it), a non-acidified 250 mL bottle, a 0.45 μm filter, and ~1 foot of tubing. These kits are used to collect samples for the water chemistry suites described on the <Link href="/services/water#WaterChemistry">Water Analyses webpage</Link> (WAB, WAE, WAO, WAFA, or WAC). Make sure to fill an extra 250 mL bottle (do not filter or acidify) if an analysis for total suspended solids (TSS) will be needed.</p>
 
-            <p className="mt-4 clearfix"><Link className="button download" href="/files/Water Chemistry Kit Sampling Instructions.pdf" target="_blank">Water Chemistry Kit Sampling Instructions (PDF)</Link></p>
+            <p className="mt-4 clearfix"><Link className="button download" href="/files/FO 329 Rev 1 Collecting Water Samples with the Water Chemistry Kit.pdf" target="_blank">Water Chemistry Kit Sampling Instructions (PDF)</Link></p>
             
         </Subpage>
 

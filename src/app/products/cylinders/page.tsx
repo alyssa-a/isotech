@@ -31,7 +31,7 @@ export default function Cylinders() {
 
             <p>We offer DOT-approved stainless steel gas sampling cylinders that are cleaned and evacuated after every use for rent. These cylinders are packed in reusable plastic shipping cartons. Gas cylinders are used to sample pressurize gas from a wellhead or separator.</p>
 
-            <p className="mt-4"><Link className="button download" href="/files/Stainless_Steel_Cylinders_Sampling_Instructions.pdf" target="_blank">Stainless Steel Gas Cylinders Sampling Instructions (PDF)</Link></p>
+            <p className="mt-4"><Link className="button download" href="/files/FO 712 Rev. 4 Collecting Gas Samples with Double-Ended Cylinders.pdf" target="_blank">Stainless Steel Gas Cylinders Sampling Instructions (PDF)</Link></p>
 
             <Image
                 priority
@@ -47,7 +47,7 @@ export default function Cylinders() {
 
             <p>DOT-approved LP tanks are required for shipment of large samples of flammable gas (&gt;5% methane) for tritium analysis of methane. These cylinders are evacuated after every use. We have several battery-operated pumps that can be supplied for filling these tanks.</p>
 
-            <p className="mt-4"><Link className="button download" href="/files/LP_Cylinders_Sampling_Instructions.pdf" target="_blank">LP Gas Cylinders Sampling Instructions (PDF)</Link></p>
+            <p className="mt-4"><Link className="button download" href="/files/FO 714 Rev 4 Collecting Gas Samples with LP Tanks and a 12 V Pump.pdf" target="_blank">LP Gas Cylinders Sampling Instructions (PDF)</Link></p>
 
         </Subpage>
 

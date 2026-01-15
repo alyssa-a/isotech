@@ -22,42 +22,42 @@ export default function SamplingProcedures() {
 
             <h2>Dissolved Gas Samples from Domestic and Municipal Water Wells</h2>
             <ul>
-                <li><Link href="/files/IsoFlask_Sampling_Instructions.pdf" target="_blank">Using IsoFlasks®</Link></li>
+                <li><Link href="/files/FO 616 Rev. 5 Collecting Groundwater Samples in IsoFlasks.pdf" target="_blank">Using IsoFlasks®</Link></li>
                 <li><Link href="https://www.youtube.com/watch?v=ZkZ-8ySx3FA" target="_blank">IsoFlask® Sampling Video</Link></li>
             </ul>
 
             <h2>Wellhead Gas Samples</h2>
             <ul>
-                <li><Link href="/files/Stainless_Steel_Cylinders_Sampling_Instructions.pdf" target="_blank">In double-ended gas cylinders</Link></li>
-                <li><Link href="/files/IsoSampler GO to collect gas sample from wellhead.pdf" target="_blank">IsoSampler™ GO to collect gas sample from wellhead</Link></li>
+                <li><Link href="/files/FO 712 Rev. 4 Collecting Gas Samples with Double-Ended Cylinders.pdf" target="_blank">In double-ended gas cylinders</Link></li>
+                <li><Link href="/files/FO 613 Rev 3 Collecting Wellhead Samples in Classic IsoTubes.pdf" target="_blank">IsoSampler™ GO to collect gas sample from wellhead</Link></li>
             </ul>
 
             <h2>Hydrogen Sulfide Samples</h2>
             <ul>
-                <li><Link href="/files/IsoTrap_Sampling_Instructions.pdf" target="_blank">Using IsoTrap®</Link></li>
+                <li><Link href="/files/FO 700 Rev 5 Collecting H2S for Sulfur Isotope Analysis with an IsoTrap.pdf" target="_blank">Using IsoTrap®</Link></li>
                 <li><Link href="https://www.youtube.com/watch?v=jv6PwF7ocV8" target="_blank">IsoTrap® Sampling Video</Link></li>
                 <li><Link href="/files/H2S_IsoFlask_Sampling_Instructions.pdf" target="_blank">Using H<sub>2</sub>S Scrubbing IsoFlasks®</Link></li>
             </ul>
 
             <h2>Soil-Gas Samples</h2>
             <ul>
-                <li><Link href="/files/IsoBag_Sampling_Instructions.pdf" target="_blank">In gas bags with a hand pump</Link></li>
+                <li><Link href="/files/FO 701 Rev. 8 Collecting Gas Samples with a Hand Pump and IsoBags.pdf" target="_blank">In gas bags with a hand pump</Link></li>
                 <li><Link href="https://www.youtube.com/watch?v=OnUNlGOFIlg" target="_blank">IsoBag® Sampling Video</Link></li>
             </ul>
 
             <h2>Cuttings/Mud Samples</h2>
             <ul>
-                <li><Link href="/files/IsoJar_Sampling_Instructions.pdf" target="_blank">In IsoJars®</Link></li>
+                <li><Link href="/files/FO 702 Rev. 10 Collecting Cuttings Samples in IsoJars.pdf" target="_blank">In IsoJars®</Link></li>
             </ul>
 
             <h2>Landfill Gas Sampling for Tritium</h2>
             <ul>
-                <li><Link href="/files/LP_Cylinders_Sampling_Instructions.pdf" target="_blank">LP Cylinders for landfill gas sampling</Link></li>
+                <li><Link href="/files/FO 714 Rev 4 Collecting Gas Samples with LP Tanks and a 12 V Pump.pdf" target="_blank">LP Cylinders for landfill gas sampling</Link></li>
             </ul>
 
             <h2>Water Chemistry Samples</h2>
             <ul>
-                <li><Link href="/files/Water Chemistry Kit Sampling Instructions.pdf" target="_blank">Water Chemistry Kit Sampling Instructions</Link></li>
+                <li><Link href="/files/FO 329 Rev 1 Collecting Water Samples with the Water Chemistry Kit.pdf" target="_blank">Water Chemistry Kit Sampling Instructions</Link></li>
             </ul>
 
         </Subpage>

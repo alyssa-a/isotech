@@ -47,9 +47,9 @@ export default function IsoFlask() {
                 <li>Temperature Range: +41°F (+5°C) to +122°F (+50°C)</li>
             </ul>
 
-            <p className="mt-4"><Link className="button download" href="/files/IsoFlask_Flyer.pdf" target="_blank">IsoFlask Product Flyer (PDF)</Link></p>
+            <p className="mt-4"><Link className="button download" href="/files/FO 705 Rev 5 IsoFlask Flyer.pdf" target="_blank">IsoFlask Product Flyer (PDF)</Link></p>
 
-            <p><Link className="button download" href="/files/IsoFlask_Sampling_Instructions.pdf" target="_blank">IsoFlask Sampling Instructions (PDF)</Link></p>
+            <p><Link className="button download" href="/files/FO 616 Rev. 5 Collecting Groundwater Samples in IsoFlasks.pdf" target="_blank">IsoFlask Sampling Instructions (PDF)</Link></p>
 
             <div className="ratio ratio-16x9 w-lg-50 my-4">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZkZ-8ySx3FA?si=sABt0VfHvqFDFPoD" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

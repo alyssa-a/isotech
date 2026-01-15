@@ -15,10 +15,10 @@ export default function ShippingGuidelines() {
             <p>To ensure that your samples arrive safely in our laboratory, we have developed detailed shipping guidelines. For your convenience we have also included Material Safety Data Sheet (MSDS) information. All documents are available in PDF format using <Link href="https://get2.adobe.com/reader/">Adobe Acrobat Reader</Link>.</p>
 
             <ul>
-                <li><Link href="/files/IsoTubeSP_UN2037.pdf" target="_blank">Flammable gas samples in IsoTubes® and MSDS for UN2037 (PDF)</Link></li>
-                <li><Link href="/files/Shipping Instructions for Gas Samples in LP Tanks.pdf" target="_blank">Gas samples in LP tanks and MSDS for UN1971 (PDF)</Link></li>
-                <li><Link href="/files/Natural Gas Shipping Instructions in Cylinders with SDS.pdf" target="_blank">Natural gas samples in cylinders and MSDS for UN1971 (PDF)</Link></li>
-                <li><Link href="public/files/International_Shipping.pdf" target="_blank">Special instructions for international shipments (PDF)</Link></li>
+                <li><Link href="/files/FO 703 Rev 5 Shipping Guidelines for Gas Samples in IsoTubes.pdf" target="_blank">Flammable gas samples in IsoTubes® and MSDS for UN2037 (PDF)</Link></li>
+                <li><Link href="/files/FO 711 Rev 3 Shipping Guidelines for Gas Samples in LP Tanks.pdf" target="_blank">Gas samples in LP tanks and MSDS for UN1971 (PDF)</Link></li>
+                <li><Link href="/files/FO 710 Rev 3 Shipping Guidelines for Gas Samples in Cylinders.pdf" target="_blank">Natural gas samples in cylinders and MSDS for UN1971 (PDF)</Link></li>
+                <li><Link href="/files/International_Shipping.pdf" target="_blank">Special instructions for international shipments (PDF)</Link></li>
             </ul>
             
             <h2 className="mt-4">Shipping Address for Samples</h2>
@@ -39,8 +39,8 @@ export default function ShippingGuidelines() {
             <p>For traceability purposes, please be sure you sign and date the bottom of the form after printing. In addition to shipping the COC with the samples you may also email a copy of the form to us. This helps eliminate any potential transcription errors.</p>
 
             <p>
-                <Link className="button download me-2" href="/files/Fillable_Chain_of_Custody_Form.pdf" target="_blank">Fillable COC (PDF)</Link>
-                <Link className="button download" href="/files/Printable_Chain_of_Custody_Form.pdf" target="_blank">Printable COC (PDF)</Link>
+                <Link className="button download me-2" href="/files/FO 607 Rev 5 Analysis Request Form and Chain of Custody Record Fillable.pdf" target="_blank">Fillable COC (PDF)</Link>
+                <Link className="button download" href="/files/FO 607 Rev 5 Analysis Request Form and Chain of Custody Record.pdf" target="_blank">Printable COC (PDF)</Link>
             </p>
 
             <h2 className="mt-4">HAZMAT Certification</h2>

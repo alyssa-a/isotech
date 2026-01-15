@@ -20,15 +20,13 @@ export default function Tabs({
         const activateTabFromHash = () => {
             const hash = window.location.hash;
             if (hash) {
-                setTimeout(() => {
-                    const tabTrigger = document.querySelector<HTMLElement>(
-                        `button[data-bs-target="${hash}"]`
-                    );
-                    
-                    if (tabTrigger) {
-                        tabTrigger.click();
-                    }
-                }, 100);
+                const tabTrigger = document.querySelector<HTMLElement>(
+                    `button[data-bs-target="${hash}"]`
+                );
+                
+                if (tabTrigger) {
+                    tabTrigger.click();
+                }
             }
         };
 

@@ -32,7 +32,7 @@ export default function IsoBag() {
 
             <p><strong>Note:</strong> The provided gas bags are NOT intended for gases containing hydrogen sulfide (H<sub>2</sub>S, sour gas).</p>
 
-            <p className="mt-4"><Link className="button download" href="/files/IsoBag_Sampling_Instructions.pdf" target="_blank">IsoBag Sampling Instructions (PDF)</Link></p>
+            <p className="mt-4"><Link className="button download" href="/files/FO 701 Rev. 8 Collecting Gas Samples with a Hand Pump and IsoBags.pdf" target="_blank">IsoBag Sampling Instructions (PDF)</Link></p>
 
             <p><Link className="button download" href="/files/IsoBag_Stability.pdf" target="_blank">Stability of the IsoBag Over Time (PDF)</Link></p>
 
