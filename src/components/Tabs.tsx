@@ -1,3 +1,7 @@
+'use client';
+
+import { useEffect } from "react";
+
 interface Tab {
     name: string;
     id: string;
@@ -11,6 +15,32 @@ interface TabsProps {
 export default function Tabs({ 
     tabData 
 }: TabsProps) {
+
+    useEffect(() => {
+        const activateTabFromHash = () => {
+            const hash = window.location.hash;
+            if (hash) {
+                setTimeout(() => {
+                    const tabTrigger = document.querySelector<HTMLElement>(
+                        `button[data-bs-target="${hash}"]`
+                    );
+                    
+                    if (tabTrigger) {
+                        tabTrigger.click();
+                    }
+                }, 100);
+            }
+        };
+
+        activateTabFromHash();
+
+        window.addEventListener('hashchange', activateTabFromHash);
+
+        return () => {
+            window.removeEventListener('hashchange', activateTabFromHash);
+        };
+    }, []);
+
     return (
         <ul className="nav nav-tabs flex-column" role="tablist">
             { tabData.map((tab, i) => (
